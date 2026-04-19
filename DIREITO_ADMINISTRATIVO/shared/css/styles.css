@@ -81,8 +81,9 @@ body {
   color: var(--txt);
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
-  min-height: 100dvh;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /* ── TOPBAR ── */
@@ -211,10 +212,10 @@ body {
 }
 .subject-tab .tab-icon { font-size: 1rem; }
 
+
 /* ── WORKSPACE LAYOUT ── */
 .workspace {
   display: flex;
-  padding-top: calc(var(--topbar-h) + var(--subbar-h));
   height: 100dvh;
   overflow: hidden;
 }
@@ -416,8 +417,7 @@ body {
   transition: var(--t-fast);
 }
 .tab-label:hover { background: var(--bg3); color: var(--txt2); }
-.tab-input:checked + .tabbar .tab-label,
-.tab-label:has(+ .tab-input:checked) {
+.tab-label.active {
   background: var(--acc-glow);
   border-color: var(--acc-border);
   color: var(--acc-lt);
@@ -475,7 +475,9 @@ body {
   pointer-events: none;
   transition: opacity .3s var(--ease);
 }
+
 .sidebar-overlay.active { opacity: 1; pointer-events: auto; }
+
 
 /* ── CONTENT STYLES ── */
 .topic-content {
@@ -545,12 +547,14 @@ body {
   gap: 1.5rem;
 }
 
-/* Esconder elementos de menu lateral */
-.lex-cols-toggle,
-.lex-cols-overlay,
-.mobile-toggle,
-.sidebar-overlay {
-  display: none !important;
+/* Esconder elementos de menu lateral (desktop only) */
+@media (min-width: 1025px) {
+  .lex-cols-toggle,
+  .lex-cols-overlay,
+  .mobile-toggle,
+  .sidebar-overlay {
+    display: none !important;
+  }
 }
 
 /* Container principal de seção */
@@ -912,6 +916,14 @@ img {
   .subject-tab .tab-icon { font-size: .9rem; }
   .subject-tab span:not(.tab-icon) { display: none; }
 
+/* ── WORKSPACE LAYOUT ── */
+.workspace {
+  display: flex;
+  padding-top: calc(var(--topbar-h) + var(--subbar-h));
+  height: 100dvh;
+  overflow: hidden;
+}
+
   .sidebar {
     position: fixed;
     top: calc(var(--topbar-h) + var(--subbar-h));
@@ -1012,6 +1024,14 @@ img {
   .subject-tab { padding: .35rem .55rem; font-size: .7rem; border-radius: var(--r-xs); }
   .subject-tab .tab-icon { font-size: .85rem; }
   .subject-tab span:not(.tab-icon) { display: none; }
+
+/* ── WORKSPACE LAYOUT ── */
+.workspace {
+  display: flex;
+  padding-top: calc(var(--topbar-h) + var(--subbar-h));
+  height: 100dvh;
+  overflow: hidden;
+}
 
   .sidebar {
     position: fixed;
