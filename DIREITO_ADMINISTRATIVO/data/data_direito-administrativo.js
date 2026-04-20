@@ -1,544 +1,736 @@
 window.DA = {
 
   // ═════════════════════════════════════════════════
+
   "Conceito de Administração Pública": {
     icon: "🏛️",
     color: "#4a85f0",
     aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🏛️</div>
-    <h1 class="notion-title">Conceito de Administração Pública</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Direito Administrativo</span>
-      <span class="meta-tag tag-g">Fundamentos</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-b">Direito Administrativo</div>
+    <div class="tag tag-g">Fundamentos</div>
+    <h1>Conceito de Administração Pública</h1>
+    <p>O conjunto de órgãos, entidades e agentes que exercem a função administrativa do Estado, transformando leis em ações concretas para a sociedade.</p>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">O que é Administração Pública?</div> 
-    <div class="callout-purple"><strong>Explicação completa:</strong> Administração Pública é o conjunto de órgãos, entidades e agentes que exercem a função administrativa do Estado. É o "braço executivo" do Estado que transforma as leis em ações concretas para atender às necessidades da sociedade.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Por que existe?</strong> Para que o Estado possa cumprir suas funções básicas (saúde, educação, segurança, infraestrutura), precisa de uma estrutura organizada que execute essas atividades de forma eficiente e ordenada.</div>
-    <div class="callout callout-gold"><strong>Exemplo do dia a dia:</strong> Quando você vai ao posto de saúde para se vacinar, está se relacionando com a Administração Pública. O médico, o enfermeiro, o prédio, as vacinas — tudo isso faz parte da estrutura administrativa que garante seu direito à saúde.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span> 
+      O que é Administração Pública?
+    </div>
+    
+    <div class="lex-expandable-item">
+      <span><strong>Função:</strong> É o "braço executivo" que garante saúde, educação, segurança e infraestrutura através de uma estrutura organizada.</span>
+    </div>
+
+    <div class="callout callout-purple">
+      <span class="callout-icon">💡</span>
+      <div class="lex-summary-content">
+        <strong>Por que existe?</strong> Para que o Estado cumpra suas funções básicas de forma eficiente e ordenada, atendendo às necessidades coletivas.
+      </div>
+    </div>
+    
+    <div class="callout callout-gold">
+      <span class="callout-icon">📌</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo:</strong> Ao se vacinar em um posto de saúde, você interage com a Administração: o médico (agente), o prédio (órgão) e a vacina (insumo) formam essa estrutura.
+      </div>
+    </div>
   </div>
 
   <div class="lex-cols">
-
-    <!-- Critério Formal -->
     <div class="lex-section-container">
-      <div class="lex-section-title">Critério Formal — Orgânico / Subjetivo</div>
-      <div class="lex-expandable-item">Considera <strong>QUEM</strong> exerce a atividade.</div>
-      <div class="lex-expandable-item">Estrutura administrativa do Estado.</div>
-      <div class="lex-expandable-item">Agentes públicos, órgãos e entidades.</div>
-      <div class="lex-expandable-item">Bens públicos.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> Imagine que você quer saber se uma ação é da Administração Pública. Pelo critério formal, você pergunta: "Quem está fazendo?" Se for um ministério, secretaria, prefeitura, ou qualquer órgão do Estado, então é Administração Pública, independente do que está sendo feito.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático:</strong> Um professor dando aula em uma escola pública estadual está exercendo atividade da Administração Pública pelo critério formal, porque ele é agente público vinculado à Secretaria de Educação do Estado.</div>
-      <div class="callout callout-gold"><strong>Outro exemplo:</strong> O INSS (Instituto Nacional do Seguridade Social) é uma autarquia federal, então todas as suas atividades (concessão de aposentadorias, pensões) são consideradas Administração Pública pelo critério formal, porque quem executa é uma entidade pública.</div>
-      <div class="callout callout-gold"><strong>Exemplo cotidiano:</strong> Quando você paga imposto de renda, está se relacionando com a Receita Federal (órgão formal da Administração). O auditor fiscal que analisa sua declaração é agente público, o sistema que processa o imposto é estrutura administrativa.</div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">badge</span>
+        Critério Formal (Subjetivo)
+      </div>
+      <p class="lex-summary-content" style="margin-bottom: 0.5rem;">Foca em <strong>QUEM</strong> exerce a atividade.</p>
+      
+      <div class="lex-list">
+        <div class="lex-expandable-item">Estrutura administrativa do Estado.</div>
+        <div class="lex-expandable-item">Agentes, órgãos e entidades.</div>
+        <div class="lex-expandable-item">Bens públicos envolvidos.</div>
+      </div>
+
+      <div class="callout callout-purple">
+        <div class="lex-summary-content">
+          <strong>Lógica:</strong> Se for um ministério ou prefeitura fazendo, é Administração Pública, não importa a tarefa.
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left-color: var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Um professor de escola estadual ou um auditor da Receita Federal.
+        </div>
+      </div>
     </div>
 
-    <!-- Critério Material -->
     <div class="lex-section-container">
-      <div class="lex-section-title">Critério Material — Objetivo / Funcional</div>
-      <div class="lex-expandable-item">Considera <strong>O QUE</strong> é feito.</div>
-      <div class="lex-expandable-item">Função administrativa.</div>
-      <div class="lex-expandable-item">Atividade administrativa.</div>
-      <div class="lex-expandable-item">Prestação de serviços públicos.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> Pelo critério material, você analisa a natureza da atividade sendo executada. Se a atividade tem caráter de gestão pública, fiscalização, prestação de serviço essencial à população, então é Administração Pública, mesmo que quem execute seja uma pessoa jurídica de direito privado.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma empresa privada que ganha uma concessão para operar o metrô de uma cidade está prestando serviço público pelo critério material. Mesmo sendo empresa privada, a atividade (transporte coletivo) é de natureza pública.</div>
-      <div class="callout callout-gold"><strong>Outro exemplo:</strong> Uma OSCIP (Organização da Sociedade Civil de Interesse Público) que gerencia um hospital público está exercendo função administrativa pelo critério material, porque o que está sendo feito (saúde pública) é típico da Administração.</div>
-      <div class="callout callout-gold"><strong>Exemplo cotidiano:</strong> Quando você usa um aplicativo de transporte privado (Uber, 99) que foi autorizado pela prefeitura para operar como transporte alternativo, essa empresa está exercendo função administrativa material — transporte público — mesmo sendo privada.</div>
-    </div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">settings_gear</span>
+        Critério Material (Objetivo)
+      </div>
+      <p class="lex-summary-content" style="margin-bottom: 0.5rem;">Foca em <strong>O QUE</strong> é feito.</p>
 
+      <div class="lex-list">
+        <div class="lex-expandable-item">Função administrativa propriamente dita.</div>
+        <div class="lex-expandable-item">Prestação de serviços públicos.</div>
+        <div class="lex-expandable-item">Atividade de gestão e fiscalização.</div>
+      </div>
+
+      <div class="callout callout-purple">
+        <div class="lex-summary-content">
+          <strong>Lógica:</strong> Se a atividade é serviço público (ex: transporte), é Administração, mesmo que feita por empresa privada.
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left-color: var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Concessionária de metrô ou uma OSCIP gerenciando hospital.
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Comparando os Dois Critérios na Prática</div>
-    <div class="lex-expandable-item"><strong>Cenário completo:</strong> Uma cidade precisa de coleta seletiva de lixo.</div>
-    <div class="lex-expandable-item">• <strong>Solução 1 (formal):</strong> A prefeitura cria uma empresa pública (autarquia) específica para coleta de lixo. É Administração Pública direta pelo critério formal (quem faz = empresa pública).</div>
-    <div class="lex-expandable-item">• <strong>Solução 2 (material):</strong> A prefeitura contrata uma empresa privada para fazer a coleta. É Administração Pública pelo critério material (o que é feito = serviço público).</div>
-    <div class="lex-expandable-item">• <strong>Conclusão:</strong> Ambas as soluções envolvem Administração Pública, mas por critérios diferentes. A primeira tem controle total sobre a empresa; a segunda precisa de fiscalização e regulação.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Essa distinção é fundamental para determinar qual lei se aplica (direito público vs direito privado), quem tem competência para fiscalizar, e qual o regime jurídico aplicável.</div>
+    <div class="lex-section-title">Comparando os Critérios na Prática</div>
+    
+    <div class="lex-expandable-item">
+      <span><strong>Cenário:</strong> Coleta de lixo em uma cidade.</span>
+    </div>
+    
+    <div class="lex-list" style="padding-left: 1rem;">
+      <div class="lex-expandable-item"><strong>Formal:</strong> Prefeitura cria uma Autarquia para o lixo.</div>
+      <div class="lex-expandable-item"><strong>Material:</strong> Prefeitura contrata empresa privada (concessão).</div>
+    </div>
+
+    <div class="lex-summary">
+      <span class="lex-summary-icon">⚖️</span>
+      <div class="lex-summary-content">
+        <strong>Importância:</strong> Essa distinção define qual lei aplicar (Direito Público ou Privado) e quem deve fiscalizar o serviço.
+      </div>
+    </div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Por que essa distinção importa?</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Para o cidadão:</strong> Define seus direitos e obrigações. Se uma concessionária de energia corta sua luz, você pode recorrer à ANEEL (órgão regulador), mas se for um problema com a empresa privada que limpa o prédio da prefeitura, você recorre à própria prefeitura.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Para o estudante:</strong> Essencial para provas! Questões frequentes pedem para identificar se uma situação envolve Administração Pública pelo critério formal ou material.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Para o profissional:</strong> Advogados, contadores e administradores precisam saber qual regime jurídico se aplica para orientar corretamente seus clientes.</div>
+    <div class="lex-cols">
+      <div class="lex-expandable-item"><strong>Cidadão:</strong> Define onde reclamar (ex: ANEEL para energia).</div>
+      <div class="lex-expandable-item"><strong>Estudante:</strong> Tema recorrente em provas (Identificar Formal vs Material).</div>
+    </div>
   </div>
 
-  <!-- Resumo -->
-  <div class="callout-orange">
+  <div class="callout callout-orange">
     <span class="callout-icon">💡</span>
-    <div><strong>Resumo:</strong> Formal = estrutura estatal (quem faz) | Material = atividade exercida (o que é feito) | Os dois critérios se complementam para definir o alcance do Direito Administrativo | Na prática, a mesma atividade pode ser analisada por ambos os critérios</div>
+    <div class="lex-summary-content">
+      <strong>RESUMO:</strong><br>
+      • <strong>Formal:</strong> Estrutura estatal (Quem faz).<br>
+      • <strong>Material:</strong> Atividade exercida (O que é feito).<br>
+      Os dois critérios se complementam para definir o alcance do Direito Administrativo.
+    </div>
   </div>
-  </div>
-
-</div>`,
-
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
-  "Regime Jurídico Administrativo": {
+
+  // ═══════════════════════════════════════════════════
+
+"Regime Jurídico Administrativo": {
     icon: "⚖️",
     color: "#38bdf8",
     aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Regime Jurídico Administrativo</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Pedras de Toque</span>
-      <span class="meta-tag tag-g">· Supremacia</span>
-       <span class="meta-tag tag-b">· Indisponibilidade</span>
-    </div>
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-b">Regime Jurídico</div>
+    <div class="tag tag-g">Direito Público</div>
+    <h1>Regime Jurídico Administrativo</h1>
+    <p>O conjunto de princípios e regras que conferem à Administração Prerrogativas (poderes) e Sujeições (deveres) que não existem no Direito Privado.</p>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Composição do Regime</div>
-    <div class="lex-expandable-item">Regras — leis e atos normativos.</div>
-    <div class="lex-expandable-item">Princípios — valores fundamentais.</div>
-    <div class="lex-expandable-item">A Administração <strong>não atua como particular</strong> — segue regras próprias.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O regime jurídico administrativo é como um "manual de regras" exclusivo para o Estado. Imagine que você joga um jogo onde o árbitro (Administração Pública) tem regras diferentes dos jogadores (particulares). Por exemplo: se um particular quer construir, ele pode fazer tudo que a lei não proíbe. Mas se o Estado quer construir uma escola, ele só pode fazer o que a lei autoriza expressamente.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> João, cidadão comum, pode pintar sua casa da cor que quiser — a lei não proíbe. Mas a Prefeitura, ao pintar uma escola pública, deve seguir licitação pública (Lei 14.133/2021), obedecer princípios da legalidade, impessoalidade, etc. As regras são muito mais rigorosas para a Administração.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span>
+      O "Manual de Regras" do Estado
+    </div>
+    
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Regras:</strong> Leis e atos normativos expressos.</div>
+      <div class="lex-expandable-item"><strong>Princípios:</strong> Valores fundamentais que guiam a interpretação.</div>
+      <div class="lex-expandable-item"><strong>Atuação Especial:</strong> A Administração não atua como um particular; ela só faz o que a lei autoriza.</div>
+    </div>
+
+    <div class="callout callout-purple">
+      <span class="callout-icon">💡</span>
+      <div class="lex-summary-content">
+        <strong>Analogia do Árbitro:</strong> Imagine um jogo onde o árbitro (Estado) tem regras diferentes dos jogadores (particulares). Enquanto você pode fazer tudo que a lei não proíbe, o Estado só faz o que a lei permite.
+      </div>
+    </div>
   </div>
+
+  
 
   <div class="lex-cols">
-
     <div class="lex-section-container">
-      <div class="lex-section-title">1. Supremacia do Interesse Público</div>
-      <div class="lex-expandable-item">Interesse coletivo <strong>prevalece</strong> sobre o individual.</div>
-      <div class="lex-expandable-item">É uma <strong>PRERROGATIVA</strong> da Administração.</div>
-      <div class="lex-expandable-item">Representa <strong>poder / privilégio</strong>.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> Quando há conflito entre o interesse da sociedade e o interesse de uma pessoa, o interesse da sociedade ganha. Isso dá poderes especiais ao Estado, como desapropriar um terreno particular para construir um hospital que beneficiará milhares de pessoas.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático:</strong> A prefeitura precisa ampliar uma avenida para melhorar o trânsito da cidade. Para isso, precisa desapropriar parte do quintal de algumas casas. Embora os donos das casas percam parte de seus terrenos, o interesse público (milhares de pessoas com melhor mobilidade) prevalece. O Estado paga indenização justa, mas pode executar a obra mesmo contra a vontade dos proprietários.</div>
-      <div class="callout callout-gold"><strong>Outro exemplo:</strong> Durante uma pandemia, o governo pode requisitar leitos de hospitais privados para atender pacientes do SUS. O interesse público (saúde da população) é superior ao interesse privado do hospital em manter todos os leitos para clientes particulares.</div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">vertical_align_top</span>
+        1. Supremacia do Interesse
+      </div>
+      <p class="lex-summary-content">O interesse coletivo <strong>prevalece</strong> sobre o individual.</p>
+      
+      <div class="lex-list">
+        <div class="lex-expandable-item">Relação <strong>Vertical</strong> (Estado acima).</div>
+        <div class="lex-expandable-item">Concede "Superpoderes" (Prerrogativas).</div>
+      </div>
+
+      <div class="lex-summary" style="border-left-color: var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Desapropriação de um terreno para construir um hospital. O dono perde a posse, mas a coletividade ganha saúde.
+        </div>
+      </div>
     </div>
 
     <div class="lex-section-container">
-      <div class="lex-section-title">Características</div>
-      <div class="lex-expandable-item">Relação vertical (Estado x particular).</div>
-      <div class="lex-expandable-item">Desigualdade jurídica.</div>
-      <div class="lex-expandable-item">Prerrogativas para o Estado.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Relação Vertical:</strong> Estado está "acima" do particular, como professor e aluno. Não são iguais na relação.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Desigualdade Jurídica:</strong> Estado tem poderes que o particular não tem (multar, fiscalizar, interditar). Particular tem direitos que Estado não tem (lucro, livre iniciativa irrestrita).</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Prerrogativas:</strong> Poder de polícia, autotutela, exigibilidade, autoexecutoriedade. São "superpoderes" do Estado.</div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">lock</span>
+        2. Indisponibilidade
+      </div>
+      <p class="lex-summary-content">O administrador <strong>não é dono</strong> do interesse público.</p>
+
+      <div class="lex-list">
+        <div class="lex-expandable-item">Limites e <strong>Deveres</strong> rigorosos.</div>
+        <div class="lex-expandable-item">Não pode renunciar a poderes ou bens.</div>
+      </div>
+
+      <div class="lex-summary" style="border-left-color: var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> O prefeito não pode "dar" um carro da prefeitura de presente; ele deve leiloar seguindo a lei.
+        </div>
+      </div>
     </div>
-
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Diferença entre Regime Jurídico DA Administração e Regime Jurídico Administrativo</div>
-    <div class="lex-expandable-item">Segundo Maria Sylvia Zanella Di Pietro:</div>
-    <div class="lex-expandable-item"><strong>Regime jurídico DA Administração (sentido amplo):</strong> abrange todas as regras que se aplicam à Administração, tanto de direito público quanto de direito privado. Por exemplo, quando o Estado compra material de escritório, rege-se pelo Código Civil (direito privado).</div>
-    <div class="lex-expandable-item"><strong>Regime jurídico administrativo (sentido estrito):</strong> são apenas as regras típicas do Direito Administrativo, que colocam o Estado em posição privilegiada, vertical. Por exemplo, quando o Estado desapropria um terreno, rege-se por regras exclusivas de direito público.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático completo:</strong> Quando a Prefeitura compra cadeiras para um escritório, está em igualdade com o vendedor — regime de direito privado. Mas quando a Prefeitura interdita um prédio em risco de desabamento, exerce poder de polícia — regime jurídico administrativo (direito público).</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> O Banco do Brasil (empresa pública estatal) quando contrata funcionários segue CLT (direito privado), mas quando fiscaliza contas de clientes segue regras do Banco Central (direito público).</div>
+    <div class="lex-section-title">Sentido Amplo vs. Estrito (Di Pietro)</div>
+    
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Conceito</th>
+            <th>Descrição</th>
+            <th>Exemplo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Regime da Adm.</strong></td>
+            <td>Público + Privado (Amplo)</td>
+            <td>Comprar cadeiras (Igualdade)</td>
+          </tr>
+          <tr>
+            <td><strong>Regime Administrativo</strong></td>
+            <td>Apenas Público (Estrito)</td>
+            <td>Interditar prédio (Autoridade)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Aplicações Práticas do Regime</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Na educação:</strong> Escola particular pode expulsar aluno por qualquer motivo. Escola pública só pode expulsar após processo administrativo com direito de defesa — regime administrativo protege o aluno.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Na saúde:</strong> Hospital particular pode negar atendimento por falta de pagamento. Hospital público não pode negar atendimento em emergência — regime administrativo garante atendimento universal.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Na segurança:</strong> Segurança privada só pode proteger o que contrata. Polícia (regime administrativo) deve proteger todos, inclusive quem não paga impostos.</div>
+    <div class="lex-section-title">O Regime na Vida Real</div>
+    <div class="lex-cols">
+      <div class="lex-summary">
+        <strong>Educação:</strong> Expulsão em escola pública exige processo e ampla defesa.
+      </div>
+      <div class="lex-summary">
+        <strong>Saúde:</strong> Hospital público não pode negar atendimento de emergência.
+      </div>
+    </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Limites do Regime Administrativo</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Não é absoluto:</strong> As prerrogativas do Estado têm limites constitucionais. Não pode violar direitos fundamentais.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Controle judicial:</strong> Todos os atos administrativos podem ser levados ao Judiciário para verificar legalidade.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Responsabilização:</strong> Se o Estado causa dano, deve indenizar (responsabilidade objetiva).</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Polícia pode prender (prerrogativa), mas deve apresentar o preso imediatamente à autoridade judicial (limite). Se prender ilegalmente, deve indenizar (responsabilização).</div>
+    <div class="lex-section-title">Controle e Limites</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Não é Absoluto:</strong> Deve respeitar direitos fundamentais.</div>
+      <div class="lex-expandable-item"><strong>Controle Judicial:</strong> O juiz pode anular atos ilegais.</div>
+      <div class="lex-expandable-item"><strong>Responsabilidade:</strong> Se o Estado causar dano, ele deve indenizar.</div>
+    </div>
   </div>
 
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu completo:</strong> Supremacia = <strong>poder</strong> (Estado pode mais que o particular quando necessário) | Indisponibilidade = <strong>dever</strong> (Estado não pode abandonar suas funções) | Regime administrativo = equilíbrio entre poderes especiais e limites constitucionais</div>
+  <div class="callout callout-orange">
+    <span class="callout-icon">🎯</span>
+    <div class="lex-summary-content">
+      <strong>BIZU DE PROVA:</strong><br>
+      • <strong>Supremacia</strong> = Poderes (Prerrogativas).<br>
+      • <strong>Indisponibilidade</strong> = Limites (Sujeições).<br>
+      O Regime é o equilíbrio entre esses dois polos.
+    </div>
   </div>
-
-</div>`,
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
+
+  // ═══════════════════════════════════════════════════
+
   "Princípios Expressos (LIMPE)": {
     icon: "📜",
     color: "#a78bfa",
     aprendizado: `
-<div class="lex-block">
-
+<div class="lex-block fade-in">
   <div class="notion-header">
     <div class="notion-icon">📜</div>
     <h1 class="notion-title">Princípios Expressos — LIMPE</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Art. 37 CF/88</span>
-      <span class="meta-tag tag-g">Todos os Poderes e Níveis</span>
+      <span class="meta-tag tag-b">Art. 37, caput CF/88</span>
+      <span class="meta-tag tag-g">Geral e Obrigatório</span>
     </div>
   </div>
 
-  <div class="callout">
-    <span class="callout-icon">📌</span>
-    Mnemônico: <strong>L · I · M · P · E</strong> — aplicam-se a todos os Poderes e níveis da federação.
+  <div class="callout callout-purple">
+    <span class="material-symbols-outlined">psychology</span>
+    <div class="lex-summary-content">
+      <strong>Mnemônico Sagrado:</strong> L · I · M · P · E. Estes princípios são o alicerce de toda a Administração Pública e aplicam-se a todos os Poderes e níveis da federação.
+    </div>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">gavel</span> L — Legalidade
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item"><strong>Administração:</strong> Só faz o que a lei permite.</div>
+        <div class="lex-expandable-item"><strong>Particular:</strong> Faz tudo que a lei não proíbe.</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Um fiscal só pode multar se houver uma lei específica prevendo a infração.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">groups</span> I — Impessoalidade
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Proibido favorecer amigos ou perseguir inimigos.</div>
+        <div class="lex-expandable-item">Vedada promoção pessoal em obras públicas.</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Nomeação por concurso público em vez de indicação política.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">balance</span> M — Moralidade
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Exige ética, honestidade e probidade.</div>
+        <div class="lex-expandable-item">O ato deve ser legal E ético para ser válido.</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Ponto Chave:</strong> A moralidade administrativa é jurídica e gera anulação do ato se violada.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">visibility</span> P — Publicidade
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Transparência e acesso à informação.</div>
+        <div class="lex-expandable-item">Condição de eficácia para os atos.</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--teal);">
+        <div class="lex-summary-content">
+          <strong>Exceção:</strong> Sigilo para segurança do Estado ou intimidade.
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">L — Legalidade</div>
-    <div class="lex-expandable-item">Agente público <strong>só age quando a lei autoriza</strong>.</div>
-    <div class="lex-expandable-item">Particular: pode tudo que <strong>não é proibido</strong>.</div>
-    <div class="lex-expandable-item">Administração: <strong>só pode o que a lei permite</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A legalidade é o princípio mais importante do Direito Administrativo. Imagine que você tem uma lista de "pode" e "não pode". Para o cidadão, a lista de "não pode" é pequena — ele pode fazer tudo o resto. Para o servidor público, a lista de "pode" é pequena — ele só pode fazer o que está nessa lista. Se a lei não disse que ele pode, então ele não pode.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Maria é dona de uma loja de doces. Ela pode decidir vender apenas chocolates de determinada marca se quiser — é um direito dela como empresária. Agora, imagine que Maria é prefeita. Ela não pode decidir comprar material de limpeza apenas de uma marca específica sem justificativa técnica e sem fazer licitação pública. A lei obriga licitação para compras públicas.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um policial só pode prender alguém se a lei autorizar naquela situação específica (flagrante delito, mandado judicial). Se prender sem fundamentação legal, comete o crime de abuso de autoridade, mesmo que ache que a pessoa é culpada.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Dica para concursos:</strong> Sempre que uma questão apresentar um agente público "criando" uma regra ou exigência que não está na lei, a resposta envolve violação ao princípio da legalidade.</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">bolt</span> E — Eficiência (EC 19/98)
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Obter melhores resultados com menores custos.</div>
+      <div class="lex-expandable-item">Base da Administração Gerencial (foco no cidadão).</div>
+    </div>
+    <div class="callout callout-gold">
+      <div class="lex-summary-content">
+        <strong>Exemplo:</strong> Digitalização de serviços para reduzir filas e tempo de espera.
+      </div>
+    </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">I — Impessoalidade</div>
-    <div class="lex-expandable-item">Vedado <strong>favorecimento pessoal</strong>.</div>
-    <div class="lex-expandable-item">Atuação voltada ao <strong>interesse público</strong>.</div>
-    <div class="lex-expandable-item">Art. 37, §1º CF — vedação à promoção pessoal em publicidade oficial.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O servidor público não pode usar o cargo para beneficiar amigos, parentes, ou a si mesmo. Ele deve agir como representante do Estado, não como pessoa individual. Seus atos devem ser neutros, baseados apenas em critérios objetivos.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> O diretor de uma escola pública não pode contratar sua esposa como professora sem que ela passe por concurso público ou processo seletivo transparente. Mesmo que a esposa seja qualificada, a indicação pessoal viola o princípio da impessoalidade.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um governador não pode usar outdoors com sua foto em obras públicas para promover sua imagem pessoal. A publicidade oficial deve ser institucional, não pessoal (Art. 37, §1º CF).</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Caso clássico:</strong> O servidor que desvia verba pública para pagar despesas pessoais viola tanto a legalidade quanto a impessoalidade — está usando o dinheiro do povo para fins privados.</div>
+
+<div style="background:#0b1220; padding:24px; border-radius:16px; font-family:Arial, sans-serif; color:#e5e7eb; max-width:520px;">
+
+  <div style="font-size:20px; font-weight:600; margin-bottom:20px; color:#a5b4fc;">
+    O LIMPE na Prática: Construção de Hospital
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">M — Moralidade</div>
-    <div class="lex-expandable-item">Honestidade, ética, boa-fé e probidade.</div>
-    <div class="lex-expandable-item">Ato pode ser <strong>legal mas imoral = INVÁLIDO</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A moralidade exige que o servidor não apenas siga a lei à risca, mas também tenha ética. Um ato pode estar de acordo com todas as normas legais, mas se for desonesto, injusto ou contrário aos valores éticos da sociedade, pode ser anulado por violação à moralidade administrativa.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Um prefeito compra 100 computadores para escolas públicas. Fez licitação (legalidade), escolheu a empresa mais barata (impessoalidade), mas descobre-se que os computadores são de má qualidade e a empresa é de um parente distante dele. Embora todos os procedimentos legais tenham sido seguidos, há desvio de finalidade e violação à moralidade — o prefeito sabia que a qualidade era ruim e favoreceu a empresa por vínculo familiar.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um servidor usa o carro oficial do órgão para levar seus filhos à escola. Técnicamente, pode até não haver previsão legal específica proibindo, mas é imoral usar recurso público para benefício pessoal — viola a moralidade administrativa.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Diferença entre moralidade e impessoalidade:</strong> Impessoalidade = não favorecer alguém específico. Moralidade = agir com ética e honestidade, mesmo quando a lei não proíbe explicitamente.</div>
+  <!-- Legalidade -->
+  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
+    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
+      ⚖️ Legalidade
+    </div>
+    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
+      Exige lei autorizativa e licitação.
+    </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">P — Publicidade</div>
-    <div class="lex-expandable-item">Transparência nos atos administrativos.</div>
-    <div class="lex-expandable-item">Exceção: sigilo previsto em lei.</div>
-    <div class="lex-expandable-item">Art. 37, caput CF.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A publicidade exige que todos os atos da Administração sejam transparentes e acessíveis à população. Não se trata de propaganda, mas de transparência. Os cidadãos têm o direito de saber o que o governo está fazendo, como está gastando o dinheiro público, e quais decisões estão sendo tomadas.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma prefeitura vai construir uma nova praça. O projeto completo, o orçamento detalhado, as empresas que participarão da licitação, o resultado da licitação — tudo isso deve ser publicado no site da prefeitura e no Diário Oficial. Os moradores têm direito de acessar essas informações.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um servidor público é demitido por justa causa. O processo administrativo disciplinar, as provas, a decisão final — tudo deve ser publicado para transparência, exceto informações pessoais protegidas por sigilo.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Exceções importantes:</strong> Informações pessoais (dados médicos, fiscais), segredos de Estado (defesa nacional), segredos industriais (proteção de inovações tecnológicas), e investigações policiais em andamento.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Lei de Acesso à Informação (Lei 12.527/2011):</strong> Regulamenta a publicidade, estabelecendo que qualquer pessoa pode solicitar informações ao poder público, que deve responder em até 20 dias.</div>
+  <!-- Impessoalidade -->
+  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
+    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
+      👥 Impessoalidade
+    </div>
+    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
+      Escolha da empresa por critérios técnicos.
+    </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">E — Eficiência</div>
-    <div class="lex-expandable-item">Incluído pela <strong>EC 19/1998</strong>.</div>
-    <div class="lex-expandable-item">Busca resultados com <strong>menor custo</strong>.</div>
-    <div class="lex-expandable-item">Qualidade e <strong>celeridade</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A eficiência exige que a Administração não apenas siga a lei, mas que o faça da melhor forma possível. É fazer mais com menos, entregar serviços de qualidade, ser rápido nas respostas, e otimizar o uso dos recursos públicos. É o princípio que moderniza a gestão pública.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Um posto de saúde que antes atendia 50 pacientes por dia com 3 médicos, após reorganização passa a atender 80 pacientes por dia com os mesmos 3 médicos, melhorando o fluxo e reduzindo o tempo de espera. Isso é eficiência — mais resultados com os mesmos recursos.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Uma secretaria de educação digitaliza todos os processos de matrícula escolar. Antes os pais precisavam ir pessoalmente à escola, enfrentar filas, preencher formulários em papel. Agora podem fazer tudo online, de casa, em 10 minutos. Reduziu custos com papel, melhorou o atendimento e economizou tempo dos servidores.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Métricas de eficiência:</strong> Tempo médio de atendimento, custo por serviço prestado, satisfação dos usuários, produtividade dos servidores, economia de recursos.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Desafios da eficiência:</strong> Equilibrar eficiência com legalidade (não pode "pular etapas" para ser mais rápido) e com moralidade (não pode cortar custos de forma que prejudique a qualidade do serviço).</div>
-    <span class="lex-label blue">E — Eficiência <span style="font-size:11px;opacity:.7">(EC 19/1998)</span></span>
-    <div class="lex-expandable-item">Produtividade, economia e celeridade.</div>
-    <div class="lex-expandable-item">Qualidade dos serviços prestados.</div>
-    <div class="lex-expandable-item">Base da administração <strong>gerencial</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O Estado deve funcionar bem, rápido e gastando pouco. Não adianta fazer tudo "certinho" mas demorar anos para entregar um serviço simples. A eficiência exige que a Administração use recursos de forma inteligente, atenda bem o cidadão e resolva problemas sem burocracia excessiva.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Dois órgãos públicos precisam de papel de escritório. O Órgão A demora 6 meses, faz 20 assinaturas, e compra papel caro de luxo. O Órgão B faz compra em 15 dias, com 3 assinaturas, e compra papel de qualidade adequada e mais barato. O Órgão B é mais eficiente — gastou menos tempo e dinheiro público.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um cidadão precisa de uma licença para reformar sua casa. A prefeitura demorava 180 dias para liberar. Após implantação de sistema digital, libera em 15 dias. Isso é eficiência — melhorou o serviço público sem aumentar custos.</div>
-    <div class="lex-expandable-item"><strong>Importância:</strong> Foi inserida pela EC 19/1998 porque antes o Estado focava apenas em cumprir formalidades, mesmo que o resultado fosse ruim. Hoje, o servidor deve buscar o melhor resultado com os recursos disponíveis.</div>
+  <!-- Moralidade -->
+  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
+    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
+      🧭 Moralidade
+    </div>
+    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
+      Proibição de propinas ou superfaturamento.
+    </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Aplicando LIMPE na Prática — Caso Completo</div>
-    <div class="lex-expandable-item"><strong>Cenário:</strong> Uma cidade precisa construir um novo hospital.</div>
-    <div class="lex-expandable-item">• <strong>Legalidade:</strong> A prefeitura precisa de lei autorizando a obra, edital de licitação publicado, orçamento aprovado pela Câmara. Sem isso, não pode começar.</div>
-    <div class="lex-expandable-item">• <strong>Impessoalidade:</strong> A empresa vencedora da licitação deve ser escolhida por critérios técnicos (melhor preço, melhor projeto), não porque é do amigo do prefeito.</div>
-    <div class="lex-expandable-item">• <strong>Moralidade:</strong> Mesmo que a empresa tenha ganhado licitação corretamente, se descobrir que ela usa mão de obra escrava, a prefeitura deve romper o contrato — seria imoral manter.</div>
-    <div class="lex-expandable-item">• <strong>Publicidade:</strong> Todo o processo licitatório deve ser publicado no site da prefeitura e em jornal, para que a população acompanhe.</div>
-    <div class="lex-expandable-item">• <strong>Eficiência:</strong> O hospital deve ser entregue no prazo, dentro do orçamento, e funcionando bem para atender a população.</div>
+  <!-- Publicidade -->
+  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
+    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
+      📢 Publicidade
+    </div>
+    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
+      Editais disponíveis no Portal da Transparência.
+    </div>
   </div>
+
+  <!-- Eficiência -->
+  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px;">
+    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
+      ⚡ Eficiência
+    </div>
+    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
+      Entrega da obra no prazo e com qualidade.
+    </div>
+  </div>
+
+</div>
+
 
   <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <div>A <strong>Eficiência</strong> foi inserida pela <strong>EC 19/1998</strong> (Reforma Administrativa) — ponto recorrente em provas. Antes desta emenda, os princípios eram apenas LIMP (sem o E). Questões de prova frequentemente perguntam quando a eficiência foi incluída.</div>
+    <span class="material-symbols-outlined">warning</span>
+    <div class="lex-summary-content">
+      <strong>CUIDADO:</strong> A <u>Eficiência</u> não é originária da CF/88. Ela foi incluída apenas em 1998 pela Reforma Administrativa.
+    </div>
   </div>
+</div>`
+},
 
-</div>`,
-  },
+  //═══════════════════════════════════════════════════
 
   // ═══════════════════════════════════════════════════
+ 
   "Princípios Implícitos": {
     icon: "📚",
     color: "#6366f1",
     aprendizado: `
-<div class="lex-block">
-
+<div class="lex-block fade-in">
   <div class="notion-header">
     <div class="notion-icon">📚</div>
-    <h1 class="notion-title">Princípios Implícitos</h1>
+    <h1 class="notion-title">Princípios Implícitos (Reconhecidos)</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Não estão no Art. 37</span>
-      <span class="meta-tag tag-g">Mas são fundamentais</span>
+      <span class="meta-tag tag-b">Doutrinários / Infralegais</span>
+      <span class="meta-tag tag-g">Regime Público</span>
     </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Presunção de Legalidade / Veracidade</div>
-    <div class="lex-expandable-item">Atos administrativos presumem-se <strong>legais e verdadeiros</strong>.</div>
-    <div class="lex-expandable-item">Presunção <strong>relativa</strong> — juris tantum (admite prova em contrário).</div>
-    <div class="lex-expandable-item">Ônus da prova: do <strong>particular</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Quando a Administração emite um ato (ex: uma multa de trânsito), a lei presume que aquele ato é legal e verdadeiro. Isso significa que o ato já nasce "válido" e pode ser cumprido imediatamente. Quem acha que o ato é ilegal precisa provar na Justiça.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Você recebe uma multa de trânsito por excesso de velocidade. A multa é válida desde que foi emitida — você deve pagar ou recorrer, mas não pode simplesmente ignorar. Se quiser contestar, o ônus de provar que não estava em excesso de velocidade é seu, não da autoridade de trânsito.</div>
-    <div class="lex-expandable-item"><strong>Por que existe?</strong> Se cada ato administrativo precisasse ser "validado" antes de ser cumprido, o Estado não funcionaria. Imagine se uma interdição de uma ponte prestes a cair precisasse passar 6 meses na Justiça antes de valer!</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Razoabilidade e Proporcionalidade</div>
-    <div class="lex-expandable-item">Vedação de <strong>excessos</strong>.</div>
-    <div class="lex-expandable-item">Previsto na <strong>Lei 9.784/1999</strong> (Processo Administrativo Federal).</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A Administração não pode agir de forma desproporcional ou irrazoável. A punição deve ser proporcional à infração, e a solução deve ser adequada ao problema. Não se pode "matar uma formiga com um tanque de guerra".</div>
-    <div class="callout callout-gold"><strong>Exemplo de proporcionalidade:</strong> Um funcionário público chega 10 minutos atrasado ao trabalho. A Administração pode aplicar uma advertência, mas não pode demiti-lo. Demissão seria desproporcional ao atraso de 10 minutos.</div>
-    <div class="callout callout-gold"><strong>Exemplo de razoabilidade:</strong> A prefeitura proíbe todo comércio de alimentos em uma praça para evitar lixo. Seria mais razoável limitar horários, exigir limpeza, ou designar áreas específicas, em vez de proibir totalmente — a proibição total é irrazoável porque atinge mais do que o problema exige.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Motivação</div>
-    <div class="lex-expandable-item"><strong>Regra:</strong> atos devem ser motivados.</div>
-    <div class="lex-expandable-item"><strong>Exceção:</strong> nomeação e exoneração <em>ad nutum</em> (cargos em comissão).</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A Administração precisa explicar POR QUE está tomando uma decisão. O cidadão tem direito de saber os motivos que fundamentam o ato. Isso permite contestação adequada e evita arbiedade.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Você pede uma aposentadoria ao INSS e é negado. A carta de negativa deve explicar: "Negado porque você não tem tempo de contribuição suficiente — faltam 12 meses. Artigo X da Lei Y. Você pode recorrer em até 30 dias." Se apenas dissesse "Negado", sem motivação, seria ilegal.</div>
-    <div class="lex-expandable-item"><strong>Exceção explicada:</strong> Cargos em comissão (assessores, secretários) são nomeados e exonerados "ad nutum" (à vontade do chefe). Não precisa de motivação porque são cargos de confiança política, não técnica.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Continuidade do Serviço Público</div>
-    <div class="lex-expandable-item">Serviços <strong>não podem ser interrompidos</strong>.</div>
-    <div class="lex-expandable-item">Exceção: greve nos limites da lei.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Serviços essenciais como água, luz, saúde, segurança não podem parar. Mesmo quando há greve, deve haver atendimento mínimo. Imagine se um hospital fechasse completamente durante uma greve — pacientes graves poderiam morrer.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma empresa de água municipal entra em greve. A lei exige que mantenha 30% da equipe operando para garantir abastecimento mínimo. Mesmo durante greve, não pode cortar totalmente o fornecimento — população precisa de água para sobreviver.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Durante a pandemia, escolas públicas não podiam fechar completamente. Mesmo com lockdown, precisavam manter atividades remotas ou distribuir material didático. A continuidade do serviço educacional foi garantida por outros meios.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Exceções legais:</strong> Greve é permitida (CF/88, Art. 37, VII), mas serviços essenciais devem manter atendimento mínimo. Casos fortuitos (ex: quebra de uma adutora) também justificam interrupção temporária, mas deve ser reparado o mais rápido possível.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Funcionários do metrô fazem greve por melhores salários. A greve é legal, mas eles devem manter 70% da operação em horário de pico (Lei define os percentuais). Não podem simplesmente "trancar tudo".</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Policiais não podem fazer greve que deixe a cidade sem segurança, porque isso violaria o direito fundamental dos cidadãos à segurança pública. Podem reivindicar direitos por outros meios.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Autotutela</div>
-    <div class="lex-expandable-item">Administração <strong>controla seus próprios atos</strong>.</div>
-    <div class="lex-expandable-item"><strong>Anula</strong> atos ilegais — vício de legalidade.</div>
-    <div class="lex-expandable-item"><strong>Revoga</strong> atos inconvenientes — mérito administrativo.</div>
-    <div class="lex-expandable-item">Base: <strong>Súmulas 346 e 473 do STF</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O Estado pode "se auto-corrigir". Se emitiu um ato ilegal, pode anulá-lo. Se emitiu um ato legal mas que se tornou inconveniente (ex: uma taxa que não faz mais sentido), pode revogá-lo. Não precisa esperar a Justiça.</div>
-    <div class="callout callout-gold"><strong>Exemplo de anulação:</strong> Uma prefeitura concede alvará de funcionamento para uma fábrica. Depois descobre que o terreno é de preservação ambiental e a lei proíbe indústria ali. A prefeitura pode anular (cancelar) o próprio alvará, porque era ilegal desde o início.</div>
-    <div class="callout callout-gold"><strong>Exemplo de revogação:</strong> Uma prefeitura criou uma taxa de limpeza de R$ 50 em 2010. Em 2024, percebe que o custo real é R$ 200. Ao invés de manter a taxa defasada, pode revogar a taxa antiga e criar uma nova — não é ilegal, apenas inconveniente mantê-la.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A autotutela é o "autopoliciamento" da Administração. Ela mesma pode verificar se seus atos estão corretos e corrigi-los sem precisar ir ao Judiciário. Isso agiliza a correção de erros e evita que o Judiciário fique sobrecarregado com questões que a própria Administração pode resolver.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático de anulação:</strong> Uma prefeitura autoriza construção em área de preservação ambiental. Após 6 meses, o próprio órgão ambiental da prefeitura verifica que houve erro técnico e anula a autorização. Não precisou esperar que o Ministério Público ou um particular entrasse na Justiça — a própria Administração corrigiu seu erro.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático de revogação:</strong> Um governo cria programa de bolsas de estudo para alunos carentes. Após 2 anos, verifica que o programa está beneficiando principalmente famílias de classe média e não os mais pobres. O governo revoga o programa por motivo de conveniência e oportunidade — não era ilegal, mas se tornou inconveniente aos objetivos originais.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Se um servidor público comete um erro em uma licitação, a própria Administração pode corrigir sem esperar que um licitante prejudicado entre na Justiça. Isso protege o erário e garante celeridade na correção de falhas.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Limites da autotutela:</strong> Não pode anular atos que já geraram direitos adquiridos para terceiros de boa-fé. Se uma contratação foi feita há 5 anos e o contratado executou tudo corretamente, a Administração não pode simplesmente anular agora — precisa seguir procedimentos específicos.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Especialidade</div>
-    <div class="lex-expandable-item">Entidades da Adm. Indireta têm <strong>finalidade específica</strong>.</div>
-    <div class="lex-expandable-item">Não podem atuar fora de seus objetivos institucionais.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Cada entidade pública tem uma "missão" específica. O INSS cuida de previdência, o INCRA de reforma agrária, o IBAMA de meio ambiente. Uma entidade não pode fazer o trabalho de outra — isso seria atuar fora de sua especialidade. É como se um médico tentasse fazer trabalho de engenheiro — cada um tem sua especialidade.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> O INSS (previdência) não pode começar a fiscalizar crimes ambientais — isso é especialidade do IBAMA. Se o INSS tentasse multar uma empresa por poluição, seria nulo porque está fora de sua especialidade institucional.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> O Banco Central (especialidade: controle monetário e financeiro) não pode fiscalizar segurança alimentar — isso é da ANVISA. Cada órgão deve focar em sua área de competência.</div>
-    <div class="callout callout-gold"><strong>Exemplo cotidiano:</strong> Você vai ao DETRAN para renovar CNH e tenta resolver uma questão de aposentadoria. O DETRAN não pode ajudar — deve te encaminhar ao INSS, pois cada um tem sua especialidade.</div>
-    <div class="lex-expandable-item"><strong>Importância:</strong> Garante que cada órgão desenvolva expertise em sua área, evitando dispersão e garantindo eficiência. Também permite accountability — se algo dá errado na área de meio ambiente, sabe-se que o IBAMA é responsável.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Vantagens da especialidade:</strong> 1) Qualidade técnica: especialistas cuidam de assuntos específicos. 2) Eficiência: não há duplicação de esforços. 3) Clareza para o cidadão: sabe a quem recorrer para cada problema. 4) Controle mais eficaz: cada órgão responde por sua área.</div>
-  </div>
-
-      <div class="lex-section-title">Administração Direta</div>
-      <div class="lex-expandable-item">União, Estados, DF e Municípios.</div>
-      <div class="lex-expandable-item">Autonomia: <strong>política, administrativa e financeira</strong>.</div>
-      <div class="lex-expandable-item">Prestação <strong>centralizada</strong>.</div>
+  <div class="callout callout-purple">
+    <span class="material-symbols-outlined">info</span>
+    <div class="lex-summary-content">
+      Diferente do LIMPE, estes princípios não estão listados no caput do Art. 37, mas decorrem do sistema jurídico e são <strong>igualmente obrigatórios</strong>.
     </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Administração Indireta</div>
-      <div class="lex-expandable-item">Autarquias, Fundações, EP e SEM.</div>
-      <div class="lex-expandable-item">Autonomia: <strong>administrativa e financeira</strong> apenas.</div>
-      <div class="lex-expandable-item"><strong>NÃO</strong> têm autonomia política.</div>
-      <div class="lex-expandable-item">Criação: Art. 37, XIX CF — lei específica.</div>
-    </div>
-
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Formas de Organização</div>
   </div>
 
   <div class="lex-cols">
-
     <div class="lex-section-container">
-      <div class="lex-section-title">Centralização</div>
-      <div class="lex-expandable-item">Serviço prestado pela <strong>própria</strong> Adm. Direta.</div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">verified_user</span> Presunção de Legitimidade
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Atos presumem-se <strong>legais e verdadeiros</strong> até prova em contrário.</div>
+        <div class="lex-expandable-item">Presunção <i>Juris Tantum</i> (Relativa).</div>
+        <div class="lex-expandable-item"><strong>Ônus da prova:</strong> Recai sobre o particular.</div>
+      </div>
+      <div class="callout callout-gold">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Uma multa de trânsito é válida e deve ser paga/recorrida. O Estado não precisa provar que você errou; você deve provar que ele errou.
+        </div>
+      </div>
     </div>
 
     <div class="lex-section-container">
-      <div class="lex-section-title">Descentralização</div>
-      <div class="lex-expandable-item">Transferência para <strong>outra pessoa jurídica</strong>.</div>
-      <div class="lex-expandable-item">Cria <strong>ENTIDADES</strong>.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> A descentralização ocorre quando o Estado "dá poder" para outra entidade que tem personalidade jurídica própria. É como se o pai desse tarefas mais complexas para filhos mais velhos e experientes — cada filho tem autonomia, mas ainda faz parte da família.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático:</strong> O Ministério da Educação (federal) cria a CAPES (Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) para cuidar especificamente da pós-graduação. A CAPES tem personalidade jurídica própria, autonomia administrativa e financeira, mas ainda está vinculada ao Ministério.</div>
-      <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um estado cria a Companhia de Saneamento Básico (empresa pública) para gerenciar água e esgoto. Em vez de o próprio estado administrar diretamente, cria uma empresa especializada com autonomia para prestar melhor o serviço.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Vantagens:</strong> 1) Especialização: cada entidade foca em sua área. 2) Flexibilidade: mais agilidade na gestão. 3) Desburocratização: menos hierarquia, mais eficiência. 4) Responsabilização clara: sabe-se exatamente quem é responsável por cada serviço.</div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">published_with_changes</span> Autotutela
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">O Estado controla seus próprios atos.</div>
+        <div class="lex-expandable-item"><strong>Anula:</strong> Atos ilegais (vício).</div>
+        <div class="lex-expandable-item"><strong>Revoga:</strong> Atos inconvenientes (mérito).</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--purple);">
+        <div class="lex-summary-content">
+          <strong>Súmula 473 STF:</strong> A Administração pode anular seus próprios atos sem precisar de autorização judicial.
+        </div>
+      </div>
     </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Desconcentração</div>
-      <div class="lex-expandable-item">Distribuição <strong>interna</strong> de competências.</div>
-      <div class="lex-expandable-item">Cria <strong>ÓRGÃOS</strong> — mesma pessoa jurídica.</div>
-      <div class="lex-expandable-item">Há hierarquia e subordinação.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> A desconcentração é a divisão interna do trabalho dentro da mesma entidade. É como se uma empresa grande criasse departamentos (vendas, financeiro, RH) — todos ainda fazem parte da mesma empresa, mas cada um tem responsabilidades específicas.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático:</strong> O Ministério da Saúde cria departamentos específicos: Departamento de Vigilância Sanitária, Departamento de Programas de Vacinação, Departamento de Gestão Hospitalar. Todos são órgãos do mesmo Ministério, mas cada um cuida de uma área específica.</div>
-      <div class="callout callout-gold"><strong>Outro exemplo:</strong> Uma prefeitura cria secretarias: Secretaria de Educação, Secretaria de Saúde, Secretaria de Obras. Todas as secretarias ainda são parte da prefeitura (mesma pessoa jurídica), mas cada uma tem responsabilidades distintas.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Vantagens:</strong> 1) Organização interna clara. 2) Especialização funcional. 3) Melhor atendimento ao cidadão (sabe qual órgão procurar). 4) Facilita controle e fiscalização.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Diferença chave:</strong> Na descentralização cria-se NOVA PESSOA JURÍDICA. Na desconcentração apenas se divide o trabalho dentro da MESMA PESSOA JURÍDICA.</div>
-    </div>
-
   </div>
 
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu:</strong> Descentralização → cria <strong>ENTIDADES</strong> &nbsp;|&nbsp; Desconcentração → cria <strong>ÓRGÃOS</strong></div>
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">chat_bubble</span> Motivação
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Dever de explicar os fundamentos de fato e de direito.</div>
+        <div class="lex-expandable-item">Permite o controle da legalidade.</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--rose);">
+        <div class="lex-summary-content">
+          <strong>Exceção:</strong> Nomeação e exoneração de cargos em comissão (<i>ad nutum</i>).
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">all_inclusive</span> Continuidade
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Serviços públicos não podem ser interrompidos.</div>
+        <div class="lex-expandable-item">Fundamenta a substituição de servidores.</div>
+      </div>
+      <div class="callout callout-gold">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Hospitais e segurança devem manter atendimento mínimo mesmo em greve.
+        </div>
+      </div>
+    </div>
   </div>
 
-</div>`,
-  },
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+        <span class="material-symbols-outlined">straighten</span> Razoabilidade e Proporcionalidade
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Proibição de excessos: o meio deve ser adequado ao fim.</div>
+      <div class="lex-expandable-item"><strong>Tríplice Teste:</strong> Adequação + Necessidade + Proporcionalidade em sentido estrito.</div>
+    </div>
+    <div class="lex-summary" style="border-left-color: var(--teal);">
+        <div class="lex-summary-content">
+          <strong>Bizu:</strong> Não se mata formiga com canhão. Se uma advertência resolve, uma demissão é desproporcional.
+        </div>
+    </div>
+  </div>
 
+  <div class="callout callout-orange">
+    <span class="material-symbols-outlined">psychology</span>
+    <div class="lex-summary-content">
+      <strong>RESUMO DE PROVA:</strong><br>
+      Anular = Ilegalidade (Efeito Retroage - Ex Tunc)<br>
+      Revogar = Conveniência (Efeito Não Retroage - Ex Nunc)
+    </div>
+  </div>
+</div>`
+},
   // ═══════════════════════════════════════════════════
-  "Descentralização": {
+ 
+  // ═══════════════════════════════════════════════════
+
+ "Descentralização": {
     icon: "🔄",
     color: "#14b8a6",
     aprendizado: `
-<div class="lex-block">
-
+<div class="lex-block fade-in">
   <div class="notion-header">
     <div class="notion-icon">🔄</div>
-    <h1 class="notion-title">Descentralização</h1>
+    <h1 class="notion-title">Descentralização Administrativa</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">Outorga </span>
-      <span class="meta-tag tag-g">· Delegação </span>
-      <span class="meta-tag tag-b">· Colaboração</span>
+      <span class="meta-tag tag-b">Outorga</span>
+      <span class="meta-tag tag-g">Delegação</span>
+      <span class="meta-tag tag-b">Colaboração</span>
+    </div>
+  </div>
+
+  <div class="callout callout-purple">
+    <span class="material-symbols-outlined">hub</span>
+    <div class="lex-summary-content">
+      <strong>Conceito:</strong> O Estado transfere a execução ou a titularidade de um serviço para <strong>outra pessoa jurídica</strong> (Entidade). Diferente da desconcentração, aqui não há hierarquia, apenas vinculação/controle.
     </div>
   </div>
 
   <div class="lex-cols">
-
     <div class="lex-section-container">
-      <div class="lex-section-title">Por Outorga</div>
-      <div class="lex-expandable-item">Transfere <strong>titularidade + execução</strong>.</div>
-      <div class="lex-expandable-item">Realizada por <strong>LEI</strong>.</div>
-      <div class="lex-expandable-item">Atinge entidades da Adm. Indireta.</div>
-      <div class="lex-expandable-item">Caráter <strong>definitivo</strong>.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> Na outorga, o Estado cria uma nova entidade e transfere para ela tanto o direito de executar determinada atividade quanto a titularidade sobre essa atividade. É uma transferência completa e permanente.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático:</strong> O governo federal cria a EMBRATUR (Empresa Brasileira de Infraestrutura Aeroportuária) através de lei específica. A EMBRATUR tem o direito de administrar todos os aeroportos brasileiros (execução) e também é a titular desse serviço. Não pode ser extinta facilmente — precisa de outra lei.</div>
-      <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um estado cria a Universidade Estadual do XYZ através de lei. A universidade tem autonomia para gerir seus cursos, contratar professores, administrar finances, mas ainda é uma entidade pública estadual.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Vantagens:</strong> Estabilidade, autonomia, especialização, continuidade do serviço independente de mudanças políticas.</div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">description</span> Por Outorga (Legal)
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Transfere <strong>Titularidade + Execução</strong>.</div>
+        <div class="lex-expandable-item">Realizada apenas por <strong>LEI</strong>.</div>
+        <div class="lex-expandable-item">Cria a Adm. Indireta (Autarquias).</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--acc);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Criação do INSS por lei. Ele é o "dono" do serviço previdenciário agora.
+        </div>
+      </div>
     </div>
 
     <div class="lex-section-container">
-      <div class="lex-section-title">Por Delegação</div>
-      <div class="lex-expandable-item">Transfere apenas a <strong>execução</strong>.</div>
-      <div class="lex-expandable-item">Realizada por <strong>contrato ou ato administrativo</strong>.</div>
-      <div class="lex-expandable-item">Caráter <strong>precário</strong>.</div>
-      <div class="lex-expandable-item">Ex: concessão, permissão, autorização.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> Na delegação, o Estado mantém a titularidade do serviço mas transfere apenas a execução para um particular. O particular executa em nome próprio, por sua conta e risco, mas sob fiscalização do Estado.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (concessão):</strong> O estado concede a uma empresa privada o direito de operar o metrô por 30 anos. A empresa executa o serviço, cobra tarifa dos usuários, mas o estado continua sendo o titular do serviço e pode fiscalizar, regulamentar e até retomar o serviço se necessário.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (permissão):</strong> A prefeitura permite que um camelô utilize um espaço público para vender alimentos. O camelô executa a atividade por conta própria, mas a prefeitura pode revogar a permissão a qualquer momento se houver interesse público.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Caráter precário:</strong> Pode ser revogado a qualquer tempo pelo Estado, sem necessidade de indenização (salvo investimentos realizados).</div>
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">handshake</span> Por Delegação (Negocial)
+      </div>
+      <div class="lex-list">
+        <div class="lex-expandable-item">Transfere apenas a <strong>Execução</strong>.</div>
+        <div class="lex-expandable-item">Por <strong>Contrato ou Ato</strong> administrativo.</div>
+        <div class="lex-expandable-item">Caráter precário (revogável).</div>
+      </div>
+      <div class="lex-summary" style="border-left-color: var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Concessão de pedágios ou linhas de ônibus para empresas privadas.
+        </div>
+      </div>
     </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Por Colaboração</div>
-      <div class="lex-expandable-item">Estado transfere execução ao particular.</div>
-      <div class="lex-expandable-item">Mantém a <strong>titularidade</strong>.</div>
-      <div class="lex-expandable-item">Base: Art. 175 CF + <strong>Lei 8.987/1995</strong>.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> A colaboração é uma forma moderna de descentralização onde o Estado se associa com entidades privadas sem fins lucrativos para prestar serviços públicos. O Estado mantém o controle mas compartilha a execução.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (OS):</strong> Um hospital público se transforma em Organização Social (OS) e recebe recursos públicos para gestão. A OS tem mais autonomia administrativa, mas continua sob controle do Estado, que define metas e fiscaliza resultados.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (OSCIP):</strong> Uma ONG que trabalha com educação ambiental recebe qualificação como OSCIP e passa a gerenciar programas de educação ambiental com recursos públicos e privados, sob supervisão do governo.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Vantagens:</strong> Combina expertise privada com controle público, flexibilidade na gestão, parcerias inovadoras.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Diferença chave:</strong> Na delegação tradicional, o particular tem fins lucrativos. Na colaboração, as entidades geralmente não têm fins lucrativos.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Comparação Prática dos Tipos de Descentralização</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Cenário completo:</strong> Um município precisa de serviço de coleta de lixo.</div>
-      <div class="lex-expandable-item">• <strong>Outorga:</strong> Cria a Empresa Municipal de Limpeza Urbana (EMLURB). Empresa pública com autonomia própria, mas vinculada à prefeitura.</div>
-      <div class="lex-expandable-item">• <strong>Delegação:</strong> Concessiona serviço para empresa privada por 20 anos. Empresa executa, cobra dos usuários, mas prefeitura fiscaliza e pode retomar.</div>
-      <div class="lex-expandable-item">• <strong>Colaboração:</strong> Qualifica ONG ambiental como OSCIP para gerenciar programa de reciclagem. ONG recebe recursos públicos, mas mantém característica privada.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Escolha estratégica:</strong> Depende da complexidade do serviço, recursos disponíveis, capacidade de gestão local e interesse político.</div>
-    </div>
-
   </div>
 
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu:</strong> Outorga = lei + definitivo &nbsp;|&nbsp; Delegação = contrato + precário</div>
+  <div class="lex-section-container">
+    <div class="lex-section-title">Colaboração e Cenários Reais</div>
+    <div class="lex-cols">
+      <div class="lex-summary">
+        <strong>Colaboração:</strong> Parcerias com o Terceiro Setor (ONGs, OS, OSCIPs). O Estado fomenta e o particular sem fins lucrativos executa.
+      </div>
+      <div class="lex-summary">
+        <strong>Diferença de Lucro:</strong> Delegação visa lucro (Empresas). Colaboração visa o bem social (Entidades sem fins lucrativos).
+      </div>
+    </div>
   </div>
 
-</div>`,
+  <div class="callout callout-orange">
+    <span class="material-symbols-outlined">psychology</span>
+    <div class="lex-summary-content">
+      <strong>BIZU DE PROVA:</strong><br>
+      • <strong>O</strong>utorga = <strong>O</strong>brigatória lei + Titularidade.<br>
+      • <strong>D</strong>elegação = <strong>D</strong>ireito de execução apenas.
+    </div>
+  </div>
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
+ 
+  // ═══════════════════════════════════════════════════
+
   "Órgãos Públicos": {
     icon: "🏢",
     color: "#22c55e",
     aprendizado: `
-<div class="lex-block">
-
+<div class="lex-block fade-in">
   <div class="notion-header">
     <div class="notion-icon">🏢</div>
     <h1 class="notion-title">Órgãos Públicos</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-g">Sem Personalidade Jurídica</span>
-      <span class="meta-tag tag-b">Desconcentração</span>
+      <span class="meta-tag tag-g">Desconcentração</span>
+      <span class="meta-tag tag-b">Sem Personalidade</span>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Características</div>
-    <div class="lex-expandable-item"><strong>NÃO</strong> possuem personalidade jurídica.</div>
-    <div class="lex-expandable-item">Integram uma pessoa jurídica maior.</div>
-    <div class="lex-expandable-item">Centros de competência — resultado da desconcentração.</div>
-    <div class="lex-expandable-item">Não têm patrimônio próprio.</div>
-    <div class="lex-expandable-item">Não celebram contratos (a PJ que celebra).</div>
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">info</span> Natureza Jurídica
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>NÃO</strong> possuem personalidade jurídica própria.</div>
+      <div class="lex-expandable-item">São apenas "centros de competência" dentro de uma PJ.</div>
+      <div class="lex-expandable-item">Resultado da <strong>Desconcentração</strong> (divisão interna).</div>
+      <div class="lex-expandable-item">Não possuem patrimônio próprio (pertence ao Ente).</div>
+    </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Classificação — Posição Estatal</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Independentes</strong> — Presidência, Congresso, Tribunais Superiores</div>
-      <div class="lex-expandable-item"><strong>Autônomos</strong> — Ministérios, Secretarias</div>
-      <div class="lex-expandable-item"><strong>Superiores</strong> — Departamentos</div>
-      <div class="lex-expandable-item"><strong>Subalternos</strong> — Seções</div>
+    <div class="lex-section-title">Classificação (Posição Estatal)</div>
+    <div class="lex-table-container">
+      <table class="lex-table">
+        <thead>
+          <tr>
+            <th>Nível</th>
+            <th>Exemplo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Independentes</strong></td><td>Presidência, Tribunais, Congresso.</td></tr>
+          <tr><td><strong>Autônomos</strong></td><td>Ministérios e Secretarias.</td></tr>
+          <tr><td><strong>Superiores</strong></td><td>Departamentos e Coordenadorias.</td></tr>
+          <tr><td><strong>Subalternos</strong></td><td>Seções de expediente, portarias.</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
       <div class="lex-section-title">Quanto à Estrutura</div>
-      <div class="lex-expandable-item"><strong>Simples</strong> — sem subdivisões internas.</div>
-      <div class="lex-expandable-item"><strong>Compostos</strong> — têm subdivisões.</div>
+      <div class="lex-list">
+        <div class="lex-expandable-item"><strong>Simples:</strong> Um único centro (sem órgãos internos).</div>
+        <div class="lex-expandable-item"><strong>Compostos:</strong> Possuem outros órgãos dentro dele.</div>
+      </div>
     </div>
     <div class="lex-section-container">
       <div class="lex-section-title">Quanto à Atuação</div>
-      <div class="lex-expandable-item"><strong>Singulares</strong> — decisão de 1 agente.</div>
-      <div class="lex-expandable-item"><strong>Colegiados</strong> — decisão coletiva.</div>
+      <div class="lex-list">
+        <div class="lex-expandable-item"><strong>Singulares:</strong> Decisão de 1 só agente.</div>
+        <div class="lex-expandable-item"><strong>Colegiados:</strong> Decisão em grupo (Conselhos).</div>
+      </div>
     </div>
   </div>
 
-  <div class="callout">
-    <span class="callout-icon">⚖️</span>
-    <strong>Teoria do Órgão:</strong> Vontade do agente = vontade do órgão = vontade do Estado.
+  <div class="callout callout-purple">
+    <span class="material-symbols-outlined">balance</span>
+    <div class="lex-summary-content">
+      <strong>Teoria do Órgão (Imputação Volitiva):</strong> Criada por Otto Gierke. Diz que a vontade do agente não é dele, mas sim do Estado. Por isso, se o agente erra em nome do órgão, quem responde é o Estado (Ente).
+    </div>
   </div>
 
-</div>`,
+  <div class="lex-summary">
+    <span class="material-symbols-outlined">priority_high</span>
+    <div class="lex-summary-content">
+      <strong>Capacidade Processual:</strong> Órgãos em regra não podem ir a juízo, exceto órgãos <u>independentes</u> e <u>autônomos</u> para defender suas prerrogativas institucionais (Súmula 525 STJ).
+    </div>
+  </div>
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
+ 
+  // ═══════════════════════════════════════════════════
+
   "Consórcios Públicos": {
     icon: "🤝",
     color: "#14b8a6",
