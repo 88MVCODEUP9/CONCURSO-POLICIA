@@ -1,8 +1,3 @@
-
-// data/data_informatica.js
-// Conteudo de Informatica — formatado com classes lex-*
-// Versao 2.0 | Organizado por categorias | Sem acentos nas chaves
-
 window.DA = {
 
   // ╔══════════════════════════════════════════════════════╗
@@ -3492,6 +3487,5 @@ Ex: acesso remoto ao trabalho, conexão segura via internet.</div>
     <div class="lex-expandable-item"><strong>PowerPoint:</strong> PPTX, PPSX | <strong>Impress:</strong> ODP</div>
   </div>
 </div>`
-  }
-
+  },
 };
