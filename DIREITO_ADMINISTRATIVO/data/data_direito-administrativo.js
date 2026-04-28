@@ -1,6 +1,139 @@
 window.DA = {
 
-  // ═════════════════════════════════════════════════
+  "Conceito de Administração Pública": {
+    icon: "🏛️",
+    color: "#4a85f0",
+    aprendizado: `
+<div class="lex-block fade-in">
+  <div class="topic-content">
+    <div class="tag tag-b">Direito Administrativo</div>
+    <div class="tag tag-g">Fundamentos</div>
+    <h1>Conceito de Administração Pública</h1>
+    <p>O conjunto de órgãos, entidades e agentes que exercem a função administrativa do Estado, transformando leis em ações concretas para a sociedade.</p>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span> 
+      O que é Administração Pública?
+    </div>
+    
+    <div class="lex-expandable-item">
+      <span><strong>Função:</strong> É o "braço executivo" que garante saúde, educação, segurança e infraestrutura através de uma estrutura organizada.</span>
+    </div>
+
+    <div class="callout callout-purple">
+      <span class="callout-icon">💡</span>
+      <div class="lex-summary-content">
+        <strong>Por que existe?</strong> Para que o Estado cumpra suas funções básicas de forma eficiente e ordenada, atendendo às necessidades coletivas.
+      </div>
+    </div>
+    
+    <div class="callout callout-gold">
+      <span class="callout-icon">📌</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo:</strong> Ao se vacinar em um posto de saúde, você interage com a Administração: o médico (agente), o prédio (órgão) e a vacina (insumo) formam essa estrutura.
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">badge</span>
+        Critério Formal (Subjetivo)
+      </div>
+      <p class="lex-summary-content" style="margin-bottom: 0.5rem;">Foca em <strong>QUEM</strong> exerce a atividade.</p>
+      
+      <div class="lex-list">
+        <div class="lex-expandable-item">Estrutura administrativa do Estado.</div>
+        <div class="lex-expandable-item">Agentes, órgãos e entidades.</div>
+        <div class="lex-expandable-item">Bens públicos envolvidos.</div>
+      </div>
+
+      <div class="callout callout-purple">
+        <div class="lex-summary-content">
+          <strong>Lógica:</strong> Se for um ministério ou prefeitura fazendo, é Administração Pública, não importa a tarefa.
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left-color: var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Um professor de escola estadual ou um auditor da Receita Federal.
+        </div>
+      </div>
+    </div>
+
+    <div class="lex-section-container">
+      <div class="lex-section-title">
+        <span class="material-symbols-outlined">settings</span>
+        Critério Material (Objetivo)
+      </div>
+      <p class="lex-summary-content" style="margin-bottom: 0.5rem;">Foca em <strong>O QUE</strong> é feito.</p>
+
+      <div class="lex-list">
+        <div class="lex-expandable-item">Função administrativa propriamente dita.</div>
+        <div class="lex-expandable-item">Prestação de serviços públicos.</div>
+        <div class="lex-expandable-item">Atividade de gestão e fiscalização.</div>
+      </div>
+
+      <div class="callout callout-purple">
+        <div class="lex-summary-content">
+          <strong>Lógica:</strong> Se a atividade é serviço público (ex: transporte), é Administração, mesmo que feita por empresa privada.
+        </div>
+      </div>
+
+      <div class="lex-summary" style="border-left-color: var(--gold);">
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> Concessionária de metrô ou uma OSCIP gerenciando hospital.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Comparando os Critérios na Prática</div>
+    
+    <div class="lex-expandable-item">
+      <span><strong>Cenário:</strong> Coleta de lixo em uma cidade.</span>
+    </div>
+    
+    <div class="lex-list" style="padding-left: 1rem;">
+      <div class="lex-expandable-item"><strong>Formal:</strong> Prefeitura cria uma Autarquia para o lixo.</div>
+      <div class="lex-expandable-item"><strong>Material:</strong> Prefeitura contrata empresa privada (concessão).</div>
+    </div>
+
+    <div class="lex-summary">
+      <span class="lex-summary-icon">⚖️</span>
+      <div class="lex-summary-content">
+        <strong>Importância:</strong> Essa distinção define qual lei aplicar (Direito Público ou Privado) e quem deve fiscalizar o serviço.
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Por que essa distinção importa?</div>
+    <div class="lex-cols">
+      <div class="lex-expandable-item"><strong>Cidadão:</strong> Define onde reclamar (ex: ANEEL para energia).</div>
+      <div class="lex-expandable-item"><strong>Estudante:</strong> Tema recorrente em provas (Identificar Formal vs Material).</div>
+    </div>
+  </div>
+
+  <div class="callout callout-orange">
+    <span class="callout-icon">💡</span>
+    <div class="lex-summary-content">
+      <strong>RESUMO:</strong><br>
+      • <strong>Formal:</strong> Estrutura estatal (Quem faz).<br>
+      • <strong>Material:</strong> Atividade exercida (O que é feito).<br>
+      Os dois critérios se complementam para definir o alcance do Direito Administrativo.
+    </div>
+  </div>
+</div>`
+  },
+
+  // ═══════════════════════════════════════════════════
+
+  // ═══════════════════════════════════════════════════
 
   "Princípios": {
     icon: "📜",
