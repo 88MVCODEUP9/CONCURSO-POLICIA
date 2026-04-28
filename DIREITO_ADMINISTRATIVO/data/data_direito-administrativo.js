@@ -2,281 +2,7 @@ window.DA = {
 
   // ═════════════════════════════════════════════════
 
-  "Conceito de Administração Pública": {
-    icon: "🏛️",
-    color: "#4a85f0",
-    aprendizado: `
-<div class="lex-block fade-in">
-  <div class="topic-content">
-    <div class="tag tag-b">Direito Administrativo</div>
-    <div class="tag tag-g">Fundamentos</div>
-    <h1>Conceito de Administração Pública</h1>
-    <p>O conjunto de órgãos, entidades e agentes que exercem a função administrativa do Estado, transformando leis em ações concretas para a sociedade.</p>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">
-      <span class="material-symbols-outlined">account_balance</span> 
-      O que é Administração Pública?
-    </div>
-    
-    <div class="lex-expandable-item">
-      <span><strong>Função:</strong> É o "braço executivo" que garante saúde, educação, segurança e infraestrutura através de uma estrutura organizada.</span>
-    </div>
-
-    <div class="callout callout-purple">
-      <span class="callout-icon">💡</span>
-      <div class="lex-summary-content">
-        <strong>Por que existe?</strong> Para que o Estado cumpra suas funções básicas de forma eficiente e ordenada, atendendo às necessidades coletivas.
-      </div>
-    </div>
-    
-    <div class="callout callout-gold">
-      <span class="callout-icon">📌</span>
-      <div class="lex-summary-content">
-        <strong>Exemplo:</strong> Ao se vacinar em um posto de saúde, você interage com a Administração: o médico (agente), o prédio (órgão) e a vacina (insumo) formam essa estrutura.
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-    <div class="lex-section-container">
-      <div class="lex-section-title">
-        <span class="material-symbols-outlined">badge</span>
-        Critério Formal (Subjetivo)
-      </div>
-      <p class="lex-summary-content" style="margin-bottom: 0.5rem;">Foca em <strong>QUEM</strong> exerce a atividade.</p>
-      
-      <div class="lex-list">
-        <div class="lex-expandable-item">Estrutura administrativa do Estado.</div>
-        <div class="lex-expandable-item">Agentes, órgãos e entidades.</div>
-        <div class="lex-expandable-item">Bens públicos envolvidos.</div>
-      </div>
-
-      <div class="callout callout-purple">
-        <div class="lex-summary-content">
-          <strong>Lógica:</strong> Se for um ministério ou prefeitura fazendo, é Administração Pública, não importa a tarefa.
-        </div>
-      </div>
-
-      <div class="lex-summary" style="border-left-color: var(--gold);">
-        <div class="lex-summary-content">
-          <strong>Exemplo:</strong> Um professor de escola estadual ou um auditor da Receita Federal.
-        </div>
-      </div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">
-        <span class="material-symbols-outlined">settings</span>
-        Critério Material (Objetivo)
-      </div>
-      <p class="lex-summary-content" style="margin-bottom: 0.5rem;">Foca em <strong>O QUE</strong> é feito.</p>
-
-      <div class="lex-list">
-        <div class="lex-expandable-item">Função administrativa propriamente dita.</div>
-        <div class="lex-expandable-item">Prestação de serviços públicos.</div>
-        <div class="lex-expandable-item">Atividade de gestão e fiscalização.</div>
-      </div>
-
-      <div class="callout callout-purple">
-        <div class="lex-summary-content">
-          <strong>Lógica:</strong> Se a atividade é serviço público (ex: transporte), é Administração, mesmo que feita por empresa privada.
-        </div>
-      </div>
-
-      <div class="lex-summary" style="border-left-color: var(--gold);">
-        <div class="lex-summary-content">
-          <strong>Exemplo:</strong> Concessionária de metrô ou uma OSCIP gerenciando hospital.
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Comparando os Critérios na Prática</div>
-    
-    <div class="lex-expandable-item">
-      <span><strong>Cenário:</strong> Coleta de lixo em uma cidade.</span>
-    </div>
-    
-    <div class="lex-list" style="padding-left: 1rem;">
-      <div class="lex-expandable-item"><strong>Formal:</strong> Prefeitura cria uma Autarquia para o lixo.</div>
-      <div class="lex-expandable-item"><strong>Material:</strong> Prefeitura contrata empresa privada (concessão).</div>
-    </div>
-
-    <div class="lex-summary">
-      <span class="lex-summary-icon">⚖️</span>
-      <div class="lex-summary-content">
-        <strong>Importância:</strong> Essa distinção define qual lei aplicar (Direito Público ou Privado) e quem deve fiscalizar o serviço.
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Por que essa distinção importa?</div>
-    <div class="lex-cols">
-      <div class="lex-expandable-item"><strong>Cidadão:</strong> Define onde reclamar (ex: ANEEL para energia).</div>
-      <div class="lex-expandable-item"><strong>Estudante:</strong> Tema recorrente em provas (Identificar Formal vs Material).</div>
-    </div>
-  </div>
-
-  <div class="callout callout-orange">
-    <span class="callout-icon">💡</span>
-    <div class="lex-summary-content">
-      <strong>RESUMO:</strong><br>
-      • <strong>Formal:</strong> Estrutura estatal (Quem faz).<br>
-      • <strong>Material:</strong> Atividade exercida (O que é feito).<br>
-      Os dois critérios se complementam para definir o alcance do Direito Administrativo.
-    </div>
-  </div>
-</div>`
-  },
-
-  // ═══════════════════════════════════════════════════
-
-  // ═══════════════════════════════════════════════════
-
-"Regime Jurídico Administrativo": {
-    icon: "⚖️",
-    color: "#38bdf8",
-    aprendizado: `
-<div class="lex-block fade-in">
-  <div class="topic-content">
-    <div class="tag tag-b">Regime Jurídico</div>
-    <div class="tag tag-g">Direito Público</div>
-    <h1>Regime Jurídico Administrativo</h1>
-    <p>O conjunto de princípios e regras que conferem à Administração Prerrogativas (poderes) e Sujeições (deveres) que não existem no Direito Privado.</p>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">
-      <span class="material-symbols-outlined">account_balance</span>
-      O "Manual de Regras" do Estado
-    </div>
-    
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Regras:</strong> Leis e atos normativos expressos.</div>
-      <div class="lex-expandable-item"><strong>Princípios:</strong> Valores fundamentais que guiam a interpretação.</div>
-      <div class="lex-expandable-item"><strong>Atuação Especial:</strong> A Administração não atua como um particular; ela só faz o que a lei autoriza.</div>
-    </div>
-
-    <div class="callout callout-purple">
-      <span class="callout-icon">💡</span>
-      <div class="lex-summary-content">
-        <strong>Analogia do Árbitro:</strong> Imagine um jogo onde o árbitro (Estado) tem regras diferentes dos jogadores (particulares). Enquanto você pode fazer tudo que a lei não proíbe, o Estado só faz o que a lei permite.
-      </div>
-    </div>
-  </div>
-
-  
-
-  <div class="lex-cols">
-    <div class="lex-section-container">
-      <div class="lex-section-title">
-        <span class="material-symbols-outlined">vertical_align_top</span>
-        1. Supremacia do Interesse
-      </div>
-      <p class="lex-summary-content">O interesse coletivo <strong>prevalece</strong> sobre o individual.</p>
-      
-      <div class="lex-list">
-        <div class="lex-expandable-item">Relação <strong>Vertical</strong> (Estado acima).</div>
-        <div class="lex-expandable-item">Concede "Superpoderes" (Prerrogativas).</div>
-      </div>
-
-      <div class="lex-summary" style="border-left-color: var(--acc);">
-        <div class="lex-summary-content">
-          <strong>Exemplo:</strong> Desapropriação de um terreno para construir um hospital. O dono perde a posse, mas a coletividade ganha saúde.
-        </div>
-      </div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">
-        <span class="material-symbols-outlined">lock</span>
-        2. Indisponibilidade
-      </div>
-      <p class="lex-summary-content">O administrador <strong>não é dono</strong> do interesse público.</p>
-
-      <div class="lex-list">
-        <div class="lex-expandable-item">Limites e <strong>Deveres</strong> rigorosos.</div>
-        <div class="lex-expandable-item">Não pode renunciar a poderes ou bens.</div>
-      </div>
-
-      <div class="lex-summary" style="border-left-color: var(--rose);">
-        <div class="lex-summary-content">
-          <strong>Exemplo:</strong> O prefeito não pode "dar" um carro da prefeitura de presente; ele deve leiloar seguindo a lei.
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Sentido Amplo vs. Estrito (Di Pietro)</div>
-    
-    <div class="lex-table-container">
-      <table class="lex-table">
-        <thead>
-          <tr>
-            <th>Conceito</th>
-            <th>Descrição</th>
-            <th>Exemplo</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Regime da Adm.</strong></td>
-            <td>Público + Privado (Amplo)</td>
-            <td>Comprar cadeiras (Igualdade)</td>
-          </tr>
-          <tr>
-            <td><strong>Regime Administrativo</strong></td>
-            <td>Apenas Público (Estrito)</td>
-            <td>Interditar prédio (Autoridade)</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">O Regime na Vida Real</div>
-    <div class="lex-cols">
-      <div class="lex-summary">
-        <strong>Educação:</strong> Expulsão em escola pública exige processo e ampla defesa.
-      </div>
-      <div class="lex-summary">
-        <strong>Saúde:</strong> Hospital público não pode negar atendimento de emergência.
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle e Limites</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Não é Absoluto:</strong> Deve respeitar direitos fundamentais.</div>
-      <div class="lex-expandable-item"><strong>Controle Judicial:</strong> O juiz pode anular atos ilegais.</div>
-      <div class="lex-expandable-item"><strong>Responsabilidade:</strong> Se o Estado causar dano, ele deve indenizar.</div>
-    </div>
-  </div>
-
-  <div class="callout callout-orange">
-    <span class="callout-icon">🎯</span>
-    <div class="lex-summary-content">
-      <strong>BIZU DE PROVA:</strong><br>
-      • <strong>Supremacia</strong> = Poderes (Prerrogativas).<br>
-      • <strong>Indisponibilidade</strong> = Limites (Sujeições).<br>
-      O Regime é o equilíbrio entre esses dois polos.
-    </div>
-  </div>
-</div>`
-  },
-
-  // ═══════════════════════════════════════════════════
-
-  // ═══════════════════════════════════════════════════
-
-  "Princípios Expressos (LIMPE)": {
+  "Princípios": {
     icon: "📜",
     color: "#a78bfa",
     aprendizado: `
@@ -360,113 +86,53 @@ window.DA = {
       </div>
     </div>
   </div>
-<div class="lex-section-container">
-  <div class="lex-section-title">
-    <span class="material-symbols-outlined">bolt</span>
-    E — Eficiência (EC 19/98)
-  </div>
 
-  <div class="lex-list">
-    <div class="lex-expandable-item">
-      Obter melhores resultados com menores custos.
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">bolt</span>
+      E — Eficiência (EC 19/98)
     </div>
-    <div class="lex-expandable-item">
-      Base da Administração Gerencial (foco no cidadão).
+
+    <div class="lex-list">
+      <div class="lex-expandable-item">
+        Obter melhores resultados com menores custos.
+      </div>
+      <div class="lex-expandable-item">
+        Base da Administração Gerencial (foco no cidadão).
+      </div>
     </div>
-  </div>
 
-  <div class="callout callout-gold">
-    <div class="lex-summary-content">
-      <strong>Exemplo:</strong>
-      Digitalização de serviços para reduzir filas e tempo de espera.
+    <div class="callout callout-gold">
+      <div class="lex-summary-content">
+        <strong>Exemplo:</strong>
+        Digitalização de serviços para reduzir filas e tempo de espera.
+      </div>
     </div>
-  </div>
 
-  <div class="callout callout-green">
-    <div class="lex-summary-content">
-      <strong>Requisitos para estabilidade:</strong>
-      <ol>
-        <li>
-          <strong>Aprovação em Concurso Público (Legalidade/Impessoalidade):</strong>
-          O acesso deve ser democrático, isonômico e pautado na lei.
-        </li>
-        <li>
-          <strong>Três anos de efetivo exercício:</strong>
-          Cumprimento do estágio probatório.
-        </li>
-        <li>
-          <strong>Avaliação especial de desempenho (Eficiência):</strong>
-          Análise de produtividade, iniciativa e assiduidade.
-        </li>
-        <li>
-          <strong>Cargo de provimento efetivo:</strong>
-          Não se aplica a cargos em comissão ou empregos regidos pela CLT.
-        </li>
-      </ol>
-    </div>
-  </div>
-</div>
-  </div>
-
-
-<div style="background:#0b1220; padding:24px; border-radius:16px; font-family:Arial, sans-serif; color:#e5e7eb; max-width:520px;">
-
-  <div style="font-size:20px; font-weight:600; margin-bottom:20px; color:#a5b4fc;">
-    O LIMPE na Prática: Construção de Hospital
-  </div>
-
-  <!-- Legalidade -->
-  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
-    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
-      ⚖️ Legalidade
-    </div>
-    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
-      Exige lei autorizativa e licitação.
+    <div class="callout callout-green">
+      <div class="lex-summary-content">
+        <strong>Requisitos para estabilidade:</strong>
+        <ol>
+          <li>
+            <strong>Aprovação em Concurso Público (Legalidade/Impessoalidade):</strong>
+            O acesso deve ser democrático, isonômico e pautado na lei.
+          </li>
+          <li>
+            <strong>Três anos de efetivo exercício:</strong>
+            Cumprimento do estágio probatório.
+          </li>
+          <li>
+            <strong>Avaliação especial de desempenho (Eficiência):</strong>
+            Análise de produtividade, iniciativa e assiduidade.
+          </li>
+          <li>
+            <strong>Cargo de provimento efetivo:</strong>
+            Não se aplica a cargos em comissão ou empregos regidos pela CLT.
+          </li>
+        </ol>
+      </div>
     </div>
   </div>
-
-  <!-- Impessoalidade -->
-  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
-    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
-      👥 Impessoalidade
-    </div>
-    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
-      Escolha da empresa por critérios técnicos.
-    </div>
-  </div>
-
-  <!-- Moralidade -->
-  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
-    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
-      🧭 Moralidade
-    </div>
-    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
-      Proibição de propinas ou superfaturamento.
-    </div>
-  </div>
-
-  <!-- Publicidade -->
-  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px; margin-bottom:14px;">
-    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
-      📢 Publicidade
-    </div>
-    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
-      Editais disponíveis no Portal da Transparência.
-    </div>
-  </div>
-
-  <!-- Eficiência -->
-  <div style="background:#111827; border:1px solid #1f2937; border-radius:14px; padding:16px;">
-    <div style="display:flex; align-items:center; gap:10px; font-weight:600; color:#22c55e; margin-bottom:10px;">
-      ⚡ Eficiência
-    </div>
-    <div style="background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px 12px; color:#cbd5f5;">
-      Entrega da obra no prazo e com qualidade.
-    </div>
-  </div>
-
-</div>
-
 
   <div class="callout callout-rose">
     <span class="material-symbols-outlined">warning</span>
@@ -474,19 +140,8 @@ window.DA = {
       <strong>CUIDADO:</strong> A <u>Eficiência</u> não é originária da CF/88. Ela foi incluída apenas em 1998 pela Reforma Administrativa.
     </div>
   </div>
-</div>`
-},
 
-  //═══════════════════════════════════════════════════
-
-  // ═══════════════════════════════════════════════════
- 
-  "Princípios Implícitos": {
-    icon: "📚",
-    color: "#6366f1",
-    aprendizado: `
-<div class="lex-block fade-in">
-  <div class="notion-header">
+  <div class="notion-header" style="margin-top: 40px;">
     <div class="notion-icon">📚</div>
     <h1 class="notion-title">Princípios Implícitos (Reconhecidos)</h1>
     <div class="notion-meta">
@@ -592,576 +247,146 @@ window.DA = {
     </div>
   </div>
 </div>`
-},
-  // ═══════════════════════════════════════════════════
- 
+  },
+
   // ═══════════════════════════════════════════════════
 
- "Descentralização": {
-    icon: "🔄",
-    color: "#14b8a6",
+  "Regime jurídico administrativo": {
+    icon: "⚖️",
+    color: "#38bdf8",
     aprendizado: `
 <div class="lex-block fade-in">
-  <div class="notion-header">
-    <div class="notion-icon">🔄</div>
-    <h1 class="notion-title">Descentralização Administrativa</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Outorga</span>
-      <span class="meta-tag tag-g">Delegação</span>
-      <span class="meta-tag tag-b">Colaboração</span>
-    </div>
+  <div class="topic-content">
+    <div class="tag tag-b">Regime Jurídico</div>
+    <div class="tag tag-g">Direito Público</div>
+    <h1>Regime Jurídico Administrativo</h1>
+    <p>O conjunto de princípios e regras que conferem à Administração Prerrogativas (poderes) e Sujeições (deveres) que não existem no Direito Privado.</p>
   </div>
 
-  <div class="callout callout-purple">
-    <span class="material-symbols-outlined">hub</span>
-    <div class="lex-summary-content">
-      <strong>Conceito:</strong> O Estado transfere a execução ou a titularidade de um serviço para <strong>outra pessoa jurídica</strong> (Entidade). Diferente da desconcentração, aqui não há hierarquia, apenas vinculação/controle.
+  <div class="lex-section-container">
+    <div class="lex-section-title">
+      <span class="material-symbols-outlined">account_balance</span>
+      O "Manual de Regras" do Estado
+    </div>
+    
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Regras:</strong> Leis e atos normativos expressos.</div>
+      <div class="lex-expandable-item"><strong>Princípios:</strong> Valores fundamentais que guiam a interpretação.</div>
+      <div class="lex-expandable-item"><strong>Atuação Especial:</strong> A Administração não atua como um particular; ela só faz o que a lei autoriza.</div>
+    </div>
+
+    <div class="callout callout-purple">
+      <span class="callout-icon">💡</span>
+      <div class="lex-summary-content">
+        <strong>Analogia do Árbitro:</strong> Imagine um jogo onde o árbitro (Estado) tem regras diferentes dos jogadores (particulares). Enquanto você pode fazer tudo que a lei não proíbe, o Estado só faz o que a lei permite.
+      </div>
     </div>
   </div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
       <div class="lex-section-title">
-        <span class="material-symbols-outlined">description</span> Por Outorga (Legal)
+        <span class="material-symbols-outlined">vertical_align_top</span>
+        1. Supremacia do Interesse
       </div>
+      <p class="lex-summary-content">O interesse coletivo <strong>prevalece</strong> sobre o individual.</p>
+      
       <div class="lex-list">
-        <div class="lex-expandable-item">Transfere <strong>Titularidade + Execução</strong>.</div>
-        <div class="lex-expandable-item">Realizada apenas por <strong>LEI</strong>.</div>
-        <div class="lex-expandable-item">Cria a Adm. Indireta (Autarquias).</div>
+        <div class="lex-expandable-item">Relação <strong>Vertical</strong> (Estado acima).</div>
+        <div class="lex-expandable-item">Concede "Superpoderes" (Prerrogativas).</div>
       </div>
+
       <div class="lex-summary" style="border-left-color: var(--acc);">
         <div class="lex-summary-content">
-          <strong>Exemplo:</strong> Criação do INSS por lei. Ele é o "dono" do serviço previdenciário agora.
+          <strong>Exemplo:</strong> Desapropriação de um terreno para construir um hospital. O dono perde a posse, mas a coletividade ganha saúde.
         </div>
       </div>
     </div>
 
     <div class="lex-section-container">
       <div class="lex-section-title">
-        <span class="material-symbols-outlined">handshake</span> Por Delegação (Negocial)
+        <span class="material-symbols-outlined">lock</span>
+        2. Indisponibilidade
       </div>
+      <p class="lex-summary-content">O administrador <strong>não é dono</strong> do interesse público.</p>
+
       <div class="lex-list">
-        <div class="lex-expandable-item">Transfere apenas a <strong>Execução</strong>.</div>
-        <div class="lex-expandable-item">Por <strong>Contrato ou Ato</strong> administrativo.</div>
-        <div class="lex-expandable-item">Caráter precário (revogável).</div>
+        <div class="lex-expandable-item">Limites e <strong>Deveres</strong> rigorosos.</div>
+        <div class="lex-expandable-item">Não pode renunciar a poderes ou bens.</div>
       </div>
-      <div class="lex-summary" style="border-left-color: var(--gold);">
+
+      <div class="lex-summary" style="border-left-color: var(--rose);">
         <div class="lex-summary-content">
-          <strong>Exemplo:</strong> Concessão de pedágios ou linhas de ônibus para empresas privadas.
+          <strong>Exemplo:</strong> O prefeito não pode "dar" um carro da prefeitura de presente; ele deve leiloar seguindo a lei.
         </div>
       </div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Colaboração e Cenários Reais</div>
-    <div class="lex-cols">
-      <div class="lex-summary">
-        <strong>Colaboração:</strong> Parcerias com o Terceiro Setor (ONGs, OS, OSCIPs). O Estado fomenta e o particular sem fins lucrativos executa.
-      </div>
-      <div class="lex-summary">
-        <strong>Diferença de Lucro:</strong> Delegação visa lucro (Empresas). Colaboração visa o bem social (Entidades sem fins lucrativos).
-      </div>
-    </div>
-  </div>
-
-  <div class="callout callout-orange">
-    <span class="material-symbols-outlined">psychology</span>
-    <div class="lex-summary-content">
-      <strong>BIZU DE PROVA:</strong><br>
-      • <strong>O</strong>utorga = <strong>O</strong>brigatória lei + Titularidade.<br>
-      • <strong>D</strong>elegação = <strong>D</strong>ireito de execução apenas.
-    </div>
-  </div>
-</div>`
-  },
-
-  // ═══════════════════════════════════════════════════
- 
-  // ═══════════════════════════════════════════════════
-
-  "Órgãos Públicos": {
-    icon: "🏢",
-    color: "#22c55e",
-    aprendizado: `
-<div class="lex-block fade-in">
-  <div class="notion-header">
-    <div class="notion-icon">🏢</div>
-    <h1 class="notion-title">Órgãos Públicos</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Desconcentração</span>
-      <span class="meta-tag tag-b">Sem Personalidade</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">
-      <span class="material-symbols-outlined">info</span> Natureza Jurídica
-    </div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>NÃO</strong> possuem personalidade jurídica própria.</div>
-      <div class="lex-expandable-item">São apenas "centros de competência" dentro de uma PJ.</div>
-      <div class="lex-expandable-item">Resultado da <strong>Desconcentração</strong> (divisão interna).</div>
-      <div class="lex-expandable-item">Não possuem patrimônio próprio (pertence ao Ente).</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Classificação (Posição Estatal)</div>
+    <div class="lex-section-title">Sentido Amplo vs. Estrito (Di Pietro)</div>
+    
     <div class="lex-table-container">
       <table class="lex-table">
         <thead>
           <tr>
-            <th>Nível</th>
+            <th>Conceito</th>
+            <th>Descrição</th>
             <th>Exemplo</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td><strong>Independentes</strong></td><td>Presidência, Tribunais, Congresso.</td></tr>
-          <tr><td><strong>Autônomos</strong></td><td>Ministérios e Secretarias.</td></tr>
-          <tr><td><strong>Superiores</strong></td><td>Departamentos e Coordenadorias.</td></tr>
-          <tr><td><strong>Subalternos</strong></td><td>Seções de expediente, portarias.</td></tr>
+          <tr>
+            <td><strong>Regime da Adm.</strong></td>
+            <td>Público + Privado (Amplo)</td>
+            <td>Comprar cadeiras (Igualdade)</td>
+          </tr>
+          <tr>
+            <td><strong>Regime Administrativo</strong></td>
+            <td>Apenas Público (Estrito)</td>
+            <td>Interditar prédio (Autoridade)</td>
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 
-  <div class="lex-cols">
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto à Estrutura</div>
-      <div class="lex-list">
-        <div class="lex-expandable-item"><strong>Simples:</strong> Um único centro (sem órgãos internos).</div>
-        <div class="lex-expandable-item"><strong>Compostos:</strong> Possuem outros órgãos dentro dele.</div>
-      </div>
-    </div>
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto à Atuação</div>
-      <div class="lex-list">
-        <div class="lex-expandable-item"><strong>Singulares:</strong> Decisão de 1 só agente.</div>
-        <div class="lex-expandable-item"><strong>Colegiados:</strong> Decisão em grupo (Conselhos).</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="callout callout-purple">
-    <span class="material-symbols-outlined">balance</span>
-    <div class="lex-summary-content">
-      <strong>Teoria do Órgão (Imputação Volitiva):</strong> Criada por Otto Gierke. Diz que a vontade do agente não é dele, mas sim do Estado. Por isso, se o agente erra em nome do órgão, quem responde é o Estado (Ente).
-    </div>
-  </div>
-
-  <div class="lex-summary">
-    <span class="material-symbols-outlined">priority_high</span>
-    <div class="lex-summary-content">
-      <strong>Capacidade Processual:</strong> Órgãos em regra não podem ir a juízo, exceto órgãos <u>independentes</u> e <u>autônomos</u> para defender suas prerrogativas institucionais (Súmula 525 STJ).
-    </div>
-  </div>
-</div>`
-  },
-
-  // ═══════════════════════════════════════════════════
- 
-  // ═══════════════════════════════════════════════════
-
-  "Consórcios Públicos": {
-    icon: "🤝",
-    color: "#14b8a6",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🤝</div>
-    <h1 class="notion-title">Consórcios Públicos</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Lei 11.107/2005</span>
-      <span class="meta-tag tag-b">Cooperação Federativa</span>
-    </div>
-  </div>
-
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">Acordo entre entes federativos (União, Estados, DF, Municípios).</div>
-    <div class="lex-expandable-item">Para realizar objetivos de <strong>interesse comum</strong>.</div>
-    <div class="lex-expandable-item">Gestão associada de serviços públicos.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Processo de Criação</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Protocolo de intenções</div>
-      <div class="lex-expandable-item">Ratificação pelos entes — por lei</div>
-      <div class="lex-expandable-item">Contrato de rateio</div>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Natureza Jurídica</div>
-      <div class="lex-expandable-item"><strong>Direito público</strong> — associação pública.</div>
-      <div class="lex-expandable-item">Ou <strong>direito privado</strong>.</div>
-      <div class="lex-expandable-item">Personalidade jurídica própria.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Finalidade</div>
-      <div class="lex-expandable-item">Objetivos de interesse comum.</div>
-      <div class="lex-expandable-item">Prestação de serviços públicos.</div>
-      <div class="lex-expandable-item">Execução de obras.</div>
-    </div>
-
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Características</div>
-    <div class="lex-expandable-item">Cooperação <strong>federativa</strong>.</div>
-    <div class="lex-expandable-item">Gestão associada de serviços.</div>
-    <div class="lex-expandable-item">Podem realizar <strong>contratações</strong> e receber recursos.</div>
-    <div class="lex-expandable-item">Autonomia administrativa e financeira.</div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu:</strong> Consórcio = união de entes federativos para interesse comum | Lei 11.107/2005 | Pode ser de direito público ou privado</div>
-  </div>
-
-</div>`,
-  },
-
-  
-  "Terceiro Setor": {
-    icon: "🌐",
-    color: "#f472b6",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🌐</div>
-    <h1 class="notion-title">Terceiro Setor</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">OS · OSCIP</span>
-      <span class="meta-tag tag-g">Colaboração com o Estado</span>
-    </div>
-  </div>
-
-  <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <div>O Terceiro Setor <strong>NÃO integra</strong> a Administração Pública. Atua em <strong>colaboração</strong> com o Estado.</div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">OS — Organizações Sociais</div>
-      <div class="lex-expandable-item">Base legal: <strong>Lei 9.637/1998</strong>.</div>
-      <div class="lex-expandable-item">Instrumento: <strong>CONTRATO DE GESTÃO</strong>.</div>
-      <div class="lex-expandable-item">Recebem recursos, bens e servidores.</div>
-      <div class="lex-expandable-item">Áreas: saúde, ensino, pesquisa, cultura, meio ambiente.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">OSCIP — Org. Soc. Civil de Interesse Público</div>
-      <div class="lex-expandable-item">Base legal: <strong>Lei 9.790/1999</strong>.</div>
-      <div class="lex-expandable-item">Instrumento: <strong>TERMO DE PARCERIA</strong>.</div>
-      <div class="lex-expandable-item">Áreas mais amplas que as OS.</div>
-    </div>
-
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu:</strong> OS = <strong>CO</strong>ntrato de gestão &nbsp;|&nbsp; OSCIP = <strong>TE</strong>rmo de parceria</div>
-  </div>
-
-</div>`
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Concessão de Serviço Público": {
-    icon: "📋",
-    color: "#4a85f0",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">📋</div>
-    <h1 class="notion-title">Concessão de Serviço Público</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Lei 8.987/1995</span>
-      <span class="meta-tag tag-g">Lei 14.133/2021</span>
-      <span class="meta-tag tag-b">PPP — Lei 11.079/2004</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Características Gerais</div>
-    <div class="lex-expandable-item">Delegação da prestação de serviços públicos pelo poder concedente.</div>
-    <div class="lex-expandable-item">Licitação <strong>obrigatória</strong>.</div>
-    <div class="lex-expandable-item">Prazo <strong>determinado</strong>.</div>
-    <div class="lex-expandable-item">Executada por conta e risco da <strong>concessionária</strong>.</div>
-    <div class="lex-expandable-item">Natureza: <strong>contrato administrativo</strong>.</div>
-    <div class="lex-expandable-item">Princípio essencial: <strong>equilíbrio econômico-financeiro</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <span class="lex-label blue">PPP — Parcerias Público-Privadas <span style="font-size:11px;opacity:.7">Lei 11.079/2004</span></span>
+    <div class="lex-section-title">O Regime na Vida Real</div>
     <div class="lex-cols">
-      <div class="lex-section-container">
-        <span class="lex-label">Concessão Patrocinada</span>
-        <div class="lex-expandable-item">Tarifa paga pelo usuário <strong>+</strong> subsídio estatal.</div>
+      <div class="lex-summary">
+        <strong>Educação:</strong> Expulsão em escola pública exige processo e ampla defesa.
       </div>
-      <div class="lex-section-container">
-        <span class="lex-label">Concessão Administrativa</span>
-        <div class="lex-expandable-item">Apenas <strong>subsídio estatal</strong> — sem tarifa do usuário.</div>
+      <div class="lex-summary">
+        <strong>Saúde:</strong> Hospital público não pode negar atendimento de emergência.
       </div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Formas de Extinção</div>
+    <div class="lex-section-title">Controle e Limites</div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Advento do termo</strong> — vencimento do prazo</div>
-      <div class="lex-expandable-item"><strong>Encampação</strong> — retomada por interesse público</div>
-      <div class="lex-expandable-item"><strong>Caducidade</strong> — inadimplemento da concessionária</div>
-      <div class="lex-expandable-item"><strong>Rescisão</strong> — iniciativa da concessionária</div>
-      <div class="lex-expandable-item"><strong>Anulação</strong> — vício de legalidade</div>
-      <div class="lex-expandable-item"><strong>Falência/extinção</strong> da concessionária</div>
+      <div class="lex-expandable-item"><strong>Não é Absoluto:</strong> Deve respeitar direitos fundamentais.</div>
+      <div class="lex-expandable-item"><strong>Controle Judicial:</strong> O juiz pode anular atos ilegais.</div>
+      <div class="lex-expandable-item"><strong>Responsabilidade:</strong> Se o Estado causar dano, ele deve indenizar.</div>
     </div>
   </div>
 
-</div>`,
+  <div class="callout callout-orange">
+    <span class="callout-icon">🎯</span>
+    <div class="lex-summary-content">
+      <strong>BIZU DE PROVA:</strong><br>
+      • <strong>Supremacia</strong> = Poderes (Prerrogativas).<br>
+      • <strong>Indisponibilidade</strong> = Limites (Sujeições).<br>
+      O Regime é o equilíbrio entre esses dois polos.
+    </div>
+  </div>
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
-  "Permissão e Autorização": {
-    icon: "📄",
-    color: "#38bdf8",
-    aprendizado: `
-<div class="lex-block">
 
-  <div class="notion-header">
-    <div class="notion-icon">📄</div>
-    <h1 class="notion-title">Permissão e Autorização</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Lei 8.987/1995</span>
-      <span class="meta-tag tag-g">Precariedade</span>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Permissão</div>
-      <div class="lex-expandable-item">Delegação <strong>mediante licitação</strong>.</div>
-      <div class="lex-expandable-item">Pessoa física ou jurídica.</div>
-      <div class="lex-expandable-item">Natureza: <strong>contrato de adesão</strong>.</div>
-      <div class="lex-expandable-item">Maior precariedade que a concessão.</div>
-      <div class="lex-expandable-item">Pode ser <strong>revogada</strong>.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Autorização</div>
-      <div class="lex-expandable-item">Ato administrativo <strong>unilateral</strong>.</div>
-      <div class="lex-expandable-item">Discricionário e <strong>precário</strong>.</div>
-      <div class="lex-expandable-item">Revogável <strong>a qualquer tempo</strong>.</div>
-      <div class="lex-expandable-item">Atividades de menor complexidade.</div>
-      <div class="lex-expandable-item">Normalmente <strong>não exige licitação</strong>.</div>
-    </div>
-
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Comparativo — Estabilidade</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Concessão</strong> — contrato bilateral, prazo, mais estável</div>
-      <div class="lex-expandable-item"><strong>Permissão</strong> — contrato de adesão, precário</div>
-      <div class="lex-expandable-item"><strong>Autorização</strong> — ato unilateral, mais precária</div>
-    </div>
-  </div>
-
-</div>`,
-  },
-
-  "Autarquias": {
-    icon: "🏛️",
-    color: "#10b981",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🏛️</div>
-    <h1 class="notion-title">Autarquias</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-g">Art. 37, XIX CF</span>
-      <span class="meta-tag tag-b">Direito Público</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Características</div>
-    <div class="lex-expandable-item">Pessoa jurídica de <strong>DIREITO PÚBLICO</strong>.</div>
-    <div class="lex-expandable-item">Criada <strong>diretamente por lei</strong> específica.</div>
-    <div class="lex-expandable-item">Patrimônio próprio.</div>
-    <div class="lex-expandable-item">Autonomia administrativa e financeira.</div>
-    <div class="lex-expandable-item">Responsabilidade <strong>objetiva</strong> — Art. 37, §6º CF.</div>
-    <div class="lex-expandable-item">Imunidade tributária recíproca.</div>
-    <div class="lex-expandable-item">Prazo em dobro e reexame necessário.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Exemplos</div>
-    <div class="lex-expandable-item">INSS, BACEN, ANATEL, IBAMA, INCRA.</div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Agências Reguladoras</div>
-      <div class="lex-expandable-item">Autarquias em <strong>regime especial</strong>.</div>
-      <div class="lex-expandable-item">Maior autonomia.</div>
-      <div class="lex-expandable-item">Mandato <strong>fixo</strong> dos dirigentes.</div>
-      <div class="lex-expandable-item">Ex: ANATEL, ANEEL, ANP, ANVISA.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Agências Executivas</div>
-      <div class="lex-expandable-item">Autarquia ou fundação que celebra <strong>contrato de gestão</strong>.</div>
-      <div class="lex-expandable-item">Maior autonomia gerencial.</div>
-      <div class="lex-expandable-item">Devem cumprir <strong>metas de desempenho</strong>.</div>
-    </div>
-
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conselhos Profissionais</div>
-    <div class="lex-expandable-item">STF: natureza jurídica de <strong>autarquia</strong>.</div>
-    <div class="lex-expandable-item">Ex: CRM, CREA.</div>
-    <div class="lex-expandable-item">OAB — natureza <em>sui generis</em> (especial).</div>
-  </div>
-
-</div>`,  
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Fundações Públicas": {
-    icon: "🏫",
-    color: "#a78bfa",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🏫</div>
-    <h1 class="notion-title">Fundações Públicas</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Direito Público <span>
-      <span class="meta-tag tag-g">· Direito Privado</span>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Direito Público</div>
-      <div class="lex-expandable-item">Criada <strong>diretamente por lei</strong>.</div>
-      <div class="lex-expandable-item">Regime jurídico <strong>público</strong>.</div>
-      <div class="lex-expandable-item">Também chamada: <strong>autarquia fundacional</strong>.</div>
-      <div class="lex-expandable-item">Mesmas características das autarquias.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Direito Privado</div>
-      <div class="lex-expandable-item">Lei <strong>autoriza</strong> a criação.</div>
-      <div class="lex-expandable-item">Necessita de <strong>registro</strong>.</div>
-      <div class="lex-expandable-item">Regime <strong>predominantemente privado</strong>.</div>
-      <div class="lex-expandable-item">Derrogado por normas públicas.</div>
-    </div>
-
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Finalidade</div>
-    <div class="lex-expandable-item">Atividades de interesse social: educação, cultura, pesquisa, saúde.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Exemplos</div>
-    <div class="lex-expandable-item">FUNAI, IBGE, Fundação Oswaldo Cruz (Fiocruz).</div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu:</strong> Dir. Público = criada por lei (como autarquia) &nbsp;|&nbsp; Dir. Privado = lei autoriza + registro</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Empresas Públicas e Sociedades de Economia Mista": {
-    icon: "🏢",
-    color: "#f59e0b",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🏢</div>
-    <h1 class="notion-title">Empresas Públicas e Sociedades de Economia Mista</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Lei 13.303/2016</span>
-      <span class="meta-tag tag-g">Direito Privado</span>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Empresa Pública — EP</div>
-      <div class="lex-expandable-item">Pessoa jurídica de <strong>direito privado</strong>.</div>
-      <div class="lex-expandable-item">Lei <strong>autoriza</strong> a criação.</div>
-      <div class="lex-expandable-item">Capital <strong>100% público</strong>.</div>
-      <div class="lex-expandable-item"><strong>Qualquer</strong> forma societária.</div>
-      <div class="lex-expandable-item">Foro: <strong>Justiça Federal</strong> (se federal).</div>
-      <div class="lex-expandable-item">Ex: Correios, Caixa Econômica Federal.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Sociedade de Economia Mista — SEM</div>
-      <div class="lex-expandable-item">Pessoa jurídica de <strong>direito privado</strong>.</div>
-      <div class="lex-expandable-item">Lei <strong>autoriza</strong> a criação.</div>
-      <div class="lex-expandable-item">Capital <strong>misto</strong> — público + privado.</div>
-      <div class="lex-expandable-item">Forma <strong>obrigatória: S/A</strong>.</div>
-      <div class="lex-expandable-item">Foro: <strong>Justiça Estadual</strong>.</div>
-      <div class="lex-expandable-item">Ex: Petrobras, Banco do Brasil.</div>
-    </div>
-
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Diferenças Principais</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Capital 100% público + <strong>qualquer forma societária</strong></div>
-      <div class="lex-expandable-item">Capital misto + <strong>obrigatoriamente S/A</strong></div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Regime Jurídico</div>
-    <div class="lex-expandable-item">Predominantemente <strong>privado</strong>, derrogado por normas públicas.</div>
-    <div class="lex-expandable-item">Licitação obrigatória — <strong>Lei 14.133/2021</strong>.</div>
-    <div class="lex-expandable-item">Concurso público obrigatório.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Responsabilidade Civil</div>
-    <div class="lex-expandable-item">Prestadoras de serviço público: responsabilidade <strong>objetiva</strong>.</div>
-    <div class="lex-expandable-item">Exploradoras de atividade econômica: responsabilidade <strong>subjetiva</strong>.</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Poderes Administrativos": {
+  "Poderes da administração pública": {
     icon: "⚡",
     color: "#fb923c",
     aprendizado: `
@@ -1251,17 +476,7 @@ window.DA = {
     </div>
   </div>
 
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Abuso de Poder": {
-    icon: "⚠️",
-    color: "#ef4444",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
+  <div class="notion-header" style="margin-top: 40px;">
     <div class="notion-icon">⚠️</div>
     <h1 class="notion-title">Abuso de Poder</h1>
     <div class="notion-meta">
@@ -1324,11 +539,142 @@ window.DA = {
     <div class="callout callout-gold"><strong>Exemplo:</strong> O servidor que desviou recursos por desvio de poder terá que: (1) restituir o dinheiro, (2) pagar multa, (3) pode ser demitido, (4) pode ser preso se houver crime, (5) pode ser condenado a pagar danos morais e materiais aos prejudicados.</div>
   </div>
 
-</div>`,
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
-  "Atos Administrativos": {
+
+  "Serviço público": {
+    icon: "🚇",
+    color: "#14b8a6",
+    aprendizado: `
+<div class="lex-block">
+
+  <div class="notion-header">
+    <div class="notion-icon">🚇</div>
+    <h1 class="notion-title">Serviços Públicos</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Art. 175 CF</span>
+      <span class="meta-tag tag-g">Interesse Coletivo</span>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Conceito</div>
+    <div class="lex-expandable-item">Atividades de <strong>interesse coletivo</strong> ou de interesse geral da população.</div>
+    <div class="lex-expandable-item">Prestados <strong>diretamente pelo Estado</strong> ou por <strong>delegação</strong> a particulares.</div>
+    <div class="lex-expandable-item">Fundamentam-se no princípio da <strong>supremacia do interesse público</strong>.</div>
+    <div class="lex-expandable-item">Visam assegurar: <strong>bem-estar social, continuidade e universalidade</strong>.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Formas de Prestação</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Prestação Direta:</strong> por órgãos da Administração Pública.</div>
+      <div class="lex-expandable-item"><strong>Prestação Indireta:</strong> por delegação a particulares mediante <strong>concessão, permissão ou autorização</strong>.</div>
+    </div>
+    <div class="callout">
+      <span class="callout-icon">⚠️</span>
+      <div>O Estado mantém a <strong>titularidade</strong>, o poder de <strong>regulamentar</strong> e <strong>fiscalizar</strong>, mesmo quando a execução é transferida.</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Delegação de Serviços Públicos</div>
+    
+    <div class="lex-expandable-item"><strong>1. Concessão:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Forma mais completa e estável de delegação.</div>
+      <div class="lex-expandable-item">Contrato administrativo mediante <strong>licitação</strong> (modalidade concorrência).</div>
+      <div class="lex-expandable-item">Prazo determinado, meios próprios, remunerada por tarifas ou contraprestação.</div>
+      <div class="lex-expandable-item">Maior investimento, garantias jurídicas robustas.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>2. Permissão:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Contrato de <strong>adesão</strong>, menor formalidade, maior precariedade.</div>
+      <div class="lex-expandable-item">Pode ser <strong>revogada</strong> a qualquer momento por interesse público.</div>
+      <div class="lex-expandable-item">Para serviços de menor impacto social ou econômico.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>3. Autorização:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Ato administrativo <strong>unilateral, discricionário e precário</strong>.</div>
+      <div class="lex-expandable-item"><strong>Não exige licitação</strong>.</div>
+      <div class="lex-expandable-item">Revogável a qualquer momento.</div>
+      <div class="lex-expandable-item">Para atividades de caráter simples (transporte alternativo eventual).</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Classificação dos Serviços Públicos</div>
+    
+    <div class="lex-expandable-item"><strong>Quanto à Natureza:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Próprios do Estado:</strong> envolvem soberania (segurança, justiça, diplomacia) — <strong>não delegáveis</strong>.</div>
+      <div class="lex-expandable-item"><strong>Industriais ou Econômicos:</strong> podem ser prestados por particulares.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>Quanto ao Destinatário:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Uti Universi:</strong> voltados à coletividade de forma <strong>indivisível</strong>. Ex: iluminação pública.</div>
+      <div class="lex-expandable-item"><strong>Uti Singuli:</strong> <strong>individualizáveis e mensuráveis</strong>. Ex: água, energia, transporte.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>Quanto à Prestação:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Próprios:</strong> prestados diretamente pelo Estado.</div>
+      <div class="lex-expandable-item"><strong>Delegados:</strong> prestados por concessionários, permissionários ou autorizatários.</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Princípios dos Serviços Públicos</div>
+    <div class="lex-cols">
+      <div>
+        <div class="lex-expandable-item"><strong>Continuidade:</strong> impede paralisações injustificadas</div>
+        <div class="lex-expandable-item"><strong>Generalidade/Universalidade:</strong> acesso a todos sem discriminação</div>
+        <div class="lex-expandable-item"><strong>Modicidade Tarifária:</strong> preços razoáveis e compatíveis</div>
+        <div class="lex-expandable-item"><strong>Eficiência:</strong> otimização de recursos, qualidade, tempestividade</div>
+      </div>
+      <div>
+        <div class="lex-expandable-item"><strong>Mutabilidade:</strong> ajustes unilaterais pelo Estado</div>
+        <div class="lex-expandable-item"><strong>Transparência:</strong> informação adequada ao cidadão</div>
+        <div class="lex-expandable-item"><strong>Segurança e Regularidade</strong></div>
+        <div class="lex-expandable-item"><strong>Cortesia ao Usuário</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Interrupção do Serviço Público</div>
+    <div class="lex-expandable-item">Só pode ocorrer em situações <strong>excepcionais</strong>:</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Manutenção programada.</div>
+      <div class="lex-expandable-item">Inadimplência do usuário.</div>
+      <div class="lex-expandable-item">Caso fortuito ou força maior.</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Direitos do Usuário</div>
+    <div class="lex-expandable-item">Serviço adequado, eficiente e seguro.</div>
+    <div class="lex-expandable-item">Informação clara sobre tarifas e condições.</div>
+    <div class="lex-expandable-item">Reclamação e participação.</div>
+    <div class="lex-expandable-item">Indenização por danos causados pela prestação inadequada.</div>
+  </div>
+
+  <div class="callout-orange">
+    <span class="callout-icon">💡</span>
+    <div><strong>Resumo:</strong> Concessão = mais estável (contrato/licitação) | Permissão = precária (adesão) | Autorização = mais simples (ato unilateral) | Uti universi = coletivo | Uti singuli = individual</div>
+  </div>
+
+</div>`
+  },
+
+  // ═══════════════════════════════════════════════════
+
+  "Atos administrativos": {
     icon: "📋",
     color: "#4a85f0",
     aprendizado: `
@@ -1358,969 +704,189 @@ window.DA = {
       <div class="lex-expandable-item"><strong>Motivo</strong> — razão de fato e de direito</div>
       <div class="lex-expandable-item"><strong>Finalidade</strong> — sempre o interesse público</div>
     </div>
-    <div class="callout-purple"><strong>Explicação detalhada:</strong> Todo ato administrativo precisa ter esses 5 elementos. Se faltar algum, ou se algum estiver errado, o ato pode ser nulo. É como uma receita de bolo — se faltar ingrediente ou usar ingrediente estragado, o bolo não fica bom.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma multa de trânsito precisa ter: Competência (quem aplicou tinha autoridade?), Objeto (qual infração foi cometida?), Forma (foi por escrito, com número de auto?), Motivo (por que foi multado — estava em velocidade acima do permitido), Finalidade (educar/fiscalizar, não perseguir).</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Requisitos dos Atos Administrativos</div>
+    
+    <div class="lex-expandable-item"><strong>1. Competência:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Limites de atuação de cada órgão/agente.</div>
+      <div class="lex-expandable-item">Origina-se na Constituição, em lei, decreto ou ato normativo.</div>
+      <div class="lex-expandable-item">Ato fora da competência é <strong>incompetente</strong> (e nulo).</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>2. Objeto:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">A finalidade concreta do ato (o que ele cria, modifica ou extingue).</div>
+      <div class="lex-expandable-item">Deve ser: <strong>lícito, possível, determinado ou determinável</strong>.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>3. Forma:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Modo de exteriorização do ato.</div>
+      <div class="lex-expandable-item">Exigências: <strong>forma escrita, publicação, motivação, expressão clara</strong>.</div>
+      <div class="lex-expandable-item">Forma viciada → <strong>invalidade</strong>.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>4. Motivo:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Conjunto de fatos e fundamentos jurídicos que levaram à prática do ato.</div>
+      <div class="lex-expandable-item">Inexistência, erro ou obscuridade → <strong>motivo viciado</strong>.</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>5. Finalidade:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Deve ser sempre o <strong>interesse público</strong>.</div>
+      <div class="lex-expandable-item">Desvio de finalidade = <strong>desvio de poder</strong>.</div>
+    </div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Atributos dos Atos Administrativos</div>
-    <div class="lex-expandable-item"><strong>Presunção de legitimidade</strong> — relativa, juris tantum. O ato já nasce considerado legal até que se prove o contrário.</div>
-    <div class="lex-expandable-item"><strong>Imperatividade</strong> — obriga independente de concordância. O cidadão deve cumprir mesmo que não concorde.</div>
-    <div class="lex-expandable-item"><strong>Autoexecutoriedade</strong> — executa sem precisar do Judiciário. A Administração pode fazer cumprir imediatamente.</div>
-    <div class="lex-expandable-item"><strong>Tipicidade</strong> — deve estar previsto em lei. A Administração só pode fazer o que a lei autoriza.</div>
-    <div class="callout-purple"><strong>Explicação prática:</strong> Imagine que a prefeitura interdita seu prédio porque está em risco de desabar. A interdição é: presumida legítima (você deve sair, mesmo que ache que não está perigoso), imperativa (deve obedecer), autoexecutória (a prefeitura pode lacrar o imóvel sem esperar juiz), e típica (a lei permite interdição em caso de risco).</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Classificação — Quanto à Formação</div>
+    
+    <div class="lex-expandable-item"><strong>Presunção de Legitimidade:</strong></div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Simples</strong> — formado pela vontade de 1 órgão. Ex: um prefeito decreta ponto facultativo.</div>
-      <div class="lex-expandable-item"><strong>Composto</strong> — 2 órgãos, 1 vontade (+ ratificação). Ex: um diretor propõe, outro aprova — mas a decisão final é conjunta.</div>
-      <div class="lex-expandable-item"><strong>Complexo</strong> — 2 órgãos, 2 vontades autônomas. Ex: um órgão propõe, outro deliberar independentemente (como Congresso e Presidente em medida provisória).</div>
+      <div class="lex-expandable-item">O ato é considerado <strong>válido</strong> até que se prove o contrário.</div>
+      <div class="lex-expandable-item">Pode ser executado imediatamente.</div>
+      <div class="lex-expandable-item">Ônus de provar a ilegalidade recai sobre o particular.</div>
     </div>
-    <div class="lex-expandable-item"><strong>Comparando:</strong> Ato simples é como você tomar decisão sozinho. Ato composto é como você e seu irmão decidirem juntos onde almoçar. Ato complexo é como você sugerir um restaurante e sua mãe decidir independentemente se vai ou não.</div>
-  </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Formas de Extinção dos Atos</div>
-    <div class="callout callout-purple">
-      <span class="callout-icon">📖</span>
-      <strong>Explicação:</strong><br/>
-      Atos administrativos podem "acabar" de diferentes formas. É importante saber distinguir porque cada forma tem regras diferentes.
-    </div>
-    <div class="lex-cols">
-      <div class="lex-section-container">
-        <div class="lex-expandable-item"><strong>Anulação</strong> — vício de legalidade. Ato era ilegal desde o início. Ex: prefeito contratou empresa sem licitação. Anulação pode ser feita por qualquer pessoa jurídica do Estado ou pelo Judiciário.</div>
-        <div class="lex-expandable-item"><strong>Revogação</strong> — conveniência / oportunidade. Ato era legal, mas deixou de ser conveniente. Ex: uma taxa criada em 2000 é revogada em 2024 porque perdeu o sentido. Só quem criou pode revogar.</div>
-        <div class="lex-expandable-item"><strong>Cassação</strong> — descumprimento pelo beneficiário. Ex: aluno ganhou bolsa de estudos, mas trancou a matrícula. A universidade cassa (tira) a bolsa.</div>
-      </div>
-      <div class="lex-section-container">
-        <div class="lex-expandable-item"><strong>Caducidade</strong> — lei superveniente incompatível. Uma lei nova acaba com o ato antigo automaticamente. Ex: lei nova proíbe comércio em praças — todos os alvarás de comércio em praças caducam.</div>
-        <div class="lex-expandable-item"><strong>Contraposição</strong> — ato posterior e contrário. Ex: prefeito cria programa de gratuidade de ônibus, depois outro prefeito cria cobrança de tarifa — o segundo ato contrapõe o primeiro.</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu:</strong> Anulação (ilegalidade) = pode ser feita pela Administração ou pelo Judiciário | Revogação (mérito/conveniência) = <strong>só quem criou o ato pode revogar</strong></div>
-  </div>
-
-</div>`,
-
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Controle da Administração": {
-    icon: "🔍",
-    color: "#38bdf8",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🔍</div>
-    <h1 class="notion-title">Controle da Administração</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Interno</span> 
-       <span class="meta-tag tag-g">· Legislativo</span> 
-       <span class="meta-tag tag-b">· Judicial</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle Interno</div>
-    <div class="lex-expandable-item">Exercido pela <strong>própria Administração</strong>.</div>
-    <div class="lex-expandable-item"><strong>Autotutela</strong> — Súmulas 346 e 473 STF.</div>
-    <div class="lex-expandable-item">Pode <strong>anular</strong> (ilegalidade) e <strong>revogar</strong> (mérito).</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle Legislativo — Externo</div>
-    <div class="lex-cols">
-      <div class="lex-section-container">
-        <span class="lex-label">Controle Político</span>
-        <div class="lex-expandable-item">Congresso Nacional.</div>
-        <div class="lex-expandable-item">CPI — Comissão Parlamentar de Inquérito.</div>
-      </div>
-      <div class="lex-section-container">
-        <span class="lex-label">Controle Financeiro</span>
-        <div class="lex-expandable-item"><strong>TCU</strong> — Tribunal de Contas da União.</div>
-        <div class="lex-expandable-item">Julga <strong>CONTAS</strong>, não pessoas.</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle Judicial — Externo</div>
-    <div class="lex-expandable-item">Art. 5º, XXXV CF — <strong>inafastabilidade</strong> da jurisdição.</div>
-    <div class="lex-expandable-item">Sistema de <strong>jurisdição una</strong>.</div>
-    <div class="lex-expandable-item">Controla apenas a <strong>legalidade</strong> — <strong>não o mérito</strong>.</div>
-    <div class="lex-expandable-item">Pode <strong>anular</strong> atos ilegais.</div>
-    <div class="lex-expandable-item"><strong>NÃO pode revogar</strong>.</div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Bizu:</strong> Administração: anula + revoga &nbsp;|&nbsp; Judiciário: <strong>só anula</strong> (legalidade) &nbsp;|&nbsp; Legislativo: político + financeiro</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Licitações (Lei 14.133/2021)": {
-    icon: "📑",
-    color: "#a78bfa",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">📑</div>
-    <h1 class="notion-title">Licitações — Nova Lei 14.133/2021</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Lei 14.133/2021</span>
-      <span class="meta-tag tag-g">Substituiu a Lei 8.666/93</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Modalidades</div>
+    <div class="lex-expandable-item"><strong>Força Executiva (Autoexecutoriedade):</strong></div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Pregão</strong> — mais usado, bens e serviços comuns</div>
-      <div class="lex-expandable-item"><strong>Concorrência</strong> — obras e serviços de maior complexidade</div>
-      <div class="lex-expandable-item"><strong>Concurso</strong> — trabalho técnico, científico ou artístico</div>
-      <div class="lex-expandable-item"><strong>Leilão</strong> — alienação de bens</div>
-      <div class="lex-expandable-item"><strong>Diálogo competitivo</strong> — <em>nova modalidade!</em></div>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Dispensa de Licitação</div>
-      <div class="lex-expandable-item">Licitação é <strong>viável</strong>.</div>
-      <div class="lex-expandable-item">Mas a lei <strong>permite dispensar</strong>.</div>
-      <div class="lex-expandable-item">Ex: valor baixo, emergência, guerra.</div>
+      <div class="lex-expandable-item">O ato pode ser cumprido <strong>imediatamente</strong>, sem necessidade de autorização judicial.</div>
+      <div class="lex-expandable-item">Exemplo: interdição de prédio, demolição de construção irregular.</div>
     </div>
 
-    <div class="lex-section-container">
-      <div class="lex-section-title">Inexigibilidade</div>
-      <div class="lex-expandable-item">Licitação é <strong>inviável</strong>.</div>
-      <div class="lex-expandable-item">Impossibilidade de competição.</div>
-      <div class="lex-expandable-item">Ex: fornecedor exclusivo, notória especialização.</div>
+    <div class="lex-expandable-item"><strong>Vinculação ao Conteúdo:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">A Administração deve cumprir exatamente o que foi decidido.</div>
+      <div class="lex-expandable-item">Não pode alterar unilateralmente atos vinculados.</div>
     </div>
 
-  </div>
-
-  <div class="callout callout-rose">
-    <span class="callout-icon">⚠️</span>
-    <div><strong>Bizu:</strong> Dispensa = <strong>viável</strong> mas dispensada &nbsp;|&nbsp; Inexigibilidade = <strong>inviável</strong> (impossível competir)</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípios da Licitação</div>
-    <div class="lex-cols">
-      <div>
-        <div class="lex-expandable-item">Isonomia</div>
-        <div class="lex-expandable-item">Legalidade</div>
-        <div class="lex-expandable-item">Impessoalidade</div>
-        <div class="lex-expandable-item">Moralidade</div>
-      </div>
-      <div>
-        <div class="lex-expandable-item">Publicidade</div>
-        <div class="lex-expandable-item">Vinculação ao edital</div>
-        <div class="lex-expandable-item">Julgamento objetivo</div>
-      </div>
+    <div class="lex-expandable-item"><strong>Inexigibilidade de Consentimento:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Não depende da concordância do destinatário.</div>
+      <div class="lex-expandable-item">Caráter <strong>impositivo e unilateral</strong>.</div>
     </div>
-  </div>
 
-</div>`,
-
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Serviços Públicos": {
-    icon: "🚇",
-    color: "#14b8a6",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🚇</div>
-    <h1 class="notion-title">Serviços Públicos</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Art. 175 CF</span>
-      <span class="meta-tag tag-g">Interesse Coletivo</span>
+    <div class="lex-expandable-item"><strong>Coercibilidade:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">O Estado pode usar <strong>força</strong> para garantir o cumprimento.</div>
+      <div class="lex-expandable-item">Ex: multas, apreensões, prisões administrativas.</div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">Atividade de <strong>interesse coletivo</strong>.</div>
-    <div class="lex-expandable-item">Prestada diretamente pelo Estado ou por <strong>delegação</strong>.</div>
-    <div class="lex-expandable-item">Regime predominantemente <strong>público</strong>.</div>
-  </div>
+    <div class="lex-section-title">Classificação dos Atos Administrativos</div>
+    
+    <div class="lex-expandable-item"><strong>Quanto à Estrutura:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Simples:</strong> um único órgão decide.</div>
+      <div class="lex-expandable-item"><strong>Compostos:</strong> mais de um órgão participa (conselhos).</div>
+    </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípios dos Serviços Públicos</div>
-    <div class="lex-cols">
-      <div>
-        <div class="lex-expandable-item"><strong>Continuidade</strong> — não pode parar</div>
-        <div class="lex-expandable-item"><strong>Generalidade</strong> — para todos</div>
-        <div class="lex-expandable-item"><strong>Eficiência</strong> — qualidade</div>
-      </div>
-      <div>
-        <div class="lex-expandable-item"><strong>Modicidade</strong> — tarifa justa</div>
-        <div class="lex-expandable-item"><strong>Cortesia</strong> — bom atendimento</div>
-        <div class="lex-expandable-item"><strong>Atualidade</strong> — modernização</div>
-      </div>
+    <div class="lex-expandable-item"><strong>Quanto à Natureza do Vínculo:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Vinculados:</strong> a Administração deve seguir a lei estritamente.</div>
+      <div class="lex-expandable-item"><strong>Discricionários:</strong> há margem de escolha (conveniência e oportunidade).</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>Quanto ao Conteúdo:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Normativos:</strong> criam regras gerais (decretos, regulamentos).</div>
+      <div class="lex-expandable-item"><strong>Individuais:</strong> afetam situações específicas (multas, nomeações).</div>
+    </div>
+
+    <div class="lex-expandable-item"><strong>Quanto à Finalidade:</strong></div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Constitutivos:</strong> criam situações jurídicas novas.</div>
+      <div class="lex-expandable-item"><strong>Declarativos:</strong> apenas declaram uma situação existente.</div>
+      <div class="lex-expandable-item"><strong>Extintivos:</strong> extinguem uma situação jurídica.</div>
+      <div class="lex-expandable-item"><strong>Modificativos:</strong> alteram uma situação existente.</div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Classificação</div>
-  </div>
-
-  <div class="lex-cols">
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto à Essencialidade</div>
-      <div class="lex-expandable-item"><strong>Próprios</strong> (essenciais) — saúde, segurança.</div>
-      <div class="lex-expandable-item"><strong>Impróprios</strong> (não essenciais) — transporte.</div>
+    <div class="lex-section-title">Espécies de Atos Administrativos</div>
+    
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Decretos:</strong> atos do Chefe do Executivo para regulamentar leis.</div>
+      <div class="lex-expandable-item"><strong>Portarias:</strong> atos de autoridade para designar, nomear, exonerar.</div>
+      <div class="lex-expandable-item"><strong>Instruções Normativas:</strong> regulam procedimentos internos.</div>
+      <div class="lex-expandable-item"><strong>Despachos:</strong> decisões em processos administrativos.</div>
+      <div class="lex-expandable-item"><strong>Resoluções:</strong> atos de órgãos colegiados (conselhos).</div>
+      <div class="lex-expandable-item"><strong>Avisos:</strong> comunicados de interesse público.</div>
+      <div class="lex-expandable-item"><strong>Ordens de Serviço:</strong> diretrizes para execução de atividades.</div>
+      <div class="lex-expandable-item"><strong>Termos de Apostilamento:</strong> ratificação de atos.</div>
+      <div class="lex-expandable-item"><strong>Autorizações:</strong> permitem ação antes proibida.</div>
+      <div class="lex-expandable-item"><strong>Licenças:</strong> permitem ação temporária.</div>
+      <div class="lex-expandable-item"><strong>Alvarás:</strong> permissão para exercício de atividade.</div>
+      <div class="lex-expandable-item"><strong>Certidões:</strong> declaração de situação jurídica.</div>
     </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto aos Destinatários</div>
-      <div class="lex-expandable-item"><strong>Uti universi</strong> (gerais) — iluminação pública.</div>
-      <div class="lex-expandable-item"><strong>Uti singuli</strong> (individuais) — água, luz.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto à Obrigatoriedade</div>
-      <div class="lex-expandable-item"><strong>Compulsórios</strong> — coleta de lixo.</div>
-      <div class="lex-expandable-item"><strong>Facultativos</strong> — telefone.</div>
-    </div>
-
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Direitos do Usuário</div>
-    <div class="lex-expandable-item">Serviço adequado.</div>
-    <div class="lex-expandable-item">Informação.</div>
-    <div class="lex-expandable-item">Reclamação.</div>
-    <div class="lex-expandable-item">Indenização por danos.</div>
   </div>
 
 </div>`
-
   },
 
   // ═══════════════════════════════════════════════════
-  "Requisitos dos Atos Administrativos": {
-    icon: "🔑",
+
+  "Contratos administrativos e licitação": {
+    icon: "📑",
     color: "#a78bfa",
     aprendizado: `
 <div class="lex-block">
 
   <div class="notion-header">
-    <div class="notion-icon">🔑</div>
-    <h1 class="notion-title">Requisitos dos Atos Administrativos</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">COFIFOMOOB</span>
-      <span class="meta-tag tag-g">Validade e Eficácia</span>
-    </div>
-  </div>
-
-  <div class="callout callout-purple">
-    <span class="callout-icon">🔤</span>
-    <div><span class="mnemonic-badge">CO · FI · FO · MO · OB</span></div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">CO — Competência</div>
-    <div class="lex-expandable-item">Poder decorrente da lei que dá ao agente administrativo a <strong>capacidade de exercer suas atribuições</strong> e praticar o ato.</div>
-    <div class="lex-expandable-item">Necessário confirmar que o agente e o órgão ao qual ele é vinculado <strong>podem praticar</strong> o ato.</div>
-    <div class="lex-expandable-item">É um elemento <strong>vinculado</strong>. Admite delegação e avocação.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A competência é como uma "carteira de identidade" do poder administrativo. Cada agente público tem uma lista de poderes que a lei lhe confere. Se ele pratica um ato fora dessa lista, o ato é nulo por incompetência.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Um fiscal de tributos municipais tem competência para fiscalizar estabelecimentos comerciais e aplicar multas. Se ele tentar multar um cidadão por infração de trânsito, está agindo sem competência — o ato é nulo.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um diretor de escola pode autorizar saídas de alunos, mas não pode demitir professores (essa competência é do secretário de educação). Cada cargo tem seu campo de atuação definido em lei.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Se um ato é praticado por agente incompetente, qualquer cidadão pode questionar judicialmente. A competência protege os cidadãos de arbitrariedades.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">FI — Finalidade</div>
-    <div class="lex-expandable-item">Objetivo que a Administração quer atingir com a prática do ato.</div>
-    <div class="lex-expandable-item">O ato deve alcançar a finalidade <strong>expressa prevista em lei</strong>. Desviar a finalidade implica nulidade por desvio de finalidade.</div>
-    <div class="lex-expandable-item">Deve sempre buscar o <strong>interesse público</strong>. É um elemento <strong>vinculado</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Toda lei que cria um poder administrativo também define para que serve esse poder. A finalidade é o "porquê" do ato — qual bem público ele visa proteger ou promover.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> A lei permite que prefeito desaproprie imóveis para construir escolas. Se um prefeito desapropria um terreno para construir um shopping particular que beneficiará amigos, há desvio de finalidade — o poder foi usado para fim diferente do previsto.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Uma autorização de funcionamento para bar é dada para gerar empregos e movimento econômico na região. Se é negada porque o bar concorre com restaurante de amigo do vereador, há desvio de finalidade.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Controle judicial:</strong> O Judiciário pode anular qualquer ato que desvie da finalidade legal, mesmo que todos os outros requisitos estejam corretos.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">FO — Forma</div>
-    <div class="lex-expandable-item">Como o ato deve ser praticado. É a <strong>materialização do ato</strong>.</div>
-    <div class="lex-expandable-item">Todos os atos devem ser <strong>escritos</strong>. É um elemento <strong>vinculado</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A forma é o "como" o ato deve ser realizado. A lei geralmente exige: deve ser por escrito, deve seguir procedimentos específicos, deve ter assinatura, data, etc.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma licitação para compra de computadores deve seguir todas as etapas previstas na Lei 14.133/2021: edital, habilitação, julgamento, adjudicação. Se o órgão pular alguma etapa, o ato é nulo por vício de forma.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Uma demissão de servidor deve ser feita por escrito, com processo administrativo, direito de defesa, decisão motivada. Se o chefe simplesmente diz "está demitido" verbalmente, há vício de forma.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Exceções:</strong> Em situações de urgência, a forma pode ser flexibilizada, mas geralmente exige posterior confirmação por escrito.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">MO — Motivo</div>
-    <div class="lex-expandable-item">Situação de fato e de direito que gera a necessidade da Administração em praticar o ato.</div>
-    <div class="lex-expandable-item"><strong>Obrigatória (explícita):</strong> situação prevista em lei → ato vinculado.</div>
-    <div class="lex-expandable-item"><strong>Facultativa (implícita):</strong> situação não prevista em lei → agente escolhe ou indica o motivo, devidamente justificado → ato discricionário.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O motivo é a "razão" que justifica o ato. Pode vir da lei (motivo obrigatório) ou da análise concreta do administrador (motivo facultativo).</div>
-    <div class="callout callout-gold"><strong>Exemplo prático (motivo obrigatório):</strong> Lei diz que servidor com 75 anos deve ser aposentado compulsoriamente. O motivo (idade) é obrigatório — não há escolha. A aposentadoria é ato vinculado.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático (motivo facultativo):</strong> Prefeito pode fechar escolas por causa de gripe. Ele avalia a situação (n casos, gravidade) e decide se fecha ou não. O motivo é facultativo — ato discricionário.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância:</strong> O motivo deve ser sempre compatível com a finalidade. Se o motivo é falso ou inadequado, o ato pode ser anulado.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">OB — Objeto</div>
-    <div class="lex-expandable-item">É o <strong>conteúdo do ato</strong>. A modificação realizada pelo ato no mundo jurídico.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> O objeto é o "o quê" do ato — qual decisão concreta está sendo tomada. É o resultado, a consequência jurídica do ato.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Em uma autorização de construção, o objeto é: "autorizar construção de edifício residencial de 3 andares no terreno X, com área de 200m²". Esse é o conteúdo específico do ato.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Em uma multa de trânsito, o objeto é: "aplicar multa de R$ 195,40 por excesso de velocidade (80 km/h em via de 60 km/h)". O objeto define exatamente o que está sendo exigido.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Requisitos do objeto:</strong> Deve ser lícito, possível e determinado. Não pode exigir algo impossível ou ilegal.</div>
-  </div>
-    <div class="lex-expandable-item"><strong>Marinela:</strong> Corresponde ao efeito jurídico imediato do ato — o resultado prático causado em uma esfera de direitos.</div>
-    <div class="lex-expandable-item">É um elemento <strong>vinculado e discricionário</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Resumo dos Requisitos</div>
-    <table class="lex-table">
-      <thead>
-        <tr><th>Requisito</th><th>Tipo</th><th>Características</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>COMPETÊNCIA</td><td>Vinculado</td><td>Poder resultante da lei; admite delegação e avocação.</td></tr>
-        <tr><td>FINALIDADE</td><td>Vinculado</td><td>Bem jurídico objetivado pelo ato; interesse público.</td></tr>
-        <tr><td>FORMA</td><td>Vinculado</td><td>Revestimento externo do ato; regrada em lei.</td></tr>
-        <tr><td>MOTIVO</td><td>Vinculado ou Discricionário</td><td>Situação de direito que autoriza ou exige a prática do ato.</td></tr>
-        <tr><td>OBJETO</td><td>Vinculado ou Discricionário</td><td>Conteúdo do ato; alteração na ordem jurídica.</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Atributos dos Atos Administrativos": {
-    icon: "🏷️",
-    color: "#f59e0b",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🏷️</div>
-    <h1 class="notion-title">Atributos dos Atos Administrativos</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">PATI</span>
-      <span class="meta-tag tag-g">Características Essenciais</span>
-    </div>
-  </div>
-
-  <div class="callout callout-purple">
-    <span class="callout-icon">🔤</span>
-    <div><span class="mnemonic-badge">PATI</span></div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">P — Presunção de Legitimidade e Veracidade</div>
-    <div class="lex-expandable-item">Os atos administrativos são presumidos <strong>legais e verdadeiros</strong> até que se prove o contrário.</div>
-    <div class="lex-expandable-item">Cabe ao destinatário provar a ilegalidade, e não ao agente.</div>
-    <div class="lex-expandable-item">Presente em <strong>todos os atos administrativos</strong>. Agiliza sua execução.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Quando a Administração emite um ato (ex: multa, licença, alvará), a lei presume que esse ato é correto e verdadeiro. Isso permite que o ato seja executado imediatamente, sem esperar confirmação judicial. Se alguém discordar, precisa provar que o ato é ilegal.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Você recebe uma multa de trânsito. A multa é válida desde que foi emitida — você precisa pagar ou recorrer. Se achar que o radar estava defeituoso, você precisa provar isso. O ônus da prova é seu, não da autoridade de trânsito.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Uma prefeitura concede alvará de construção para um prédio. O alvará é presumido válido. Se um vizinho alega que o prédio viola código de obras, ele precisa provar judicialmente — a prefeitura não precisa provar que o alvará está correto.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Garante que a Administração funcione de forma eficiente. Se cada ato precisasse de validação prévia, o Estado paralisaria. A presunção pode ser derrubada (relativa), mas enquanto não for, o ato vale.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">A — Autoexecutoriedade</div>
-    <div class="lex-expandable-item">Possibilidade de a Administração Pública <strong>executar seus próprios atos diretamente</strong>, sem autorização do Judiciário.</div>
-    <div class="lex-expandable-item"><strong>Não está presente em todos os atos</strong> administrativos.</div>
-    <div class="lex-expandable-item">Exemplo: interditar uma ponte com grande risco de cair (urgência).</div>
-    <div class="lex-expandable-item"><strong>Exceção:</strong> cobrança de multa — se não pagar, necessita do Judiciário.</div>
-    <div class="lex-expandable-item">Deve observar o <strong>Princípio da Proporcionalidade</strong>.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A autoexecutoriedade permite que a Administração "faça acontecer" suas decisões sem precisar pedir permissão ao Judiciário. É como se a polícia pudesse prender alguém em flagrante sem precisar de mandado judicial.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Durante uma tempestade, uma árvore ameaça cair sobre uma rua movimentada. A prefeitura pode interditar imediatamente a rua e remover a árvore, sem precisar de autorização judicial — é autoexecutoriedade.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um estabelecimento comercial está funcionando sem licença. A fiscalização pode interditar imediatamente o local por risco à saúde pública, sem precisar de ordem judicial.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Limites importantes:</strong> A autoexecutoriedade não pode violar direitos fundamentais. Se a prefeitura quer demolir uma casa, precisa seguir procedimentos legais, dar direito de defesa, etc.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Quando NÃO existe:</strong> Para cobrar uma multa, se o cidadão não paga, a prefeitura precisa ir à Justiça cobrar — não pode executar diretamente.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">T — Tipicidade</div>
-    <div class="lex-expandable-item">O ato deve corresponder a <strong>figuras e modelos definidos por lei</strong>.</div>
-    <div class="lex-expandable-item">Evita que a Administração aja de forma discricionária, prejudicando o particular.</div>
-    <div class="lex-expandable-item">A Administração deve agir <strong>rigorosamente conforme a lei</strong> determina.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> A tipicidade exige que a Administração use as "formas" previstas em lei. Não pode inventar novos tipos de atos ou procedimentos. É como seguir uma receita — deve usar os ingredientes e passos exatamente como determinados.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> A Lei 8.112/90 define exatamente como deve ser um processo licitatório: edital, habilitação, julgamento, adjudicação. Se um órgão pular o julgamento e contratar diretamente, viola a tipicidade.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> A lei define que autorização de construção deve ser concedida em 30 dias. Se a prefeitura demora 60 dias sem motivo, viola a tipicidade.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Garante segurança jurídica e previsibilidade. O cidadão sabe exatamente o que esperar da Administração. Evita favoritismo e corrupção.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">I — Imperatividade e Exigibilidade</div>
-    <div class="lex-expandable-item"><strong>Imperatividade:</strong> Os atos são <strong>obrigatórios a todos</strong>, mesmo contra a vontade do destinatário. O agente pode criar obrigações ou impor restrições. Ex.: interdição de locais.</div>
-    <div class="lex-expandable-item"><strong>Exigibilidade:</strong> A Administração pode <strong>exigir de terceiros</strong> o cumprimento de obrigações. Diferente da imperatividade, que impõe uma obrigação.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo (Imperatividade):</strong> A imperatividade significa que o ato administrativo "impõe" uma obrigação. Não é uma sugestão ou pedido — é uma ordem que deve ser cumprida, mesmo que o destinatário não queira.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático (Imperatividade):</strong> Uma prefeitura determina que todos os bares fechem à 1h da manhã por medida sanitária. Os donos dos bares são obrigados a cumprir — não podem escolher ficar abertos.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo (Imperatividade):</strong> O INSS determina que um contribuinte apresente documentos para comprovar tempo de serviço. O contribuinte é obrigado a apresentar — não é opcional.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo (Exigibilidade):</strong> A exigibilidade é o "poder de cobrar" que a Administração tem para fazer cumprir seus atos. Se alguém não cumpre uma obrigação, a Administração pode usar mecanismos de cobrança.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático (Exigibilidade):</strong> Um contribuinte não paga o IPTU. A prefeitura pode inscrever o débito em dívida ativa, cobrar judicialmente, até bloquear bens se necessário. É o poder de exigir o cumprimento.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Diferença chave:</strong> Imperatividade = impõe obrigação. Exigibilidade = pode cobrar cumprimento. Geralmente andam juntas, mas são conceitos distintos.</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Classificação dos Atos Administrativos": {
-    icon: "🗂️",
-    color: "#6366f1",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🗂️</div>
-    <h1 class="notion-title">Classificação dos Atos Administrativos</h1>
-    <div class="notion-meta">
-       <span class="meta-tag tag-g">Múltiplos critérios</span>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto à Discricionariedade</div>
-      <div class="lex-expandable-item"><strong>Vinculados:</strong> De acordo com a lei. A lei determina o momento e as condições.</div>
-      <div class="lex-expandable-item"><strong>Discricionários:</strong> O agente pode escolher quando e como executar, o conteúdo e quem serão os destinatários.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> A discricionariedade é o "grau de liberdade" que a lei dá ao agente. Nos atos vinculados, a lei diz exatamente o que fazer. Nos discricionários, a lei diz "você pode fazer X, Y ou Z, escolha o que for melhor".</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (vinculado):</strong> Lei diz que servidor com 75 anos deve ser aposentado compulsoriamente. Não há escolha — o ato é vinculado. A aposentadoria ocorre automaticamente.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (discricionário):</strong> Lei diz que prefeitura pode conceder licença para eventos culturais. O prefeito avalia cada caso: pode aprovar um show, negar outro, ou impor condições. Ele tem liberdade de escolha dentro dos limites legais.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Atos vinculados dão segurança jurídica. Atos discricionários dão flexibilidade para adaptar às situações concretas. O Judiciário controla mais os atos discricionários para verificar se não houve abuso.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto ao Alcance</div>
-      <div class="lex-expandable-item"><strong>Individuais:</strong> Dirigido a determinada pessoa. Por ser subjetivo, pode haver contestação.</div>
-      <div class="lex-expandable-item"><strong>Gerais:</strong> Dirigido à coletividade. Atinge várias pessoas com a mesma situação jurídica. Não pode ter contestação individual.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> Atos individuais afetam uma pessoa específica (ex: nomeação de João para cargo X). Atos gerais afetam uma categoria de pessoas (ex: aprovação de concurso que beneficiará todos aprovados).</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (individual):</strong> João é nomeado diretor do hospital municipal. Se ele discordar da nomeação, pode recorrer judicialmente individualmente. O ato atinge apenas ele.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (geral):</strong> Edital de concurso público para provimento de vagas em cargos de professor. Todos os aprovados se beneficiam. Nenhum aprovado pode recorrer individualmente dizendo que foi prejudicado — a via seria ação civil coletiva.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> A distinção afeta o direito de defesa. Indivíduos têm amplo direito de contestação. Em atos gerais, geralmente só é possível contestar através de ações coletivas.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto ao Âmbito</div>
-      <div class="lex-expandable-item"><strong>Internos:</strong> Praticados dentro da administração, atingindo seus órgãos e agentes.</div>
-      <div class="lex-expandable-item"><strong>Externos:</strong> Praticados fora da administração, atingindo contratados e Administrados.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> Atos internos são "para dentro" — envolvem apenas a estrutura administrativa. Atos externos envolvem relação com terceiros (contratos, autorizações).</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (interno):</strong> Um secretário de educação transfere um professor de uma escola para outra. É ato interno — só envolve servidores e órgãos da mesma administração.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (externo):</strong> Uma prefeitura contrata uma empresa para coletar lixo. É ato externo — envolve relação com particular (empresa privada).</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Atos internos seguem regime jurídico administrativo. Atos externos podem ter cláusulas de direito privado, mas sempre sob supervisão da Administração.</div>
-    </div>
-
-    <div class="lex-section-container">
-      <div class="lex-section-title">Quanto à Supremacia</div>
-      <div class="lex-expandable-item"><strong>De império:</strong> Praticado com supremacia do interesse público. Obriga os administrados a obedecer.</div>
-      <div class="lex-expandable-item"><strong>De gestão:</strong> Praticado na mesma condição do particular, afastando a prerrogativa de supremacia.</div>
-      <div class="lex-expandable-item"><strong>De expediente:</strong> Atos internos de rotina para dar andamento a documentos e papéis.</div>
-      <div class="callout-purple"><strong>Explicação passo a passo:</strong> A supremacia é a posição de "poder" que o Estado tem sobre o particular. Atos de império impõem obrigações sem negociação. Atos de gestão tratam o Estado como se fosse particular.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (império):</strong> Uma prefeitura aplica multa de trânsito. O motorista deve pagar — não há negociação. É ato de império, pois a prefeitura está em posição de supremacia.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (gestão):</strong> Uma empresa pública (Eletrobras) vende energia para consumidores. A relação é contratual, com as partes em igualdade jurídica. É ato de gestão.</div>
-      <div class="callout callout-gold"><strong>Exemplo prático (expediente):</strong> Chefe de gabinete despacha um processo para outro setor. É ato meramente administrativo interno, que não cria direitos ou obrigações para externos.</div>
-      <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> A classificação afeta o regime jurídico aplicável. Atos de império seguem regime administrativo. Atos de gestão podem seguir regras de direito privado em alguns aspectos.</div>
-    </div>
-  </div>
-
-</div>`,
-  },
-
-  "Espécies de Atos Administrativos": {
-    icon: "📑",
-    color: "#ec4899",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
     <div class="notion-icon">📑</div>
-    <h1 class="notion-title">Espécies de Atos Administrativos</h1>
+    <h1 class="notion-title">Licitações (Lei 14.133/2021)</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-b">PONEN</span>
+      <span class="meta-tag tag-b">Nova Lei de Licitações</span>
+      <span class="meta-tag tag-g">Contratos Administrativos</span>
     </div>
   </div>
 
-  <div class="callout callout-purple">
-    <span class="callout-icon">🔤</span>
-    <div><span class="mnemonic-badge">PONEN</span></div>
+  <div class="lex-section-container">
+    <div class="lex-section-title">Conceito de Licitação</div>
+    <div class="lex-expandable-item">Procedimento administrativo para contratação de <strong>obras, serviços, compras e alienações</strong>.</div>
+    <div class="lex-expandable-item">Garante: <strong>legalidade, impessoalidade, moralidade, igualdade, publicidade</strong>.</div>
+    <div class="lex-expandable-item">Regra geral: exigida para contratos acima de valores estabelecidos em lei.</div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Atos Normativos</div>
-    <div class="lex-expandable-item">Efeitos <strong>gerais e abstratos</strong>, atingindo a todos os regulamentados, visando à aplicação correta da lei.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Atos normativos são como "regras do jogo" que a Administração cria para organizar seu funcionamento. Não visam pessoas específicas, mas sim situações gerais. São abstratos porque não se referem a casos concretos, e geram efeitos para todos que estão naquela situação.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> O Presidente baixa um decreto regulamentando a Lei de Licitações. Esse decreto não menciona nenhuma empresa específica — estabelece os procedimentos gerais que todos devem seguir. Qualquer órgão público que fizer licitação deve obedecer a esse decreto.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Uma universidade cria um regimento interno disciplinando o processo de avaliação discente. O regimento não se refere a alunos específicos, mas estabelece as regras gerais que todos os professores e alunos devem seguir.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Garante uniformidade no tratamento, evita arbitrariedades e serve como base para fiscalização e controle.</div>
+    <div class="lex-section-title">Modalidades de Licitação (Art. 28)</div>
+    
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Decreto:</strong> Ato normativo exclusivo do chefe do executivo.</div>
-      <div class="lex-expandable-item"><strong>Regulamento:</strong> Visa especificar um ato normativo superior.</div>
-      <div class="lex-expandable-item"><strong>Regimento:</strong> Força normativa interna; disciplina o funcionamento de órgãos.</div>
-      <div class="lex-expandable-item"><strong>Resolução:</strong> Ato normativo de autoridades superiores para disciplinar matérias de competência exclusiva.</div>
-      <div class="lex-expandable-item"><strong>Deliberação:</strong> Decisões que partem de órgãos colegiados.</div>
+      <div class="lex-expandable-item"><strong>1. Concorrência:</strong> modalidade mais completa, para valores mais elevados. Aberta a qualquer interessado.</div>
+      <div class="lex-expandable-item"><strong>2. Tomada de Preços:</strong> para valores intermediários. Convite mínimo de 3 fornecedores.</div>
+      <div class="lex-expandable-item"><strong>3. Convite:</strong> para valores menores. Convite a, no mínimo, 3 fornecedores.</div>
+      <div class="lex-expandable-item"><strong>4. Concurso:</strong> para escolha de trabalho técnico, científico ou artístico.</div>
+      <div class="lex-expandable-item"><strong>5. Leilão:</strong> para alienação de bens ou concessão de serviços públicos.</div>
+      <div class="lex-expandable-item"><strong>6. Pregão:</strong> para aquisição de bens e serviços comuns (menor preço ou melhor técnica).</div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Atos Ordinatórios</div>
-    <div class="lex-expandable-item">Objetivam disciplinar a <strong>conduta dos agentes públicos</strong> e o funcionamento da administração. São manifestações internas.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Atos ordinatórios são ordens internas que organizam o dia a dia da Administração. Como um chefe dando instruções a sua equipe, ou um diretor estabelecendo horários de trabalho. São "ordens de serviço" que mantêm a máquina pública funcionando.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Um secretário de educação baixa uma portaria estabelecendo o calendário escolar para todas as escolas municipais. Os diretores das escolas devem seguir esse calendário — é uma ordem interna que organiza o funcionamento do sistema.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um ministro envia um ofício a todos os governadores solicitando informações sobre a execução de um programa federal. É uma comunicação oficial interna que exige resposta dos destinatários.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Garante hierarquia, disciplina e organização. Permite controle interno e externalização das decisões administrativas.</div>
+    <div class="lex-section-title">Dispensa e Inexigibilidade</div>
+    
+    <div class="lex-expandable-item"><strong>Dispensa de Licitação:</strong></div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Instruções:</strong> Orientações do superior aos seus subordinados.</div>
-      <div class="lex-expandable-item"><strong>Circulares:</strong> Ordem escrita.</div>
-      <div class="lex-expandable-item"><strong>Avisos:</strong> Atos de ministros dentro de seu ministério.</div>
-      <div class="lex-expandable-item"><strong>Portarias:</strong> Atos dos chefes de órgãos públicos.</div>
-      <div class="lex-expandable-item"><strong>Ofícios:</strong> Comunicação oficial para terceiros.</div>
-      <div class="lex-expandable-item"><strong>Despacho administrativo:</strong> Decisões tomadas pela administração.</div>
+      <div class="lex-expandable-item">Obras e serviços de valor até 10% do limite para convite.</div>
+      <div class="lex-expandable-item">Compras e alienações até o limite estabelecido em lei.</div>
+      <div class="lex-expandable-item">Situações especiais: guerra, emergência, calamidade pública.</div>
+      <div class="lex-expandable-item">Serviços técnicos especializados (artistas, médicos).</div>
     </div>
-  </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Atos Negociais</div>
-    <div class="lex-expandable-item">Declaração de vontade da administração para fazer <strong>negócios com particulares</strong>, produzindo efeito concreto e individual para o destinatário.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Atos negociais são como "contratos" que a Administração faz com particulares. A Administração manifesta sua vontade de contratar, permitir, autorizar ou aprovar determinadas atividades. Criam direitos e obrigações específicas para as partes envolvidas.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma prefeitura concede licença para um restaurante funcionar. O restaurante obtém o direito legal de operar, mas assume obrigações (pagar taxas, cumprir normas sanitárias, horários de funcionamento). É um negócio jurídico entre poder público e particular.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> O INSS autoriza um médico a emitir laudos periciais para perícias médicas. O médico pode cobrar pelos serviços, mas deve seguir as regras fixadas pelo INSS. Ambos se beneficiam: o INSS obtém laudos qualificados, o médico obtém trabalho remunerado.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Permite que o Estado execute atividades que não poderia fazer diretamente, através de parcerias com a iniciativa privada. Regula a relação entre poder público e particulares.</div>
+    <div class="lex-expandable-item"><strong>Inexigibilidade de Licitação:</strong></div>
     <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Licença:</strong> Ato <strong>vinculado</strong> concedido para que o destinatário execute uma atividade.</div>
-      <div class="lex-expandable-item"><strong>Autorização:</strong> Ato <strong>discricionário</strong> para que o destinatário exerça alguma atividade.</div>
-      <div class="lex-expandable-item"><strong>Permissão:</strong> Ato <strong>discricionário</strong> para que o destinatário exerça atividade estabelecida pela Administração.</div>
-      <div class="lex-expandable-item">Outros: aprovação, visto, homologação, dispensa e renúncia.</div>
+      <div class="lex-expandable-item">Profissional de <strong>notória especialização</strong>.</div>
+      <div class="lex-expandable-item">Produto de <strong>marca exclusiva</strong> (patente).</div>
+      <div class="lex-expandable-item">Procedimentos de <strong>natureza sigilosa</strong> (segurança nacional).</div>
+      <div class="lex-expandable-item">Empresas ou serviços <strong>singulares</strong> (monopólio natural).</div>
     </div>
   </div>
 
-  <div class="lex-section-container">
-    <div class="lex-section-title">Atos Enunciativos</div>
-    <div class="lex-expandable-item">A Administração atesta um fato <strong>sem vincular seu conteúdo</strong> — emite uma opinião ou certifica algo.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Atos enunciativos são como "declarações" ou "certificações" que a Administração emite sobre situações existentes. Não criam direitos novos, apenas reconhecem ou atestam fatos. São como um "carimbo de autenticidade" do poder público.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático:</strong> Uma universidade emite um atestado declarando que um aluno está regularmente matriculado. O atestado não cria o direito à matrícula (esse direito já existia), apenas comprova o fato da matrícula.</div>
-    <div class="callout callout-gold"><strong>Outro exemplo:</strong> Um cartório emite uma certidão de nascimento. A certidão não "cria" o nascimento, apenas certifica que o fato ocorreu e foi registrado no cartório.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Fornece segurança jurídica, serve como prova em processos judiciais e administrativos, e permite que particulares comprovem situações jurídicas perante terceiros.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Atestado:</strong> Comprova que órgão está ciente da situação.</div>
-      <div class="lex-expandable-item"><strong>Certidão:</strong> Cópia fiel e autenticada de fatos em repartição pública.</div>
-      <div class="lex-expandable-item"><strong>Pareceres:</strong> Opinião de órgão técnico sobre assuntos submetidos a ele.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Atos Punitivos</div>
-    <div class="lex-expandable-item">Atos que visam <strong>punir particulares ou servidores</strong> que infringirem disposição legal, regulamentar ou ordinária.</div>
-    <div class="callout-purple"><strong>Explicação passo a passo:</strong> Atos punitivos são as "sanções" que a Administração aplica quando alguém descumpre normas legais. Podem visar servidores (poder disciplinar) ou particulares (poder de polícia). Sempre devem respeitar o devido processo legal e o direito de defesa.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático (servidor):</strong> Um professor falta injustificadamente ao trabalho por 5 dias. A secretaria de educação aplica uma advertência por escrito, após processo administrativo com direito de defesa. É ato punitivo no exercício do poder disciplinar.</div>
-    <div class="callout callout-gold"><strong>Exemplo prático (particular):</strong> Uma prefeitura aplica multa a um estabelecimento comercial por funcionar sem alvará. É ato punitivo no exercício do poder de polícia administrativa.</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Importância prática:</strong> Garante a ordem e a disciplina, protege a moralidade administrativa, e serve como exemplo para a sociedade. As sanções devem ser proporcionais à falta e respeitar os princípios constitucionais.</div>
-    <div class="lex-expandable-item"><strong>Poder Disciplinar:</strong> Quando visa servidores públicos e particulares ligados à administração.</div>
-    <div class="lex-expandable-item"><strong>Poder de Império:</strong> Quando visa particulares em geral, não ligados à administração.</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Momentos de Controle": {
-    icon: "⏱️",
-    color: "#06b6d4",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">⏱️</div>
-    <h1 class="notion-title">Momentos de Controle da Administração</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Prévio </span>
-       <span class="meta-tag tag-g">· Concomitante </span>
-        <span class="meta-tag tag-b">· Posterior </span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle Prévio</div>
-    <div class="lex-expandable-item">Exercido <strong>antes do início ou conclusão</strong> do ato administrativo.</div>
-    <div class="lex-expandable-item">Constitui-se em requisito para a <strong>validade</strong> ou produção de efeitos do ato controlado.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Mandado de segurança preventivo que impeça a prática de ato que ameace direito líquido e certo.</div>
-      <div class="lex-expandable-item">Autorização do Senado Federal para empréstimos externos da União, Estados, DF e Municípios.</div>
-      <div class="lex-expandable-item">Aprovação pelo Senado da escolha de ministros dos tribunais superiores, do Procurador-Geral da República.</div>
-      <div class="lex-expandable-item">Aprovação do presidente do Banco Central.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle Concomitante</div>
-    <div class="lex-expandable-item">Exercido <strong>durante a realização</strong> do ato.</div>
-    <div class="lex-expandable-item">Permite verificação da regularidade de sua <strong>formação</strong>.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Fiscalização da execução de um contrato administrativo.</div>
-      <div class="lex-expandable-item">Realização de auditoria durante a execução do orçamento.</div>
-      <div class="lex-expandable-item">Acompanhamento de concurso pela corregedoria competente.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Controle Posterior</div>
-    <div class="lex-expandable-item">Exercido <strong>após a conclusão</strong> do ato — modalidade <strong>mais comum</strong>.</div>
-    <div class="lex-expandable-item">Possibilita: correção de defeitos, declaração de nulidade, revogação, cassação ou conferência de eficácia ao ato.</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Homologação de procedimento licitatório.</div>
-      <div class="lex-expandable-item">Homologação de concurso público.</div>
-      <div class="lex-expandable-item">Sustação, pelo Congresso Nacional, de atos normativos do Poder Executivo que exorbitem do poder regulamentar.</div>
-    </div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Resumo:</strong> Prévio = antes (requisito de validade) | Concomitante = durante (fiscalização) | Posterior = depois (correção)</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Recursos Administrativos": {
-    icon: "📬",
-    color: "#8b5cf6",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">📬</div>
-    <h1 class="notion-title">Recursos Administrativos</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Reexame de Decisões</span>
-      <span class="meta-tag tag-g">Lei 9.784/99</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Recursos Administrativos — Geral</div>
-    <div class="lex-expandable-item">Meios que propiciam aos administrados a <strong>provocação do reexame de decisão interna</strong> tomada pela Administração.</div>
-    <div class="lex-expandable-item">Podem ser interpostos <strong>ex officio ou por provocação</strong> dos interessados.</div>
-    <div class="lex-expandable-item">Devem ser fundamentados com a exposição dos fatos e a indicação da ilegalidade impugnada.</div>
-    <div class="lex-expandable-item">É possível a intervenção de terceiros.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Recurso Hierárquico Próprio</div>
-    <div class="lex-expandable-item">Protocolizado perante a <strong>autoridade que decidiu</strong>, para que ela possa eventualmente reconsiderar ou encaminhá-lo à autoridade superior para reexame.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Recurso Hierárquico Impróprio</div>
-    <div class="lex-expandable-item">Dirigido a autoridade de <strong>pessoa jurídica distinta</strong> da que proferiu a decisão.</div>
-    <div class="lex-expandable-item">Ex.: recurso dirigido a um ministério contra decisão de uma autarquia.</div>
-  </div>
-
-  <div class="lex-cols">
-    <div class="lex-section-container">
-      <div class="lex-section-title">Efeito Devolutivo</div>
-      <div class="lex-expandable-item">Independe de norma legal.</div>
-      <div class="lex-expandable-item">Remete o exame da matéria para autoridade competente.</div>
-      <div class="lex-expandable-item">Presente em <strong>todos os recursos</strong>.</div>
-    </div>
-    <div class="lex-section-container">
-      <div class="lex-section-title">Efeito Suspensivo</div>
-      <div class="lex-expandable-item">Existe apenas quando <strong>expressamente previsto em lei</strong>.</div>
-      <div class="lex-expandable-item">Suspende os efeitos do ato até a decisão do recurso.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Reclamações (Lei 9.784/99, art. 48)</div>
-    <div class="lex-expandable-item">Manifestação de <strong>inconformismo do administrado</strong> em face de decisão administrativa que lhe afeta direitos ou interesses.</div>
-    <div class="lex-expandable-item">A Lei 9.784/99 utiliza o vocábulo em acepção genérica — sinônimo de petição.</div>
-    <div class="lex-expandable-item">A Administração tem <strong>dever de decidir</strong> sobre solicitações ou reclamações (art. 48).</div>
-    <div class="lex-expandable-item">O CTN usa o termo com o sentido de <strong>impugnação administrativa</strong> em processos fiscais.</div>
-    <div class="lex-expandable-item">O Decreto 20.910/32: quando não tiver prazo fixado em lei, o direito à reclamação administrativa <strong>prescreve em um ano</strong> a contar do fato.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Pedido de Reconsideração</div>
-    <div class="lex-expandable-item">Solicitação feita à <strong>própria autoridade que emitiu o ato</strong>, para que ela o aprecie novamente.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Revisão (Lei 9.784/99, art. 65)</div>
-    <div class="lex-expandable-item">Processos administrativos de que resultem <strong>sanções</strong> podem ser revistos.</div>
-    <div class="lex-expandable-item">A qualquer tempo, a pedido ou <strong>de ofício</strong>.</div>
-    <div class="lex-expandable-item">Requisito: surgirem <strong>fatos novos ou circunstâncias relevantes</strong>.</div>
-    <div class="lex-expandable-item">Objetivo: demonstrar inadequação da sanção aplicada.</div>
-    <div class="lex-expandable-item"><strong>Lei 8.112/90, art. 174:</strong> O processo disciplinar poderá ser revisto quando se aduzir fatos novos que justifiquem a inocência do punido ou a inadequação da penalidade.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Representação</div>
-    <div class="lex-expandable-item">Para os <strong>particulares</strong>, a representação é um <strong>direito</strong>.</div>
-    <div class="lex-expandable-item">Para os <strong>servidores públicos</strong>, a representação é um <strong>dever</strong>.</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Controle Judicial": {
-    icon: "⚖️",
-    color: "#3b82f6",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Controle Judicial</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Legalidade </span>
-       <span class="meta-tag tag-g">· Anulação</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito e Alcance</div>
-    <div class="lex-expandable-item">Normalmente exercido em caráter <strong>repressivo</strong> — após a administração já ter praticado o ato.</div>
-    <div class="lex-expandable-item">A atuação do Judiciário deve se restringir ao <strong>controle de legalidade</strong> do ato — não é possível o controle do mérito administrativo.</div>
-    <div class="lex-expandable-item">Mediante o controle judicial, pode ser decretada a <strong>anulação</strong> do ato (nunca a revogação, pois esta decorre de controle de mérito).</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Atos Discricionários e o Judiciário</div>
-    <div class="lex-expandable-item">Não se deve confundir a vedação de apreciação do mérito com a <strong>possibilidade de aferição da legalidade</strong> dos atos discricionários.</div>
-    <div class="lex-expandable-item">Os controles de <strong>razoabilidade e proporcionalidade</strong> possibilitam anulação pelo Judiciário de atos discricionários praticados fora da esfera de mérito estabelecida pela lei.</div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>FICA A DICA:</strong> O Poder Judiciário pode, sempre que provocado, <strong>anular</strong> atos administrativos (vinculados ou discricionários) com vícios de ilegalidade. O que não se admite é que o Judiciário <strong>revogue</strong> um ato editado pelo Executivo ou Legislativo.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Anulação x Revogação</div>
-    <div class="lex-expandable-item"><strong>Anulação:</strong> Retira ato ilegal ou ilegítimo. Pode ser feita pelo Judiciário ou pela própria Administração.</div>
-    <div class="lex-expandable-item"><strong>Revogação:</strong> Retira ato discricionário válido que se tornou <strong>inoportuno ou inconveniente</strong> ao interesse público. Juízo exclusivo da administração que praticou o ato. O Judiciário <strong>não pode revogar</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípio da Inafastabilidade de Jurisdição</div>
-    <div class="lex-expandable-item"><strong>Art. 5º, XXXV, CF:</strong> "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito."</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Instrumentos de Controle Judicial</div>
-    <div class="lex-expandable-item">Mandado de Segurança</div>
-    <div class="lex-expandable-item">Ação Popular</div>
-    <div class="lex-expandable-item">Ação Civil Pública</div>
-    <div class="lex-expandable-item">Habeas Corpus</div>
-    <div class="lex-expandable-item">Habeas Data</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Controle Legislativo": {
-    icon: "🏛️",
-    color: "#f59e0b",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">🏛️</div>
-    <h1 class="notion-title">Controle Legislativo</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Político · Financeiro</span>
-      <span class="meta-tag tag-g">CF/88 — Arts. 49, 52, 70, 71</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">Fiscalização da administração pública exercida pelo <strong>Poder Legislativo</strong>.</div>
-    <div class="lex-expandable-item">Possui marcada <strong>índole política</strong> — não se limita ao controle de legalidade formal, abrangendo eficiência e conveniência pública de determinadas atuações do Poder Executivo.</div>
-    <div class="lex-expandable-item">Como há administração pública em todos os Poderes, as prerrogativas do Legislativo incluem a fiscalização da atuação administrativa em <strong>todos eles</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Competências do Congresso Nacional (Art. 49)</div>
-    <div class="lex-expandable-item"><strong>Art. 49, X:</strong> Fiscalizar e controlar, diretamente ou por qualquer de suas Casas, os atos do Poder Executivo, incluídos os da administração indireta.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, V:</strong> Sustar os atos normativos do Poder Executivo que <strong>exorbitem do poder regulamentar</strong> ou dos limites de delegação legislativa.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, IX:</strong> Julgar anualmente as contas prestadas pelo Presidente da República e apreciar os relatórios sobre a execução dos planos de governo.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, XII:</strong> Autorizar operações externas de natureza financeira, de interesse da União, Estados, DF, Territórios e Municípios.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, XVI:</strong> Aprovar pedido de intervenção federal em Estado ou no DF.</div>
-    <div class="lex-expandable-item"><strong>Art. 49, XVII:</strong> Autorizar referendo e aprovar a celebração de tratados internacionais.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Competências Exclusivas do Senado Federal (Art. 52)</div>
-    <div class="lex-expandable-item"><strong>Art. 52, I:</strong> Processar e julgar o Presidente e Vice-Presidente da República nos crimes de responsabilidade, bem como Ministros de Estado e Comandantes das Forças Armadas nos crimes conexos.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, III:</strong> Aprovar previamente, por <strong>voto secreto</strong>, após arguição pública, a escolha de: magistrados dos tribunais superiores, ministros do TCU, governador de Território, presidente e diretores do Banco Central, Procurador-Geral da República.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, IV:</strong> Aprovar previamente, por <strong>voto secreto</strong>, após arguição em sessão secreta, a escolha dos chefes de missão diplomática de caráter permanente.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, V:</strong> Autorizar operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios.</div>
-    <div class="lex-expandable-item"><strong>Art. 52, XI:</strong> Aprovar, por maioria absoluta e voto secreto, a exoneração <em>de ofício</em> do Procurador-Geral da República antes do término de seu mandato.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Fiscalização Contábil e Financeira (Arts. 70-71)</div>
-    <div class="lex-expandable-item"><strong>Art. 70, caput:</strong> Compete ao Congresso Nacional, auxiliado pelo TCU, exercer a <strong>fiscalização contábil, financeira e orçamentária</strong> federal.</div>
-    <div class="lex-expandable-item"><strong>Art. 71, § 7º:</strong> Sustar contratos que apresentem ilegalidade, mediante solicitação do TCU.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">TCU — Tribunal de Contas da União</div>
-    <div class="lex-expandable-item">Auxilia no controle externo, comprovando a <strong>probidade da administração</strong> e a regularidade dos gastos públicos.</div>
-    <div class="lex-expandable-item"><strong>Art. 71, X:</strong> Competência para <strong>sustar diretamente</strong> a execução de atos administrativos, dando ciência à Câmara e ao Senado.</div>
-    <div class="lex-expandable-item">No caso de contratos administrativos, o ato de sustação cabe ao <strong>Congresso Nacional</strong>, que solicitará ao Poder Executivo as medidas cabíveis.</div>
-    <div class="lex-expandable-item">Apenas se o Congresso ou o Executivo não efetivar as medidas no prazo de <strong>90 dias</strong> é que o TCU adquirirá competência para decidir.</div>
-  </div>
-
-  <div class="callout callout-green">
-    <span class="callout-icon">✅</span>
-    <div><strong>Resumo:</strong> TCU susta atos administrativos diretamente. Para contratos, a sustação é do Congresso Nacional. Se o Congresso ou Executivo inerte por 90 dias → TCU decide.</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Responsabilidade Civil do Estado": {
-    icon: "⚖️",
-    color: "#ef4444",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
-    <div class="notion-icon">⚖️</div>
-    <h1 class="notion-title">Responsabilidade Civil do Estado</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Art. 37, §6º CF</span>
-      <span class="meta-tag tag-g">Objetiva · Subjetiva</span>
-    </div>
-  </div>
-
-  <div class="callout callout-red">
-    <span class="callout-icon">📜</span>
-    <div><strong>Art. 37, §6º CF:</strong> "As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Alcance da Responsabilidade</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Pessoa Jurídica de Direito Público:</strong> Administração Direta, Autarquias e Fundações Públicas</div>
-      <div class="lex-expandable-item"><strong>Pessoa Jurídica de Direito Privado:</strong> Empresas Públicas e SEM prestadoras de serviço público</div>
-      <div class="lex-expandable-item"><strong>Delegatárias:</strong> Concessionárias, Permissionárias e Autorizadas (responsabilidade subsidiária do Estado)</div>
-    </div>
-    <div class="callout">
-      <span class="callout-icon">⚠️</span>
-      <div><strong>Não inclui:</strong> EP e SEM que exploram atividades econômicas (regidas pelo Direito Civil/Comercial)</div>
-    </div>
-  </div>
-
-  <div class="lex-cols">
-    <div class="lex-section-container">
-      <div class="lex-section-title">Responsabilidade Objetiva</div>
-      <div class="lex-expandable-item">Independe da comprovação de <strong>dolo ou culpa</strong>.</div>
-      <div class="lex-expandable-item">Basta demonstrar: <strong>conduta, dano e nexo causal</strong>.</div>
-      <div class="lex-expandable-item">Técnica de <strong>socialização de danos</strong> (solidariedade social).</div>
-      <div class="lex-expandable-item">Abrange danos a <strong>usuários e terceiros não usuários</strong>.</div>
-    </div>
-    <div class="lex-section-container">
-      <div class="lex-section-title">Responsabilidade Subjetiva</div>
-      <div class="lex-expandable-item">Aplica-se em caso de <strong>omissão</strong> do Estado.</div>
-      <div class="lex-expandable-item">É necessária a comprovação de <strong>culpa</strong> (negligência, imprudência, imperícia).</div>
-      <div class="lex-expandable-item">Também chamada de <strong>culpa anônima</strong> ou falta do serviço.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Teorias do Risco</div>
-    <div class="lex-expandable-item"><strong>Teoria do Risco Integral:</strong> Não admite causas excludentes de responsabilidade. <em>Não adotada no Brasil.</em></div>
-    <div class="lex-expandable-item"><strong>Teoria do Risco Administrativo:</strong> Admite causas excludentes (caso fortuito, força maior, culpa exclusiva da vítima). <em>Teoria adotada no Brasil.</em></div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Causas Excludentes de Responsabilidade</div>
-    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Caso Fortuito e Força Maior:</strong> STF não faz distinção entre ambas. Fatos alheios à vontade da Administração, imprevisíveis e inevitáveis.</div>
-    <div class="lex-expandable-item"><strong>Culpa Exclusiva da Vítima:</strong> Quando a vítima é única responsável pelo dano. Ex: suicídio em linha de trem.</div>
-    <div class="lex-expandable-item"><strong>Culpa Exclusiva de Terceiro:</strong> Dano causado unicamente por terceiro, sem participação do Estado.</div>
-    <div class="lex-expandable-item"><strong>Culpa Concorrente:</strong> Atenua a responsabilidade do Estado (reduz o valor da indenização). Ex: passageiro andando pendurado no trem.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Reparação de Danos</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Acordo Administrativo:</strong> Quando o dano é reconhecido e há acordo, a indenização é feita via administrativa.</div>
-      <div class="lex-expandable-item"><strong>Ação Judicial:</strong> Cabível apenas contra a Administração (STF é contrário a ação contra o agente público isoladamente).</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Prazo Prescricional</div>
-    <div class="lex-expandable-item">A ação de indenização deve ser proposta no prazo de <strong>5 anos</strong>, contados a partir do fato danoso.</div>
-    <div class="lex-expandable-item">Base: <strong>Decreto 20.910/32, art. 1º</strong> e <strong>Lei 9.494/97, art. 1º, §6º</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Ação Regressiva</div>
-    <div class="lex-expandable-item">O Estado tem direito de <strong>regresso</strong> contra o agente público que causou o dano quando houve <strong>dolo ou culpa</strong>.</div>
-    <div class="lex-expandable-item">Base: <strong>Art. 37, §6º, parte final CF</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Responsabilidade por Omissão — Jurisprudência STF</div>
-    <div class="lex-expandable-item">RE 841526 (Tema 362): A responsabilidade por omissão também está fundamentada no art. 37, §6º CF.</div>
-    <div class="lex-expandable-item">Requisito: nexo causal entre a <strong>omissão</strong> e o dano, quando o Estado tinha <strong>dever legal específico de agir</strong>.</div>
-    <div class="lex-expandable-item">Ex: morte de detento por inobservância do dever de proteção (Art. 5º, XLIX CF).</div>
-    <div class="lex-expandable-item">Ex: dano por comércio de fogos de artifício quando há violação de dever jurídico específico de fiscalização.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Responsabilidade do Estado por Preso Foragido</div>
-    <div class="lex-expandable-item">Não se caracteriza responsabilidade objetiva quando <strong>não demonstrado o nexo causal</strong> direto entre a fuga e a conduta criminosa posterior.</div>
-    <div class="lex-expandable-item">Deve haver comprovação de que o Estado deixou de cumprir obrigação legal específica de custódia.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Responsabilidade Subsidiária</div>
-    <div class="lex-expandable-item">O Estado responde <strong>subsidiariamente</strong> por danos causados por concessionárias e permissionárias.</div>
-    <div class="lex-expandable-item">Só responde após o <strong>exaurimento do patrimônio</strong> da empresa delegatária (falência/insolvência).</div>
-    <div class="lex-expandable-item">Razão: as delegatárias prestam serviço em seu nome, por sua conta e risco.</div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Resumo:</strong> Ação = objetiva (§6º CF) | Omissão = subjetiva (culpa anônima) | Prazo = 5 anos | Regresso = dolo/culpa do agente</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Contratos Administrativos": {
-    icon: "📋",
-    color: "#4a85f0",
-    aprendizado: `
-<div class="lex-block">
-
-  <div class="notion-header">
+  <div class="notion-header" style="margin-top: 40px;">
     <div class="notion-icon">📋</div>
     <h1 class="notion-title">Contratos Administrativos</h1>
     <div class="notion-meta">
@@ -2379,7 +945,7 @@ window.DA = {
       <div class="lex-expandable-item">Art. 6º, XII: obra é atividade privativa de arquiteto/engenheiro que altera o espaço físico.</div>
     </div>
 
-    <div class="lex-expandable-item"><strong>5. Contrato de Alienacao:</strong></div>
+    <div class="lex-expandable-item"><strong>5. Contrato de Alienação:</strong></div>
     <div class="lex-list">
       <div class="lex-expandable-item">Transferência da <strong>propriedade de bens públicos</strong> (venda, doação, permuta).</div>
       <div class="lex-expandable-item">Antecedido por <strong>licitação na modalidade leilão</strong> (regra geral).</div>
@@ -2505,11 +1071,12 @@ window.DA = {
     <div><strong>Bizu:</strong> Concessão = serviço/bem/obra públicos | PPP = patrocinada (tarifa+subsídio) ou administrativa (só subsídio) | Equilíbrio econômico-financeiro é essencial</div>
   </div>
 
-</div>`,
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
-  "Bens Públicos": {
+
+  "Bens públicos": {
     icon: "🏛️",
     color: "#14b8a6",
     aprendizado: `
@@ -2601,140 +1168,12 @@ window.DA = {
     <div><strong>Resumo:</strong> Comum = povo usa | Especial = Administração usa | Dominicais = podem ser vendidos | Indisponíveis = não podem ser alienados</div>
   </div>
 
-</div>`,
+</div>`
   },
 
   // ═══════════════════════════════════════════════════
-  "Serviços Públicos": {
-    icon: "🚇",
-    color: "#14b8a6",
-    aprendizado: `
-<div class="lex-block">
 
-  <div class="notion-header">
-    <div class="notion-icon">🚇</div>
-    <h1 class="notion-title">Serviços Públicos</h1>
-    <div class="notion-meta">
-      <span class="meta-tag tag-b">Art. 175 CF</span>
-      <span class="meta-tag tag-g">Interesse Coletivo</span>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Conceito</div>
-    <div class="lex-expandable-item">Atividades de <strong>interesse coletivo</strong> ou de interesse geral da população.</div>
-    <div class="lex-expandable-item">Prestados <strong>diretamente pelo Estado</strong> ou por <strong>delegação</strong> a particulares.</div>
-    <div class="lex-expandable-item">Fundamentam-se no princípio da <strong>supremacia do interesse público</strong>.</div>
-    <div class="lex-expandable-item">Visam assegurar: <strong>bem-estar social, continuidade e universalidade</strong>.</div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Formas de Prestação</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Prestação Direta:</strong> por órgãos da Administração Pública.</div>
-      <div class="lex-expandable-item"><strong>Prestação Indireta:</strong> por delegação a particulares mediante <strong>concessão, permissão ou autorização</strong>.</div>
-    </div>
-    <div class="callout">
-      <span class="callout-icon">⚠️</span>
-      <div>O Estado mantém a <strong>titularidade</strong>, o poder de <strong>regulamentar</strong> e <strong>fiscalizar</strong>, mesmo quando a execução é transferida.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Delegação de Serviços Públicos</div>
-    
-    <div class="lex-expandable-item"><strong>1. Concessão:</strong></div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Forma mais completa e estável de delegação.</div>
-      <div class="lex-expandable-item">Contrato administrativo mediante <strong>licitação</strong> (modalidade concorrência).</div>
-      <div class="lex-expandable-item">Prazo determinado, meios próprios, remunerada por tarifas ou contraprestação.</div>
-      <div class="lex-expandable-item">Maior investimento, garantias jurídicas robustas.</div>
-    </div>
-
-    <div class="lex-expandable-item"><strong>2. Permissão:</strong></div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Contrato de <strong>adesão</strong>, menor formalidade, maior precariedade.</div>
-      <div class="lex-expandable-item">Pode ser <strong>revogada</strong> a qualquer momento por interesse público.</div>
-      <div class="lex-expandable-item">Para serviços de menor impacto social ou econômico.</div>
-    </div>
-
-    <div class="lex-expandable-item"><strong>3. Autorização:</strong></div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Ato administrativo <strong>unilateral, discricionário e precário</strong>.</div>
-      <div class="lex-expandable-item"><strong>Não exige licitação</strong>.</div>
-      <div class="lex-expandable-item">Revogável a qualquer momento.</div>
-      <div class="lex-expandable-item">Para atividades de caráter simples (transporte alternativo eventual).</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Classificação dos Serviços Públicos</div>
-    
-    <div class="lex-expandable-item"><strong>Quanto à Natureza:</strong></div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Próprios do Estado:</strong> envolvem soberania (segurança, justiça, diplomacia) — <strong>não delegáveis</strong>.</div>
-      <div class="lex-expandable-item"><strong>Industriais ou Econômicos:</strong> podem ser prestados por particulares.</div>
-    </div>
-
-    <div class="lex-expandable-item"><strong>Quanto ao Destinatário:</strong></div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Uti Universi:</strong> voltados à coletividade de forma <strong>indivisível</strong>. Ex: iluminação pública.</div>
-      <div class="lex-expandable-item"><strong>Uti Singuli:</strong> <strong>individualizáveis e mensuráveis</strong>. Ex: água, energia, transporte.</div>
-    </div>
-
-    <div class="lex-expandable-item"><strong>Quanto à Prestação:</strong></div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Próprios:</strong> prestados diretamente pelo Estado.</div>
-      <div class="lex-expandable-item"><strong>Delegados:</strong> prestados por concessionários, permissionários ou autorizatários.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Princípios dos Serviços Públicos</div>
-    <div class="lex-cols">
-      <div>
-        <div class="lex-expandable-item"><strong>Continuidade:</strong> impede paralisações injustificadas</div>
-        <div class="lex-expandable-item"><strong>Generalidade/Universalidade:</strong> acesso a todos sem discriminação</div>
-        <div class="lex-expandable-item"><strong>Modicidade Tarifária:</strong> preços razoáveis e compatíveis</div>
-        <div class="lex-expandable-item"><strong>Eficiência:</strong> otimização de recursos, qualidade, tempestividade</div>
-      </div>
-      <div>
-        <div class="lex-expandable-item"><strong>Mutabilidade:</strong> ajustes unilaterais pelo Estado</div>
-        <div class="lex-expandable-item"><strong>Transparência:</strong> informação adequada ao cidadão</div>
-        <div class="lex-expandable-item"><strong>Segurança e Regularidade</strong></div>
-        <div class="lex-expandable-item"><strong>Cortesia ao Usuário</strong></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Interrupção do Serviço Público</div>
-    <div class="lex-expandable-item">Só pode ocorrer em situações <strong>excepcionais</strong>:</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item">Manutenção programada.</div>
-      <div class="lex-expandable-item">Inadimplência do usuário.</div>
-      <div class="lex-expandable-item">Caso fortuito ou força maior.</div>
-    </div>
-  </div>
-
-  <div class="lex-section-container">
-    <div class="lex-section-title">Direitos do Usuário</div>
-    <div class="lex-expandable-item">Serviço adequado, eficiente e seguro.</div>
-    <div class="lex-expandable-item">Informação clara sobre tarifas e condições.</div>
-    <div class="lex-expandable-item">Reclamação e participação.</div>
-    <div class="lex-expandable-item">Indenização por danos causados pela prestação inadequada.</div>
-  </div>
-
-  <div class="callout-orange">
-    <span class="callout-icon">💡</span>
-    <div><strong>Resumo:</strong> Concessão = mais estável (contrato/licitação) | Permissão = precária (adesão) | Autorização = mais simples (ato unilateral) | Uti universi = coletivo | Uti singuli = individual</div>
-  </div>
-
-</div>`,
-  },
-
-  // ═══════════════════════════════════════════════════
-  "Organização Administrativa": {
+  "Administração direta e indireta": {
     icon: "🗂️",
     color: "#f59e0b",
     aprendizado: `
@@ -2745,29 +1184,53 @@ window.DA = {
     <h1 class="notion-title">Organização Administrativa</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Adm. Direta e Indireta</span>
-      <span class="meta-tag tag-y">Art. 37, XIX CF</span>
+      <span class="meta-tag tag-gold">Art. 37, XIX CF</span>
     </div>
   </div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
       <div class="lex-section-title">Administração Direta</div>
+      <div class="callout callout-purple">
+        <span class="callout-icon">🏢</span>
+        <div class="lex-summary-content">
+          <strong>Explicação para leigos:</strong> A Administração Direta é o "governo em si" — é quando o próprio Estado executa diretamente as atividades, sem intermediários. Pense na prefeitura que cuida diretamente da coleta de lixo ou no hospital público administrado pelo governo estadual.
+        </div>
+      </div>
       <div class="lex-expandable-item">União, Estados, DF e Municípios.</div>
       <div class="lex-expandable-item">Autonomia: <strong>política, administrativa e financeira</strong>.</div>
       <div class="lex-expandable-item">Prestação <strong>centralizada</strong>.</div>
       <div class="lex-expandable-item">Órgãos públicos <strong>sem personalidade jurídica própria</strong>.</div>
       <div class="lex-expandable-item">Despesas realizadas pela esfera a qual pertencem.</div>
       <div class="lex-expandable-item">Abrange os <strong>três poderes</strong>: Executivo, Legislativo e Judiciário.</div>
+      <div class="callout callout-purple">
+        <span class="callout-icon">🚮</span>
+        <div class="lex-summary-content">
+          <strong>Exemplo prático:</strong> A prefeitura de São Paulo tem caminhões próprios de lixo e servidores municipais que fazem a coleta domiciliar em toda a cidade. Isso é prestação direta do serviço público — o próprio governo executa, sem contratar empresas privadas. Se houver um acidente com o caminhão de lixo, quem responde é a própria prefeitura (pessoa jurídica de direito público).
+        </div>
+      </div>
     </div>
 
     <div class="lex-section-container">
       <div class="lex-section-title">Administração Indireta</div>
+      <div class="callout callout-purple">
+        <span class="callout-icon">🏛️</span>
+        <div class="lex-summary-content">
+          <strong>Explicação para leigos:</strong> A Administração Indireta é quando o governo cria ou contrata outras entidades para executar serviços. É como uma "empresa do governo" — tem mais flexibilidade, mas segue regras públicas. Pense no INSS, na Caixa Econômica ou na Petrobras.
+        </div>
+      </div>
       <div class="lex-expandable-item">Autarquias, Fundações, EP e SEM.</div>
       <div class="lex-expandable-item">Autonomia: <strong>administrativa e financeira</strong> apenas.</div>
       <div class="lex-expandable-item"><strong>NÃO</strong> têm autonomia política.</div>
       <div class="lex-expandable-item"><strong>Personalidade jurídica própria</strong>, patrimônio e orçamento próprio.</div>
       <div class="lex-expandable-item">Criação: <strong>lei específica</strong> (Art. 37, XIX CF).</div>
       <div class="lex-expandable-item">Caracterizada pela <strong>descentralização</strong>.</div>
+      <div class="callout callout-purple">
+        <span class="callout-icon">💳</span>
+        <div class="lex-summary-content">
+          <strong>Exemplo prático:</strong> O INSS (Instituto Nacional do Seguro Social) é uma autarquia federal que administra a previdência. Ele tem diretor próprio, orçamento próprio e pode contratar funcionários pela CLT (não só por concurso). Mas ele não pode criar leis (não tem autonomia política) e foi criado por lei específica. Se você processar o INSS, processa essa entidade específica, não o governo federal diretamente.
+        </div>
+      </div>
     </div>
   </div>
 
@@ -2775,11 +1238,27 @@ window.DA = {
     <div class="lex-section-title">Formas de Organização</div>
   </div>
 
+  <div class="lex-section-container">
+    <div class="lex-section-title">Formas de Organização — Diferenças Práticas</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🏭</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> Imagine uma grande empresa de chocolates. <strong>Centralização</strong> é a fábrica matriz fazendo tudo. <strong>Desconcentração</strong> é criar setores dentro da fábrica (embalagem, qualidade, expedição). <strong>Descentralização</strong> é criar filiais ou contratar outras empresas para distribuir o produto. No governo é a mesma coisa!
+      </div>
+    </div>
+  </div>
+
   <div class="lex-cols">
     <div class="lex-section-container">
       <div class="lex-section-title">Centralização</div>
       <div class="lex-expandable-item">Serviço prestado pela <strong>própria</strong> Adm. Direta.</div>
       <div class="lex-expandable-item">O Estado executa suas tarefas <strong>diretamente</strong>.</div>
+      <div class="callout callout-purple">
+        <span class="callout-icon">🚔</span>
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> A Polícia Militar de um estado é centralizada — o próprio governo estadual mantém os policiais, pagamentos, viaturas e equipamentos. Não há intermediário.
+        </div>
+      </div>
     </div>
 
     <div class="lex-section-container">
@@ -2787,6 +1266,12 @@ window.DA = {
       <div class="lex-expandable-item">Transferência para <strong>outra pessoa jurídica</strong>.</div>
       <div class="lex-expandable-item">Cria <strong>ENTIDADES</strong> da Administração Indireta.</div>
       <div class="lex-expandable-item">Não há hierarquia, apenas <strong>supervisão/tutela</strong>.</div>
+      <div class="callout callout-purple">
+        <span class="callout-icon">💧</span>
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> O governo cria uma autarquia chamada Companhia de Saneamento Básico (SABESP) para cuidar do abastecimento de água. A SABESP tem vida própria, pode contratar funcionários pela CLT, mas o governo estadual supervisiona e nomeia diretores. Isso é descentralização — outra pessoa jurídica faz o serviço.
+        </div>
+      </div>
     </div>
 
     <div class="lex-section-container">
@@ -2794,26 +1279,597 @@ window.DA = {
       <div class="lex-expandable-item">Distribuição <strong>interna</strong> de competências.</div>
       <div class="lex-expandable-item">Cria <strong>ÓRGÃOS</strong> — mesma pessoa jurídica.</div>
       <div class="lex-expandable-item">Há <strong>hierarquia e subordinação</strong>.</div>
+      <div class="callout callout-purple">
+        <span class="callout-icon">📋</span>
+        <div class="lex-summary-content">
+          <strong>Exemplo:</strong> O Ministério da Saúde (pessoa jurídica única) cria departamentos internos: um para vacinação, outro para hospitais, outro para medicamentos. Todos são "órgãos" sem vida jurídica própria — se vacinação errar, responde o Ministério da Saúde como um todo. É como divisões dentro da mesma empresa.
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="lex-section-container">
     <div class="lex-section-title">Entidades da Administração Indireta</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🧩</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> São "braços especializados" do governo. Cada tipo tem uma função diferente: autarquias regulam e fiscalizam, fundações fazem pesquisa e cultura, empresas exploram atividades comerciais, e consórcios unem prefeituras para fazer projetos juntas. Todos são criados por lei e têm personalidade própria.
+      </div>
+    </div>
     <div class="lex-list">
       <div class="lex-expandable-item"><strong>Autarquias:</strong> desempenho de atividades típicas de Estado (fiscalização, regulação, assistência social, seguridade, poder de polícia).</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">📡</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo de Autarquia:</strong> A ANATEL (Agência Nacional de Telecomunicações) é uma autarquia que regula telefonia e internet no Brasil. Ela multa empresas que não cumprem metas de qualidade, define regras para operadoras e fiscaliza o setor. É como um "fiscal técnico" do governo para áreas específicas.
+      </div>
+    </div>
+    <div class="lex-list">
       <div class="lex-expandable-item"><strong>Fundações Públicas:</strong> patrimônio personalizado destinado a realizar atividades de interesse social.</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🔬</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo de Fundação:</strong> A Fiocruz (Fundação Oswaldo Cruz) é uma fundação pública que faz pesquisa científica, produz vacinas e medicamentos, e oferece cursos na área de saúde. Ela tem patrimônio próprio (laboratórios, hospitais, terrenos) e pode receber doações e parcerias internacionais.
+      </div>
+    </div>
+    <div class="lex-list">
       <div class="lex-expandable-item"><strong>Empresas Públicas e SEM:</strong> pessoas jurídicas de direito privado que prestam serviço público ou exploram atividade econômica.</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🏦</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo de Empresa Pública:</strong> A Caixa Econômica Federal é uma empresa pública que administra o FGTS, faz empréstimos para habitação (Minha Casa Minha Vida) e opera como banco comercial. Tem capital 100% público, mas segue regras de empresa privada para contratos e trabalhadores.
+      </div>
+    </div>
+    <div class="lex-list">
       <div class="lex-expandable-item"><strong>Consórcios Públicos:</strong> associação de entes federativos para execução de atividades de interesse comum.</div>
-      <div class="lex-expandable-item"><strong>Serviços Sociais Autônomos:</strong> entidades sem fins lucrativos que prestam serviços públicos.</div>
-      <div class="lex-expandable-item"><strong>Organizações Sociais (OS):</strong> Lei 9.637/1998 — contrato de gestão para áreas de saúde, ensino, pesquisa, cultura.</div>
-      <div class="lex-expandable-item"><strong>OSCIPs:</strong> Lei 9.790/1999 — termo de parceria, áreas mais amplas.</div>
-      <div class="lex-expandable-item"><strong>Fundações de Apoio:</strong> apoio a instituições públicas de ensino e pesquisa.</div>
-      <div class="lex-expandable-item"><strong>Parcerias Público-Privadas (PPPs):</strong> concessão patrocinada ou administrativa.</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🤝</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo de Consórcio:</strong> Várias prefeituras pequenas do interior se unem em um consórcio para construir juntas um aterro sanitário regional. Nenhuma teria dinheiro sozinha, mas juntas conseguem fazer uma obra melhor e mais barata, dividindo custos e responsabilidades.
+      </div>
     </div>
   </div>
 
-  
-</div>`,
+  <div class="lex-section-container">
+    <div class="lex-section-title">Órgãos Públicos</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">⚙️</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> Órgãos públicos são como os "setores" dentro de uma empresa. Eles não existem sozinhos — são partes de uma estrutura maior. Se um setor erra, a empresa inteira responde. No governo, se uma secretaria municipal erra, responde a prefeitura; se uma diretoria do ministério erra, responde o ministério inteiro.
+      </div>
+    </div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>NÃO</strong> possuem personalidade jurídica própria.</div>
+      <div class="lex-expandable-item">São apenas "centros de competência" dentro de uma PJ.</div>
+      <div class="lex-expandable-item">Resultado da <strong>Desconcentração</strong> (divisão interna).</div>
+      <div class="lex-expandable-item">Não possuem patrimônio próprio (pertence ao Ente).</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">📚</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> O Detran é um órgão do governo estadual que cuida de trânsito e habilitação. Ele não pode ser processado sozinho — se você quiser processar por uma multa indevida, processa o Estado (pessoa jurídica), não o Detran (órgão). O Detran não tem conta bancária própria nem pode comprar carros em seu nome — tudo é feito em nome do governo estadual.
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Descentralização Administrativa</div>
+    <div class="callout callout-purple">
+      <span class="material-symbols-outlined">hub</span>
+      <div class="lex-summary-content">
+        <strong>Conceito:</strong> O Estado transfere a execução ou a titularidade de um serviço para <strong>outra pessoa jurídica</strong> (Entidade). Diferente da desconcentração, aqui não há hierarquia, apenas vinculação/controle.
+      </div>
+    </div>
+
+    <div class="lex-cols">
+      <div class="lex-section-container">
+        <div class="lex-section-title">
+          <span class="material-symbols-outlined">description</span> Por Outorga (Legal)
+        </div>
+        <div class="lex-list">
+          <div class="lex-expandable-item">Transfere <strong>Titularidade + Execução</strong>.</div>
+          <div class="lex-expandable-item">Realizada apenas por <strong>LEI</strong>.</div>
+          <div class="lex-expandable-item">Cria a Adm. Indireta (Autarquias).</div>
+        </div>
+        <div class="lex-summary" style="border-left-color: var(--acc);">
+          <div class="lex-summary-content">
+            <strong>Exemplo:</strong> Criação do INSS por lei. Ele é o "dono" do serviço previdenciário agora.
+          </div>
+        </div>
+      </div>
+
+      <div class="lex-section-container">
+        <div class="lex-section-title">
+          <span class="material-symbols-outlined">handshake</span> Por Delegação (Negocial)
+        </div>
+        <div class="lex-list">
+          <div class="lex-expandable-item">Transfere apenas a <strong>Execução</strong>.</div>
+          <div class="lex-expandable-item">Por <strong>Contrato ou Ato</strong> administrativo.</div>
+          <div class="lex-expandable-item">Caráter precário (revogável).</div>
+        </div>
+        <div class="lex-summary" style="border-left-color: var(--gold);">
+          <div class="lex-summary-content">
+            <strong>Exemplo:</strong> Concessão de pedágios ou linhas de ônibus para empresas privadas.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Consórcios Públicos</div>
+    <div class="lex-expandable-item">Acordo entre entes federativos (União, Estados, DF, Municípios).</div>
+    <div class="lex-expandable-item">Para realizar objetivos de <strong>interesse comum</strong>.</div>
+    <div class="lex-expandable-item">Gestão associada de serviços públicos.</div>
+    <div class="lex-expandable-item">Base: <strong>Lei 11.107/2005</strong>.</div>
+    <div class="lex-expandable-item">Natureza Jurídica: <strong>Direito público</strong> — associação pública, ou <strong>direito privado</strong>.</div>
+    <div class="lex-expandable-item">Personalidade jurídica própria.</div>
+    <div class="lex-expandable-item">Autonomia administrativa e financeira.</div>
+  </div>
+
+</div>`
+  },
+
+  // ═══════════════════════════════════════════════════
+
+  "Controle da administração pública": {
+    icon: "🔍",
+    color: "#38bdf8",
+    aprendizado: `
+<div class="lex-block">
+
+  <div class="notion-header">
+    <div class="notion-icon">🔍</div>
+    <h1 class="notion-title">Controle da Administração</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Tipos de Controle</span>
+      <span class="meta-tag tag-g">Momento de Atuação</span>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Conceito</div>
+    <div class="lex-expandable-item">Conjunto de mecanismos para verificar a <strong>legalidade, eficiência e legitimidade</strong> dos atos administrativos.</div>
+    <div class="lex-expandable-item">Pode ser <strong>interno</strong> (própria administração) ou <strong>externo</strong> (outros poderes).</div>
+    <div class="lex-expandable-item">Objetivo: evitar <strong>arbitrariedades</strong> e garantir a <strong>observância do interesse público</strong>.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Tipos de Controle</div>
+    
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Controle Direto (Interno):</strong> exercido pelos órgãos da própria administração (hierarquia).</div>
+      <div class="lex-expandable-item"><strong>Controle Indireto (Externo):</strong> exercido por órgãos de outros poderes (Judiciário, Legislativo).</div>
+    </div>
+
+    <div class="lex-list" style="margin-top: 16px;">
+      <div class="lex-expandable-item"><strong>Controle de Legalidade:</strong> verifica se o ato está em conformidade com a lei.</div>
+      <div class="lex-expandable-item"><strong>Controle de Mérito:</strong> avalia a conveniência e oportunidade do ato (exclusivo da administração).</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Momentos de Controle</div>
+    
+    <div class="callout callout-purple">
+      <span class="callout-icon">💡</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> Imagine que você vai construir uma casa. O controle preventivo é como o engenheiro revisar a planta antes da obra começar. O concomitante é o fiscal visitando a obra enquanto os pedreiros trabalham. O repressivo é a prefeitura multar depois que a casa foi construída irregularmente.
+      </div>
+    </div>
+
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Controle Preventivo:</strong> antes da prática do ato. Ex: parecer de assessoria jurídica.</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🏠</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> Uma prefeitura quer contratar uma empresa para construir uma escola. Antes de assinar o contrato, o procurador municipal revisa todos os documentos para garantir que a licitação foi feita corretamente. Esse parecer jurídico prévio é o controle preventivo — evita problemas antes que aconteçam.
+      </div>
+    </div>
+
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Controle Concomitante:</strong> durante a prática do ato. Ex: fiscalização em tempo real.</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🔨</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> Durante a construção da mesma escola, um engenheiro municipal visita semanalmente a obra para verificar se a empresa está seguindo o projeto aprovado, usando materiais de qualidade e respeitando prazos. Se encontrar problemas, exige correção imediata. Esse é o controle concomitante — acontece durante a execução.
+      </div>
+    </div>
+
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Controle Repressivo (Posterior):</strong> depois da prática do ato. Ex: ação judicial para anular ato ilegal.</div>
+    </div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">⚖️</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> A escola foi inaugurada, mas moradores descobrem que ela foi construída em área de proteção ambiental, violando a lei. Eles entram com uma ação na Justiça pedindo a anulação da construção. O juiz pode ordenar a demolição ou indenização. Esse é o controle repressivo — atua depois que o erro já foi cometido.
+      </div>
+    </div>
+  </div>
+
+  <div class="notion-header" style="margin-top: 40px;">
+    <div class="notion-icon">⚖️</div>
+    <h1 class="notion-title">Controle Judicial</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Anulação</span>
+      <span class="meta-tag tag-g">Legalidade</span>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Controle de Legalidade pelo Judiciário</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">⚖️</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> O Judiciário (juízes e tribunais) atua como um "corretor de provas" da Administração. Ele verifica se o governo seguiu as regras (legalidade), mas não pode opinar se a decisão foi boa ou ruim (mérito). É como um árbitro de futebol: pode anular um gol irregular, mas não pode dizer que o time deveria ter jogado de outra forma.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Normalmente exercido em caráter <strong>repressivo</strong> — após a administração já ter praticado o ato.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">📋</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> Maria foi aprovada em um concurso público para professora. No entanto, a prefeitura demorou 2 anos para convocá-la, e quando chamou, ela descobriu que seu cargo havia sido dado a outra pessoa por indicação política. Maria entra na Justiça com mandado de segurança. O juiz verifica que a nomeação do outro candidato violou o princípio da impessoalidade e anula o ato. O Judiciário só analisou se houve violação da lei, não se a prefeitura deveria ou não ter contratado Maria antes.
+      </div>
+    </div>
+    <div class="lex-expandable-item">A atuação do Judiciário deve se restringir ao <strong>controle de legalidade</strong> do ato — não é possível o controle do mérito administrativo.</div>
+    <div class="lex-expandable-item">Mediante o controle judicial, pode ser decretada a <strong>anulação</strong> do ato (nunca a revogação, pois esta decorre de controle de mérito).</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Atos Discricionários e o Judiciário</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🎯</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> Quando a lei dá liberdade para o governo escolher (ato discricionário), o juiz não pode dizer "eu teria decidido diferente". Mas pode anular se a decisão foi absurda, desproporcional ou violou direitos. É como um professor que não pode mudar a nota do aluno, mas pode anular se a prova foi aplicada de forma injusta.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Não se deve confundir a vedação de apreciação do mérito com a <strong>possibilidade de aferição da legalidade</strong> dos atos discricionários.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🚗</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> O DETRAN suspende a carteira de João por 1 ano por excesso de velocidade. O juiz não pode dizer "suspenderia por apenas 6 meses" porque isso seria controlar o mérito. Mas pode anular a suspensão se descobrir que: (1) o radar estava sem calibração, (2) a velocidade permitida estava mal sinalizada, ou (3) a pena é desproporcional à infração cometida. O juiz verifica se houve legalidade e razoabilidade, não se concorda com a punição.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Os controles de <strong>razoabilidade e proporcionalidade</strong> possibilitam anulação pelo Judiciário de atos discricionários praticados fora da esfera de mérito estabelecida pela lei.</div>
+  </div>
+
+  <div class="callout-orange">
+    <span class="callout-icon">💡</span>
+    <div><strong>FICA A DICA:</strong> O Poder Judiciário pode, sempre que provocado, <strong>anular</strong> atos administrativos (vinculados ou discricionários) com vícios de ilegalidade. O que não se admite é que o Judiciário <strong>revogue</strong> um ato editado pelo Executivo ou Legislativo.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Anulação x Revogação</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🔄</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> Anular é como cancelar uma compra porque o produto era defeituoso — o ato era errado desde o início. Revogar é como devolver um produto que estava bom, mas você não precisa mais dele — o ato era válido, mas perdeu a utilidade.
+      </div>
+    </div>
+    <div class="lex-expandable-item"><strong>Anulação:</strong> Retira ato ilegal ou ilegítimo. Pode ser feita pelo Judiciário ou pela própria Administração.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">❌</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo de Anulação:</strong> Um prefeito nomeia seu sobrinho para um cargo de confiança sem concurso público, violando a Constituição. O Ministério Público entra na Justiça e o juiz <strong>anula</strong> a nomeação porque era ilegal desde o início. É como se o ato nunca tivesse existido.
+      </div>
+    </div>
+    <div class="lex-expandable-item"><strong>Revogação:</strong> Retira ato discricionário válido que se tornou <strong>inoportuno ou inconveniente</strong> ao interesse público. Juízo exclusivo da administração que praticou o ato. O Judiciário <strong>não pode revogar</strong>.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">✅</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo de Revogação:</strong> A prefeitura autorizou uma festa de Réveillon na praia. Depois de uma previsão de temporal severo, o prefeito <strong>revoga</strong> a autorização por questão de segurança. O ato era legal, mas se tornou inoportuno. Só a prefeitura pode fazer isso — o juiz não pode "revogar" porque não é questão de legalidade, mas de conveniência administrativa.
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Princípio da Inafastabilidade de Jurisdição</div>
+    <div class="lex-expandable-item"><strong>Art. 5º, XXXV, CF:</strong> "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito."</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Instrumentos de Controle Judicial</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item">Mandado de Segurança</div>
+      <div class="lex-expandable-item">Ação Popular</div>
+      <div class="lex-expandable-item">Ação Civil Pública</div>
+      <div class="lex-expandable-item">Habeas Corpus</div>
+      <div class="lex-expandable-item">Habeas Data</div>
+    </div>
+  </div>
+
+  <div class="notion-header" style="margin-top: 40px;">
+    <div class="notion-icon">🏛️</div>
+    <h1 class="notion-title">Controle Legislativo</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Político · Financeiro</span>
+      <span class="meta-tag tag-g">CF/88 — Arts. 49, 52, 70, 71</span>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Conceito</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🏛️</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> O Legislativo (Câmara dos Deputados e Senado) é como o conselho fiscal de uma empresa. Ele não pode cancelar decisões do dia a dia, mas pode cobrar explicações, bloquear gastos irregulares e punir dirigentes que cometerem crimes. O controle é político porque envolve julgamentos de conveniência, não apenas questões jurídicas.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Fiscalização da administração pública exercida pelo <strong>Poder Legislativo</strong>.</div>
+    <div class="lex-expandable-item">Possui marcada <strong>índole política</strong> — não se limita ao controle de legalidade formal, abrangendo eficiência e conveniência pública de determinadas atuações do Poder Executivo.</div>
+    <div class="lex-expandable-item">Como há administração pública em todos os Poderes, as prerrogativas do Legislativo incluem a fiscalização da atuação administrativa em <strong>todos eles</strong>.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">💰</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> O Congresso aprovou um orçamento de R$ 10 milhões para construir um hospital. Durante a fiscalização, descobrem que o governo gastou R$ 3 milhões em aluguel de equipamentos caros sem necessidade. O Legislativo pode convocar o ministro para explicações, sustar gastos irregulares e, se houver desvio de dinheiro, abrir processo de impeachment. Isso é controle político-financeiro.
+      </div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Competências do Congresso Nacional (Art. 49)</div>
+    <div class="lex-expandable-item"><strong>Art. 49, X:</strong> Fiscalizar e controlar, diretamente ou por qualquer de suas Casas, os atos do Poder Executivo, incluídos os da administração indireta.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, V:</strong> Sustar os atos normativos do Poder Executivo que <strong>exorbitem do poder regulamentar</strong> ou dos limites de delegação legislativa.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, IX:</strong> Julgar anualmente as contas prestadas pelo Presidente da República e apreciar os relatórios sobre a execução dos planos de governo.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, XII:</strong> Autorizar operações externas de natureza financeira, de interesse da União, Estados, DF, Territórios e Municípios.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, XVI:</strong> Aprovar pedido de intervenção federal em Estado ou no DF.</div>
+    <div class="lex-expandable-item"><strong>Art. 49, XVII:</strong> Autorizar referendo e aprovar a celebração de tratados internacionais.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Competências Exclusivas do Senado Federal (Art. 52)</div>
+    <div class="lex-expandable-item"><strong>Art. 52, I:</strong> Processar e julgar o Presidente e Vice-Presidente da República nos crimes de responsabilidade, bem como Ministros de Estado e Comandantes das Forças Armadas nos crimes conexos.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, III:</strong> Aprovar previamente, por <strong>voto secreto</strong>, após arguição pública, a escolha de: magistrados dos tribunais superiores, ministros do TCU, governador de Território, presidente e diretores do Banco Central, Procurador-Geral da República.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, IV:</strong> Aprovar previamente, por <strong>voto secreto</strong>, após arguição em sessão secreta, a escolha dos chefes de missão diplomática de caráter permanente.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, V:</strong> Autorizar operações externas de natureza financeira de interesse da União, Estados, DF, Territórios e Municípios.</div>
+    <div class="lex-expandable-item"><strong>Art. 52, XI:</strong> Aprovar, por maioria absoluta e voto secreto, a exoneração <em>de ofício</em> do Procurador-Geral da República antes do término de seu mandato.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Fiscalização Contábil e Financeira (Arts. 70-71)</div>
+    <div class="lex-expandable-item"><strong>Art. 70, caput:</strong> Compete ao Congresso Nacional, auxiliado pelo TCU, exercer a <strong>fiscalização contábil, financeira e orçamentária</strong> federal.</div>
+    <div class="lex-expandable-item"><strong>Art. 71, § 7º:</strong> Sustar contratos que apresentem ilegalidade, mediante solicitação do TCU.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">TCU — Tribunal de Contas da União</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🔍</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> O TCU é como um auditor de contas que verifica se o dinheiro público foi gasto corretamente. Ele é auxiliar do Congresso — encontra irregularidades, mas em geral precisa que o Congresso ou Executivo tomem providências. Só decide diretamente em casos específicos ou quando há inércia.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Auxilia no controle externo, comprovando a <strong>probidade da administração</strong> e a regularidade dos gastos públicos.</div>
+    <div class="lex-expandable-item"><strong>Art. 71, X:</strong> Competência para <strong>sustar diretamente</strong> a execução de atos administrativos, dando ciência à Câmara e ao Senado.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">📊</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> O TCU audita um contrato de R$ 50 milhões para compra de computadores escolares e descobre preços superfaturados (o mesmo equipamento custa metade em outras prefeituras). O TCU emite parecer pela ilegalidade. Se for um ato administrativo simples, o TCU pode sustar diretamente. Se for um contrato, avisa o Congresso. Se deputados e senadores não fizerem nada em 90 dias, aí o TCU pode agir sozinho.
+      </div>
+    </div>
+    <div class="lex-expandable-item">No caso de contratos administrativos, o ato de sustação cabe ao <strong>Congresso Nacional</strong>, que solicitará ao Poder Executivo as medidas cabíveis.</div>
+    <div class="lex-expandable-item">Apenas se o Congresso ou o Executivo não efetivar as medidas no prazo de <strong>90 dias</strong> é que o TCU adquirirá competência para decidir.</div>
+  </div>
+
+  <div class="callout callout-green">
+    <span class="callout-icon">✅</span>
+    <div><strong>Resumo:</strong> TCU susta atos administrativos diretamente. Para contratos, a sustação é do Congresso Nacional. Se o Congresso ou Executivo inerte por 90 dias → TCU decide.</div>
+  </div>
+
+  <div class="notion-header" style="margin-top: 40px;">
+    <div class="notion-icon">📬</div>
+    <h1 class="notion-title">Recursos Administrativos</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Recurso em Sentido Estrito</span>
+      <span class="meta-tag tag-g">Pedido de Reconsideração</span>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Recurso em Sentido Estrito</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">📄</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> É o recurso que você entra quando recebe uma decisão negativa em primeira instância — ou seja, quando um órgão da administração decide definitivamente contra você. Ele serve para levar o caso para uma instância superior dentro da própria administração, antes de ir para a Justiça comum.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Cabe em <strong>atos definitivos de 1ª instância</strong> (que põem fim à fase de instrução).</div>
+    <div class="lex-expandable-item">Exemplo: contra decisão que indefere pedido de aposentadoria.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">👨‍🏫</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> José trabalhou 35 anos como professor federal e pediu aposentadoria. O INSS indeferiu o pedido alegando falta de tempo de contribuição. José entra com <strong>recurso em sentido estrito</strong> para a instância superior do INSS em 15 dias. O recurso tem efeito suspensivo — enquanto aguarda a decisão, o prazo para José se aposentar não expira. Se for negado de novo, ele pode ir à Justiça Federal.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Prazo: <strong>15 dias</strong> contados da intimação ou publicação.</div>
+    <div class="lex-expandable-item">Efeito: <strong>suspensivo</strong> (interrompe o prazo de decadência).</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Pedido de Reconsideração</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🔄</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> Quando você já esgotou a primeira instância e foi para a segunda (ou instância final), e mesmo assim perdeu, você pode pedir para a mesma autoridade reconsiderar. É como pedir para o professor rever a correção da prova que você tirou nota baixa, apontando onde ele errou na correção.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Cabe contra <strong>atos de 2ª instância</strong> ou <strong>decisões definitivas</strong>.</div>
+    <div class="lex-expandable-item">Objetivo: pedir revisão da decisão baseada em <strong>erro de fato ou de direito</strong>.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🏥</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> Maria solicitou um medicamento caro pelo SUS. O hospital negou em primeira instância. Ela recorreu e a segunda instância também negou. Maria então entra com <strong>pedido de reconsideração</strong> apontando que o medicamento está na lista de procedimentos obrigatórios do SUS segundo portaria recente do Ministério da Saúde (erro de direito) e que ela tem laudos médicos comprovando a necessidade (erro de fato). O prazo é de 30 dias, e enquanto aguarda, o prazo para entrar na Justiça continua correndo, a menos que ela peça e consiga efeito suspensivo.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Prazo: <strong>30 dias</strong>.</div>
+    <div class="lex-expandable-item">Não tem efeito suspensivo automático — pode haver pedido de <strong>efeito suspensivo específico</strong>.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Recurso Hierárquico (Voluntário)</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">⬆️</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> É quando você recorre ao chefe do seu chefe. Funciona em uma estrutura vertical: se o fiscal municipal te multou injustamente, você recorre ao chefe dele na prefeitura. É usado principalmente para atos que ainda não terminaram o processo administrativo (não definitivos).
+      </div>
+    </div>
+    <div class="lex-expandable-item">Cabe contra atos <strong>não definitivos</strong> ou quando há omissão da administração.</div>
+    <div class="lex-expandable-item">Dirigido ao <strong>superior hierárquico</strong> do autor do ato.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">🚧</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> Um fiscal municipal interditou o restaurante de Pedro por "falta de higiene" durante uma vistoria surpresa. Pedro considera a interdição abusiva porque o restaurante estava fechado para limpeza semanal. Como a interdição é um ato preparatório (não definitivo — ainda pode haver processo administrativo), Pedro entra com <strong>recurso hierárquico voluntário</strong> ao chefe do fiscal em 15 dias. O recurso é devolutivo: o restaurante permanece interditado enquanto aguarda a decisão do superior, a menos que Pedro consiga uma liminar na Justiça.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Prazo: <strong>15 dias</strong>.</div>
+    <div class="lex-expandable-item">Efeito: <strong>devolutivo</strong> (não suspende a execução do ato).</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Recurso Obrigatório (Ofício)</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">📨</span>
+      <div class="lex-summary-content">
+        <strong>Explicação passo a passo:</strong> Diferente dos outros recursos que a pessoa prejudicada entra, este é "obrigatório" porque a própria administração envia para cima quando a decisão pode afetar muitas pessoas ou vai contra o que normalmente é decidido. É como quando um professor manda uma questão de prova para o coordenador porque achou que o gabarito pode estar errado.
+      </div>
+    </div>
+    <div class="lex-expandable-item">Exigido por lei quando há <strong>interesse público</strong> na revisão do ato.</div>
+    <div class="lex-expandable-item">Submetido automaticamente à autoridade superior.</div>
+    <div class="lex-expandable-item">Exemplo: decisões contrárias à jurisprudência dominante.</div>
+    <div class="callout callout-purple">
+      <span class="callout-icon">⚖️</span>
+      <div class="lex-summary-content">
+        <strong>Exemplo prático:</strong> Uma vara do INSS concedeu aposentadoria especial a um trabalhador exposto a ruído, seguindo entendimento do STF de 2020. Porém, a jurisprudência dominante do TRF da região havia decidido meses depois que esse tipo de caso não deve mais ter aposentadoria especial. Como a decisão é contrária à jurisprudência dominante, o juiz tem obrigação de enviar oficiosamente (de ofício, sem pedido das partes) para o tribunal superior revisar. Isso é recurso obrigatório para uniformizar as decisões.
+      </div>
+    </div>
+  </div>
+
+  <div class="callout-orange">
+    <span class="callout-icon">💡</span>
+    <div><strong>Resumo:</strong> Recurso em sentido estrito = contra atos de 1ª instância | Pedido de reconsideração = contra atos de 2ª instância | Hierárquico = para superior | Obrigatório = interesse público</div>
+  </div>
+
+</div>`
+  },
+
+  // ═══════════════════════════════════════════════════
+
+  "Responsabilidades do Estado": {
+    icon: "⚖️",
+    color: "#ef4444",
+    aprendizado: `
+<div class="lex-block">
+
+  <div class="notion-header">
+    <div class="notion-icon">⚖️</div>
+    <h1 class="notion-title">Responsabilidade Civil do Estado</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Art. 37, §6º CF</span>
+      <span class="meta-tag tag-g">Objetiva · Subjetiva</span>
+    </div>
+  </div>
+
+  <div class="callout callout-red">
+    <span class="callout-icon">📜</span>
+    <div><strong>Art. 37, §6º CF:</strong> "As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Alcance da Responsabilidade</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Pessoa Jurídica de Direito Público:</strong> Administração Direta, Autarquias e Fundações Públicas</div>
+      <div class="lex-expandable-item"><strong>Pessoa Jurídica de Direito Privado:</strong> Empresas Públicas e SEM prestadoras de serviço público</div>
+      <div class="lex-expandable-item"><strong>Delegatárias:</strong> Concessionárias, Permissionárias e Autorizadas (responsabilidade subsidiária do Estado)</div>
+    </div>
+    <div class="callout">
+      <span class="callout-icon">⚠️</span>
+      <div><strong>Não inclui:</strong> EP e SEM que exploram atividades econômicas (regidas pelo Direito Civil/Comercial)</div>
+    </div>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">Responsabilidade Objetiva</div>
+      <div class="lex-expandable-item">Independe da comprovação de <strong>dolo ou culpa</strong>.</div>
+      <div class="lex-expandable-item">Basta demonstrar: <strong>conduta, dano e nexo causal</strong>.</div>
+      <div class="lex-expandable-item">Técnica de <strong>socialização de danos</strong> (solidariedade social).</div>
+      <div class="lex-expandable-item">Abrange danos a <strong>usuários e terceiros não usuários</strong>.</div>
+    </div>
+    <div class="lex-section-container">
+      <div class="lex-section-title">Responsabilidade Subjetiva</div>
+      <div class="lex-expandable-item">Aplica-se em caso de <strong>omissão</strong> do Estado.</div>
+      <div class="lex-expandable-item">É necessária a comprovação de <strong>culpa</strong> (negligência, imprudência, imperícia).</div>
+      <div class="lex-expandable-item">Também chamada de <strong>culpa anônima</strong> ou falta do serviço.</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Teorias do Risco</div>
+    <div class="lex-expandable-item"><strong>Teoria do Risco Integral:</strong> Não admite causas excludentes de responsabilidade. <em>Não adotada no Brasil.</em></div>
+    <div class="lex-expandable-item"><strong>Teoria do Risco Administrativo:</strong> Admite causas excludentes (caso fortuito, força maior, culpa exclusiva da vítima). <em>Teoria adotada no Brasil.</em></div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Causas Excludentes de Responsabilidade</div>
+    <div class="lex-expandable-item lex-expandable-item-purple"><strong>Caso Fortuito e Força Maior:</strong> STF não faz distinção entre ambas. Fatos alheios à vontade da Administração, imprevisíveis e inevitáveis.</div>
+    <div class="lex-expandable-item"><strong>Culpa Exclusiva da Vítima:</strong> Quando a vítima é única responsável pelo dano. Ex: suicídio em linha de trem.</div>
+    <div class="lex-expandable-item"><strong>Culpa Exclusiva de Terceiro:</strong> Dano causado unicamente por terceiro, sem participação do Estado.</div>
+    <div class="lex-expandable-item"><strong>Culpa Concorrente:</strong> Atenua a responsabilidade do Estado (reduz o valor da indenização). Ex: passageiro andando pendurado no trem.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Reparação de Danos</div>
+    <div class="lex-list">
+      <div class="lex-expandable-item"><strong>Acordo Administrativo:</strong> Quando o dano é reconhecido e há acordo, a indenização é feita via administrativa.</div>
+      <div class="lex-expandable-item"><strong>Ação Judicial:</strong> Cabível apenas contra a Administração (STF é contrário a ação contra o agente público isoladamente).</div>
+    </div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Prazo Prescricional</div>
+    <div class="lex-expandable-item">A ação de indenização deve ser proposta no prazo de <strong>5 anos</strong>, contados a partir do fato danoso.</div>
+    <div class="lex-expandable-item">Base: <strong>Decreto 20.910/32, art. 1º</strong> e <strong>Lei 9.494/97, art. 1º, §6º</strong>.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Ação Regressiva</div>
+    <div class="lex-expandable-item">O Estado tem direito de <strong>regresso</strong> contra o agente público que causou o dano quando houve <strong>dolo ou culpa</strong>.</div>
+    <div class="lex-expandable-item">Base: <strong>Art. 37, §6º, parte final CF</strong>.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Responsabilidade por Omissão — Jurisprudência STF</div>
+    <div class="lex-expandable-item">RE 841526 (Tema 362): A responsabilidade por omissão também está fundamentada no art. 37, §6º CF.</div>
+    <div class="lex-expandable-item">Requisito: nexo causal entre a <strong>omissão</strong> e o dano, quando o Estado tinha <strong>dever legal específico de agir</strong>.</div>
+    <div class="lex-expandable-item">Ex: morte de detento por inobservância do dever de proteção (Art. 5º, XLIX CF).</div>
+    <div class="lex-expandable-item">Ex: dano por comércio de fogos de artifício quando há violação de dever jurídico específico de fiscalização.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Responsabilidade do Estado por Preso Foragido</div>
+    <div class="lex-expandable-item">Não se caracteriza responsabilidade objetiva quando <strong>não demonstrado o nexo causal</strong> direto entre a fuga e a conduta criminosa posterior.</div>
+    <div class="lex-expandable-item">Deve haver comprovação de que o Estado deixou de cumprir obrigação legal específica de custódia.</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">Responsabilidade Subsidiária</div>
+    <div class="lex-expandable-item">O Estado responde <strong>subsidiariamente</strong> por danos causados por concessionárias e permissionárias.</div>
+    <div class="lex-expandable-item">Só responde após o <strong>exaurimento do patrimônio</strong> da empresa delegatária (falência/insolvência).</div>
+    <div class="lex-expandable-item">Razão: as delegatárias prestam serviço em seu nome, por sua conta e risco.</div>
+  </div>
+
+  <div class="callout-orange">
+    <span class="callout-icon">💡</span>
+    <div><strong>Resumo:</strong> Ação = objetiva (§6º CF) | Omissão = subjetiva (culpa anônima) | Prazo = 5 anos | Regresso = dolo/culpa do agente</div>
+  </div>
+
+</div>`
   }
 
 };
