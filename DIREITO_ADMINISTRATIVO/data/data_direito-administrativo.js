@@ -1317,7 +1317,7 @@ window.DA = {
     <h1 class="notion-title">Organização Administrativa</h1>
     <div class="notion-meta">
       <span class="meta-tag tag-b">Adm. Direta e Indireta</span>
-      <span class="meta-tag tag-gold">Art. 37, XIX CF</span>
+      <span class="meta-tag tag-r">Art. 37, XIX CF</span>
     </div>
   </div>
 
