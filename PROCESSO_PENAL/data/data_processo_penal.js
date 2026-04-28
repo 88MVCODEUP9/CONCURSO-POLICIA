@@ -915,14 +915,7 @@ window.DA = {
     </div>
   </div>
 </div>
-
 </div>
-
 </div>`
   },
-
-};
-
-};
-
 };
