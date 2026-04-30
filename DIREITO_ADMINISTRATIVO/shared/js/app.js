@@ -1,298 +1,561 @@
 'use strict';
 
-/* ══ UTILS ═════════════════════════════════════ */
-const $ = (sel, ctx = document) => ctx.querySelector(sel);
-const $$ = (sel, ctx = document) => ctx.querySelectorAll(sel);
+/**
+ * ═══════════════════════════════════════════════════════════════════════════════
+ * MV Study App - JavaScript Principal (Versão Profissional)
+ * ═══════════════════════════════════════════════════════════════════════════════
+ */
 
-const escapeHTML = (str = '') =>
-    String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;');
-
-/* ══ ESTADO GLOBAL ═════════════════════════════ */
-const AppState = {
-    currentTopic: null,
-    studyProgress: {},
-    viewMode: 'aprender',
-    isMobile: window.matchMedia('(max-width: 768px)').matches,
-
-    isTopicDone(t) {
-        return !!this.studyProgress[t];
+/* ══ DOM UTILITIES ═════════════════════════════════════════════════════════════ */
+const DOM = {
+    /**
+     * Query selector com contexto opcional
+     * @param {string} selector - Seletor CSS
+     * @param {Document|Element} [context=document] - Contexto da busca
+     * @returns {Element|null}
+     */
+    query(selector, context = document) {
+        return context.querySelector(selector);
     },
+
+    /**
+     * Query selector all com contexto opcional
+     * @param {string} selector - Seletor CSS
+     * @param {Document|Element} [context=document] - Contexto da busca
+     * @returns {NodeListOf<Element>}
+     */
+    queryAll(selector, context = document) {
+        return context.querySelectorAll(selector);
+    },
+
+    /**
+     * Escapa HTML para prevenir XSS
+     * @param {string} str - String a ser escapada
+     * @returns {string}
+     */
+    escapeHTML(str = '') {
+        const div = document.createElement('div');
+        div.textContent = String(str);
+        return div.innerHTML;
+    }
+};
+
+/* ══ APPLICATION STATE ═════════════════════════════════════════════════════════ */
+class AppState {
+    static #instance = null;
+
+    constructor() {
+        this.currentTopic = null;
+        this.studyProgress = {};
+        this.viewMode = 'aprender';
+        this.isMobile = window.matchMedia('(max-width: 768px)').matches;
+        this.#initMediaQuery();
+    }
+
+    static getInstance() {
+        if (!AppState.#instance) {
+            AppState.#instance = new AppState();
+        }
+        return AppState.#instance;
+    }
+
+    #initMediaQuery() {
+        window.matchMedia('(max-width: 768px)').addListener((mq) => {
+            this.isMobile = mq.matches;
+        });
+    }
+
+    isTopicDone(topic) {
+        return !!this.studyProgress[topic];
+    }
 
     getData() {
         return window.DA ?? null;
     }
-};
+}
 
-/* ══ TEMA ═════════════════════════════════════ */
-const ThemeManager = {
-    init() {
-        this.apply(localStorage.getItem('mv_theme') || 'dark');
-    },
+/* ══ THEME MANAGER ═════════════════════════════════════════════════════════════ */
+class ThemeManager {
+    static #currentTheme = 'dark';
 
-    apply(theme) {
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('mv_theme', theme);
-    },
-
-    toggle() {
-        const cur = document.documentElement.getAttribute('data-theme');
-        this.apply(cur === 'dark' ? 'light' : 'dark');
+    static init() {
+        const savedTheme = localStorage.getItem('mv_theme');
+        this.#currentTheme = savedTheme || 'dark';
+        this.#applyTheme();
     }
-};
 
-/* ══ PROGRESSO ════════════════════════════════ */
-const Progress = {
-    key: 'mv_progress_v7',
+    static #applyTheme() {
+        document.documentElement.setAttribute('data-theme', this.#currentTheme);
+        localStorage.setItem('mv_theme', this.#currentTheme);
+    }
 
-    load() {
+    static toggle() {
+        this.#currentTheme = this.#currentTheme === 'dark' ? 'light' : 'dark';
+        this.#applyTheme();
+    }
+}
+
+/* ══ PROGRESS MANAGER ═════════════════════════════════════════════════════════ */
+class ProgressManager {
+    static #STORAGE_KEY = 'mv_progress_v8';
+
+    static init() {
+        ProgressManager.#loadProgress();
+    }
+
+    static #loadProgress() {
         try {
-            AppState.studyProgress = JSON.parse(localStorage.getItem(this.key)) || {};
+            const state = AppState.getInstance();
+            state.studyProgress = JSON.parse(localStorage.getItem(this.#STORAGE_KEY)) || {};
         } catch {
-            AppState.studyProgress = {};
+            const state = AppState.getInstance();
+            state.studyProgress = {};
         }
-    },
+    }
 
-    save() {
-        localStorage.setItem(this.key, JSON.stringify(AppState.studyProgress));
-    },
+    static save() {
+        localStorage.setItem(this.#STORAGE_KEY, JSON.stringify(AppState.getInstance().studyProgress));
+    }
 
-    toggle(topic) {
+    static toggleTopic(topic) {
         if (!topic) return;
 
-        AppState.studyProgress[topic]
-            ? delete AppState.studyProgress[topic]
-            : AppState.studyProgress[topic] = true;
+        const state = AppState.getInstance();
+        if (state.studyProgress[topic]) {
+            delete state.studyProgress[topic];
+        } else {
+            state.studyProgress[topic] = true;
+        }
 
-        this.save();
-        this.updateUI();
+        ProgressManager.save();
+        ProgressManager.updateUI();
         Sidebar.render();
-    },
+    }
 
-    getStats() {
-        const da = AppState.getData();
-        if (!da) return { total: 0, done: 0, pending: 0, pct: 0 };
+    static getStats() {
+        const state = AppState.getInstance();
+        const data = state.getData();
+        
+        if (!data) {
+            return { total: 0, done: 0, pending: 0, pct: 0 };
+        }
 
-        const topics = Object.keys(da);
-        const done = topics.filter(t => AppState.studyProgress[t]).length;
+        const topics = Object.keys(data);
+        const doneCount = topics.filter(t => state.studyProgress[t]).length;
 
         return {
             total: topics.length,
-            done,
-            pending: topics.length - done,
-            pct: topics.length ? Math.round((done / topics.length) * 100) : 0
+            done: doneCount,
+            pending: topics.length - doneCount,
+            pct: topics.length ? Math.round((doneCount / topics.length) * 100) : 0
         };
-    },
-
-    updateUI() {
-        const s = this.getStats();
-
-        $('#prog-pct') && ($('#prog-pct').textContent = `${s.pct}%`);
-        $('#sidebar-prog-fill') && ($('#sidebar-prog-fill').style.width = `${s.pct}%`);
-
-        const chip = $('#top-prog .chip-text');
-        if (chip) chip.textContent = `${s.done} / ${s.total}`;
     }
-};
 
-/* ══ SIDEBAR ═════════════════════════════════ */
-const Sidebar = {
-    container: null,
+    static updateUI() {
+        const stats = ProgressManager.getStats();
+        const pctEl = DOM.query('#prog-pct');
+        const sidebarFill = DOM.query('#sidebar-prog-fill');
+        const chipEl = DOM.query('#top-prog .chip-text');
 
-    init() {
-        this.container = $('#sidebar-list');
+        if (pctEl) pctEl.textContent = `${stats.pct}%`;
+        if (sidebarFill) sidebarFill.style.width = `${stats.pct}%`;
+        if (chipEl) chipEl.textContent = `${stats.done} / ${stats.total}`;
+    }
+}
 
-        $('#search-input')?.addEventListener('input', e => {
-            this.render(e.target.value);
-        });
+/* ══ SIDEBAR CONTROLLER ═══════════════════════════════════════════════════════ */
+class Sidebar {
+    static #container = null;
+    static #searchInput = null;
 
-        this.container?.addEventListener('click', (e) => {
-            const btn = e.target.closest('.topic-btn');
-            if (!btn) return;
+    static init() {
+        Sidebar.#container = DOM.query('#sidebar-list');
+        Sidebar.#searchInput = DOM.query('#search-input');
 
-            const topic = btn.dataset.topic;
-            if (!topic || topic === AppState.currentTopic) return;
+        if (Sidebar.#searchInput) {
+            Sidebar.#searchInput.addEventListener('input', (e) => {
+                Sidebar.render(e.target.value);
+            });
+        }
 
-            selectTopic(topic);
-        });
+        if (Sidebar.#container) {
+            Sidebar.#container.addEventListener('click', (event) => {
+                const button = event.target.closest('.topic-btn');
+                if (!button) return;
 
-        this.render();
-    },
+                const topic = button.dataset.topic;
+                if (!topic || topic === AppState.getInstance().currentTopic) return;
 
-    render(filter = '') {
-        if (!this.container || !AppState.getData()) return;
+                Navigation.selectTopic(topic);
+            });
+        }
 
-        const entries = Object.entries(AppState.getData());
-        const f = filter.toLowerCase();
+        Sidebar.render();
+    }
 
-        const list = filter
-            ? entries.filter(([t]) => t.toLowerCase().includes(f))
+    static render(filter = '') {
+        if (!Sidebar.#container || !AppState.getInstance().getData()) return;
+
+        const state = AppState.getInstance();
+        const entries = Object.entries(state.getData());
+        const searchTerm = filter.toLowerCase();
+        const filteredEntries = filter 
+            ? entries.filter(([topic]) => topic.toLowerCase().includes(searchTerm))
             : entries;
 
-        if (!list.length) {
-            this.container.innerHTML = `<div class="no-results">🔍 Nenhum resultado</div>`;
+        if (!filteredEntries.length) {
+            Sidebar.#container.innerHTML = `<div class="no-results">🔍 Nenhum resultado encontrado</div>`;
             return;
         }
 
-        this.container.innerHTML = `
-        <div class="topics-list">
-            ${list.map(([topic, data]) => {
-                const done = AppState.isTopicDone(topic);
-                const active = topic === AppState.currentTopic;
+        Sidebar.#container.innerHTML = `
+            <div class="topics-list">
+                ${filteredEntries.map(([topic, data]) => {
+                    const isDone = state.isTopicDone(topic);
+                    const isActive = topic === state.currentTopic;
 
-                return `
-                <button class="topic-btn ${active ? 'active' : ''} ${done ? 'is-done' : ''}"
-                    data-topic="${escapeHTML(topic)}">
-                    <span class="topic-icon">${data?.icon || '📚'}</span>
-                    <span class="topic-lbl">${escapeHTML(topic)}</span>
-                    <span class="topic-check">${done ? '✓' : ''}</span>
-                    ${active ? '<div class="active-indicator"></div>' : ''}
-                </button>`;
-            }).join('')}
-        </div>`;
+                    return `
+                        <button class="topic-btn ${isActive ? 'active' : ''} ${isDone ? 'is-done' : ''}"
+                            data-topic="${DOM.escapeHTML(topic)}"
+                            aria-label="Selecionar tópico: ${DOM.escapeHTML(topic)}">
+                            <span class="topic-icon" aria-hidden="true">${data?.icon || '📚'}</span>
+                            <span class="topic-label">${DOM.escapeHTML(topic)}</span>
+                            <span class="topic-check" aria-label="${isDone ? 'Concluído' : 'Pendente'}">
+                                ${isDone ? '✓' : ''}
+                            </span>
+                            ${isActive ? '<div class="active-indicator" aria-hidden="true"></div>' : ''}
+                        </button>
+                    `;
+                }).join('')}
+            </div>
+        `;
 
-        Progress.updateUI();
+        ProgressManager.updateUI();
     }
-};
-
-/* ══ NAVEGAÇÃO ═══════════════════════════════ */
-function selectTopic(topic) {
-    if (!AppState.getData()?.[topic]) return;
-
-    AppState.currentTopic = topic;
-    Sidebar.render();
-    renderCurrentView();
-
-    if (AppState.isMobile) closeMobileSidebar();
 }
 
-function toggleProgress() {
-    if (!AppState.currentTopic) return;
+/* ══ NAVIGATION CONTROLLER ═══════════════════════════════════════════════════ */
+class Navigation {
+    static selectTopic(topic) {
+        const state = AppState.getInstance();
+        const data = state.getData();
 
-    Progress.toggle(AppState.currentTopic);
-    renderCurrentView();
-}
+        if (!data?.[topic]) return;
 
-/* ══ RENDER ═════════════════════════════════ */
-function renderCurrentView() {
-    const area = $('#view-area');
-    if (!area) return;
+        state.currentTopic = topic;
+        Sidebar.render();
+        Renderer.renderCurrentView();
 
-    if (AppState.viewMode === 'progresso') {
-        renderProgresso(area);
-        return;
+        if (state.isMobile) {
+            MobileUI.closeSidebar();
+        }
     }
 
-    if (!AppState.currentTopic) {
+    static toggleProgress() {
+        const state = AppState.getInstance();
+        if (!state.currentTopic) return;
+
+        ProgressManager.toggleTopic(state.currentTopic);
+        Renderer.renderCurrentView();
+    }
+}
+
+/* ══ RENDERER ════════════════════════════════════════════════════════════════ */
+class Renderer {
+    static renderCurrentView() {
+        const viewArea = DOM.query('#view-area');
+        if (!viewArea) return;
+
+        const state = AppState.getInstance();
+
+        if (state.viewMode === 'progresso') {
+            this.#renderProgressView(viewArea);
+            return;
+        }
+
+        if (!state.currentTopic) {
+            this.#renderEmptyState(viewArea);
+            return;
+        }
+
+        this.#renderTopicContent(viewArea);
+    }
+
+    static #renderEmptyState(area) {
         area.innerHTML = `
-        <div class="empty-state">
-            <div class="empty-icon">📖</div>
-            <p class="empty-title">Selecione um tópico</p>
-        </div>`;
-        return;
+            <div class="empty-state" role="alert">
+                <div class="empty-icon" aria-hidden="true">📖</div>
+                <h2 class="empty-title">Selecione um tópico</h2>
+                <p class="empty-subtitle">Escolha um assunto no menu lateral para começar</p>
+            </div>
+        `;
     }
 
-    const data = AppState.getData()[AppState.currentTopic];
-    const done = AppState.isTopicDone(AppState.currentTopic);
+    static #renderTopicContent(area) {
+        const state = AppState.getInstance();
+        const topicData = state.getData()[state.currentTopic];
+        const isDone = state.isTopicDone(state.currentTopic);
 
-    area.innerHTML = `
-        <div class="topic-content">
-            <button class="progress-btn ${done ? 'done' : ''}" onclick="toggleProgress()">
-                ${done ? '✅ Concluído' : '⏳ Marcar como concluído'}
-            </button>
-            ${data.aprendizado || '<p>Sem conteúdo.</p>'}
-        </div>
-    `;
+        area.innerHTML = `
+            <div class="topic-content">
+                <button class="progress-btn ${isDone ? 'done' : ''}" 
+                        onclick="Navigation.toggleProgress()"
+                        aria-label="${isDone ? 'Desmarcar como concluído' : 'Marcar como concluído'}">
+                    ${isDone ? '✅ Concluído' : '⏳ Marcar como concluído'}
+                </button>
+                <div class="topic-content-inner">
+                    ${topicData?.aprendizado || '<p class="no-content">Conteúdo não disponível.</p>'}
+                </div>
+            </div>
+        `;
 
-    area.scrollTo({ top: 0 });
+        area.scrollTo({ top: 0, behavior: 'smooth' });
+
+        // Bind audio player events after content is in DOM
+        AudioPlayer.bindAll();
+    }
+
+    static #renderProgressView(area) {
+        const stats = ProgressManager.getStats();
+
+        area.innerHTML = `
+            <div class="progress-view">
+                <header class="progress-header">
+                    <h1>📊 Progresso Geral</h1>
+                    <div class="progress-badge">${stats.pct}%</div>
+                </header>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number">${stats.done}</span>
+                        <span class="stat-label">Concluídos</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">${stats.pending}</span>
+                        <span class="stat-label">Pendentes</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">${stats.total}</span>
+                        <span class="stat-label">Total</span>
+                    </div>
+                </div>
+
+                <div class="progress-track-large">
+                    <div class="progress-track-bg"></div>
+                    <div class="progress-fill-large" style="width: ${stats.pct}%"></div>
+                </div>
+            </div>
+        `;
+    }
 }
 
-/* ══ PROGRESS VIEW ═══════════════════════════ */
-function renderProgresso(area) {
-    const s = Progress.getStats();
+/* ══ MOBILE UI CONTROLLER ═══════════════════════════════════════════════════ */
+class MobileUI {
+    static openSidebar() {
+        DOM.query('#sidebar')?.classList.add('open');
+        DOM.query('#sidebar-overlay')?.classList.add('active');
+    }
 
-    area.innerHTML = `
-    <div class="progress-view">
-        <h2>📊 Progresso</h2>
-
-        <div class="stats-row">
-            <div class="stat-card"><span class="stat-num">${s.done}</span><span class="stat-lbl">Feitos</span></div>
-            <div class="stat-card"><span class="stat-num">${s.pending}</span><span class="stat-lbl">Pendentes</span></div>
-            <div class="stat-card"><span class="stat-num">${s.pct}%</span></div>
-        </div>
-
-        <div class="prog-large-track">
-            <div class="prog-large-fill" style="width:${s.pct}%"></div>
-        </div>
-    </div>`;
+    static closeSidebar() {
+        DOM.query('#sidebar')?.classList.remove('open');
+        DOM.query('#sidebar-overlay')?.classList.remove('active');
+    }
 }
 
-/* ══ MOBILE ═════════════════════════════════ */
-function openMobileSidebar() {
-    $('#sidebar')?.classList.add('open');
-    $('#sidebar-overlay')?.classList.add('active');
-}
+/* ══ TABBAR CONTROLLER ═══════════════════════════════════════════════════════ */
+class Tabbar {
+    static init() {
+        const tabButtons = DOM.queryAll('.tab-label');
 
-function closeMobileSidebar() {
-    $('#sidebar')?.classList.remove('open');
-    $('#sidebar-overlay')?.classList.remove('active');
-}
-
-/* ══ TABBAR (CORRIGIDO) ═════════════════════ */
-const Tabbar = {
-    init() {
-        const tabs = document.querySelectorAll('.tab-label');
-
-        tabs.forEach(btn => {
-            btn.addEventListener('click', () => {
-
-                // remove active de todos
-                tabs.forEach(b => b.classList.remove('active'));
-
-                // ativa o clicado
-                btn.classList.add('active');
-
-                // 🔥 muda o modo
-                const txt = btn.textContent.toLowerCase();
-
-                if (txt.includes('progresso')) {
-                    AppState.viewMode = 'progresso';
-                } else {
-                    AppState.viewMode = 'aprender';
-                }
-
-                // re-renderiza
-                renderCurrentView();
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                this.#switchTab(button, tabButtons);
             });
         });
 
-        // estado inicial
-        if (!document.querySelector('.tab-label.active') && tabs.length) {
-            tabs[0].classList.add('active');
+        // Define tab ativo inicial
+        const activeTab = DOM.query('.tab-label.active') || tabButtons[0];
+        if (activeTab) {
+            activeTab.classList.add('active');
+            AppState.getInstance().viewMode = 'aprender';
         }
     }
-};
 
-/* ══ INIT ═════════════════════════════════ */
-function initializeApp() {
-    if (!window.DA) {
-        const key = Object.keys(window).find(k => k.startsWith('DATA_'));
-        if (key) window.DA = window[key];
+    static #switchTab(activeButton, allButtons) {
+        // Remove classe active de todos os botões
+        allButtons.forEach(btn => btn.classList.remove('active'));
+
+        // Adiciona classe active no botão clicado
+        activeButton.classList.add('active');
+
+        // Determina o modo baseado no texto do botão
+        const buttonText = activeButton.textContent.toLowerCase();
+        const state = AppState.getInstance();
+        
+        state.viewMode = buttonText.includes('progresso') ? 'progresso' : 'aprender';
+        
+        // Re-renderiza a view atual
+        Renderer.renderCurrentView();
     }
-
-    ThemeManager.init();
-    Progress.load();
-    Sidebar.init();
-    Tabbar.init();
-    Progress.updateUI();
-
-    // Mobile sidebar toggle
-    $('#mobile-toggle')?.addEventListener('click', openMobileSidebar);
-    $('#sidebar-overlay')?.addEventListener('click', closeMobileSidebar);
 }
 
-/* ══ START ═════════════════════════════════ */
-document.addEventListener('DOMContentLoaded', initializeApp);
+/* ══ APPLICATION INITIALIZER ════════════════════════════════════════════════ */
+class AppInitializer {
+    static init() {
+        // Garante que os dados estejam disponíveis
+        this.#ensureDataAvailability();
+
+        // Inicializa componentes
+        ThemeManager.init();
+        ProgressManager.init();
+        Sidebar.init();
+        Tabbar.init();
+        ProgressManager.updateUI();
+
+        // Configura event listeners mobile
+        const mobileToggle = DOM.query('#mobile-toggle');
+        const sidebarOverlay = DOM.query('#sidebar-overlay');
+
+        if (mobileToggle) {
+            mobileToggle.addEventListener('click', MobileUI.openSidebar);
+        }
+
+        if (sidebarOverlay) {
+            sidebarOverlay.addEventListener('click', MobileUI.closeSidebar);
+        }
+
+        // Toggle theme global
+        const themeToggle = DOM.query('#theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => ThemeManager.toggle());
+        }
+
+        // Seleciona primeiro tópico automaticamente
+        const data = AppState.getInstance().getData();
+        if (data) {
+            const first = Object.keys(data)[0];
+            if (first) Navigation.selectTopic(first);
+        }
+    }
+
+    static #ensureDataAvailability() {
+        if (!window.DA) {
+            const dataKey = Object.keys(window).find(key => key.startsWith('DATA_'));
+            if (dataKey) {
+                window.DA = window[dataKey];
+            }
+        }
+    }
+}
+
+/* ══ AUDIO PLAYER ═══════════════════════════════════════════════════════════ */
+class AudioPlayer {
+    static #bound = new WeakSet();
+
+    static init() {
+        // Click delegation (works fine — click bubbles)
+        document.addEventListener('click', (e) => {
+            const card = e.target.closest('.audio-player-card');
+            if (!card) return;
+
+            const audio = card.querySelector('.audio-element');
+            if (!audio) return;
+
+            if (e.target.closest('.audio-play-btn')) {
+                AudioPlayer.#togglePlay(card, audio);
+            }
+            else if (e.target.closest('.audio-volume-btn')) {
+                AudioPlayer.#toggleMute(card, audio);
+            }
+            else if (e.target.closest('.audio-progress-bar')) {
+                const bar = card.querySelector('.audio-progress-bar');
+                const rect = bar.getBoundingClientRect();
+                const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+                if (audio.duration) audio.currentTime = pct * audio.duration;
+            }
+            else if (e.target.closest('.audio-volume-slider')) {
+                const slider = card.querySelector('.audio-volume-slider');
+                const rect = slider.getBoundingClientRect();
+                const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+                audio.volume = pct;
+                const fill = card.querySelector('.audio-volume-fill');
+                if (fill) fill.style.width = (pct * 100) + '%';
+            }
+        });
+    }
+
+    // Call after topic content is rendered — binds media events directly
+    static bindAll() {
+        document.querySelectorAll('.audio-element').forEach(audio => {
+            if (AudioPlayer.#bound.has(audio)) return;
+            AudioPlayer.#bound.add(audio);
+
+            const card = audio.closest('.audio-player-card');
+            if (!card) return;
+
+            audio.addEventListener('timeupdate', () => {
+                AudioPlayer.#updateProgress(card, audio);
+            });
+
+            audio.addEventListener('loadedmetadata', () => {
+                AudioPlayer.#updateProgress(card, audio);
+            });
+
+            audio.addEventListener('ended', () => {
+                const icon = card.querySelector('.audio-play-icon');
+                if (icon) icon.className = 'audio-play-icon fas fa-circle-play';
+                const fill = card.querySelector('.audio-progress-fill');
+                if (fill) fill.style.width = '0%';
+            });
+        });
+    }
+
+    static #togglePlay(card, audio) {
+        if (audio.paused) {
+            audio.play().catch(console.error);
+            const icon = card.querySelector('.audio-play-icon');
+            if (icon) icon.className = 'audio-play-icon fas fa-circle-pause';
+        } else {
+            audio.pause();
+            const icon = card.querySelector('.audio-play-icon');
+            if (icon) icon.className = 'audio-play-icon fas fa-circle-play';
+        }
+    }
+
+    static #toggleMute(card, audio) {
+        audio.muted = !audio.muted;
+        const btn = card.querySelector('.audio-volume-btn i');
+        if (btn) btn.className = audio.muted ? 'fas fa-volume-mute' : 'fas fa-volume-up';
+    }
+
+    static #updateProgress(card, audio) {
+        if (!audio.duration) return;
+        const pct = (audio.currentTime / audio.duration) * 100;
+        const fill = card.querySelector('.audio-progress-fill');
+        if (fill) fill.style.width = pct + '%';
+
+        const timeNow = card.querySelector('.audio-time-now');
+        if (timeNow) timeNow.textContent = AudioPlayer.#formatTime(audio.currentTime);
+
+        const timeFull = card.querySelector('.audio-time-full');
+        if (timeFull) timeFull.textContent = AudioPlayer.#formatTime(audio.duration);
+    }
+
+    static #formatTime(seconds) {
+        if (isNaN(seconds)) return '0:00';
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60).toString().padStart(2, '0');
+        return `${mins}:${secs}`;
+    }
+}
+
+/* ══ APPLICATION BOOTSTRAP ═══════════════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', () => {
+    AppInitializer.init();
+    AudioPlayer.init();
+});
+
+// Exporta funções globais para uso em HTML
+window.Navigation = Navigation;
+window.ThemeManager = ThemeManager;
+window.MobileUI = MobileUI;
