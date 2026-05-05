@@ -1,6 +1,3 @@
-// data/data_legislacao-especifica.js
-// Conteúdo de Legislação Específica — formatado com classes lex-*
-
 window.DATA_LEGISLACAO = {
 
   // ═══════════════════════════════════════════════════
@@ -286,10 +283,13 @@ window.DATA_LEGISLACAO = {
 </div>`
   },
 
-  // ═══════════════════════════════════════════════════
+ // ═══════════════════════════════════════════════════
+// ESTATUTO DO DESARMAMENTO - Lei nº 10.826/2003
+// ═══════════════════════════════════════════════════
+
   "Lei nº 10.826/2003 (Estatuto do Desarmamento)": {
     icon: "🔫",
-    color: "#10b981",
+    color: "#ef4444",
     aprendizado: `
 <div class="lex-block">
 
@@ -297,66 +297,298 @@ window.DATA_LEGISLACAO = {
     <div class="notion-icon">🔫</div>
     <h1 class="notion-title">Lei nº 10.826/2003 — Estatuto do Desarmamento</h1>
     <div class="notion-meta">
-      <span class="meta-tag tag-g">Lei 10.826/2003</span>
-      <span class="meta-tag tag-b">Estatuto do Desarmamento</span>
+      <span class="meta-tag tag-b">Lei 10.826/2003</span>
+      <span class="meta-tag tag-gold">Estatuto do Desarmamento</span>
     </div>
   </div>
 
   <div class="callout callout-purple">
     <span class="callout-icon">💡</span>
     <div>
-      <strong>Explicação simples:</strong> O Estatuto do Desarmamento regula a posse, o porte e o comércio de armas de fogo no Brasil. Define quem pode ter arma, como registrar e quais são os crimes relacionados.<br/><br/>
-      <strong>Exemplo prático:</strong> Maria tem uma pistola registrada para defesa pessoal (uso permitido). O policial João tem uma arma automática (uso restrito). Uma metralhadora seria de uso proibido.
+      <strong>Explicação simples:</strong> Esta lei regula quem pode ter arma, onde pode guardar e em quais situações pode andar armado no Brasil. A regra geral é: ter arma em casa (posse) é difícil mas possível; andar armado na rua (porte) é exceção, só para casos muito específicos.<br/><br/>
+      <strong>Exemplo prático:</strong> Carlos tem 30 anos, fez curso de tiro, passou no teste psicológico e conseguiu registro da PF para manter uma pistola dentro de casa (POSSE). Já Maria não conseguiu o PORTE porque não comprovou risco profissional real — ela só pode transportar a arma desmuniciada e lacrada até o clube de tiro.
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Classificação das Armas</div>
-    <div class="lex-list">
-      <div class="lex-expandable-item"><strong>Uso Permitido</strong> — controlado pela Polícia Federal (SINARM)</div>
-      <div class="lex-expandable-item"><strong>Uso Restrito</strong> — controlado pelo Exército (SIGMA)</div>
-      <div class="lex-expandable-item"><strong>Uso Proibido</strong> — ninguém pode ter (crime hediondo)</div>
-    </div>
+    <div class="lex-section-title">🎯 O que a lei regula?</div>
+    <div class="lex-expandable-item">Registro, posse, porte, comercialização, importação e exportação de armas, acessórios e munições.</div>
+    <div class="lex-expandable-item"> <strong>SINARM</strong>  (PF para uso permitido).</div>
+    <div class="lex-expandable-item"> <strong>SIGMA</strong> (Exército para uso restrito).</div>
+    <div class="lex-expandable-item">Objetivo: reduzir violência controlando acesso a armas.</div>
   </div>
 
   <div class="lex-cols">
     <div class="lex-section-container">
-      <div class="lex-section-title">SINARM</div>
-      <div class="lex-expandable-item">Sistema Nacional de Armas</div>
-      <div class="lex-expandable-item">Administrado pela <strong>Polícia Federal</strong></div>
-      <div class="lex-expandable-item">Armas de uso permitido</div>
+      <div class="lex-section-title">📦 POSSE (Art. 12)</div>
+      <div class="lex-expandable-item">Ter arma DENTRO de casa ou local de trabalho</div>
+      <div class="callout callout-gold"><strong>⚠️ OBS:</strong> No local de Trabalho só pode, se for o responsavel ou dono da empresa</div>
+      <div class="lex-expandable-item">Autorização: Polícia Federal (SINARM)</div>
+      <div class="lex-expandable-item">Pena ilegal: <strong>detenção 1 a 3 anos + multa</strong></div>
+      <div class="lex-expandable-item">Validade: 5 anos</div>
     </div>
     <div class="lex-section-container">
-      <div class="lex-section-title">SIGMA</div>
-      <div class="lex-expandable-item">Sistema de Gerenciamento Militar de Armas</div>
-      <div class="lex-expandable-item">Administrado pelo <strong>Exército</strong></div>
-      <div class="lex-expandable-item">Armas de uso restrito</div>
+      <div class="lex-section-title">🚶 PORTE (Art. 14)</div>
+      <div class="lex-expandable-item">Andar armado FORA de casa (transporte/uso na rua)</div>
+      <div class="lex-expandable-item">Autorização: PF (excepcional, discricionária)</div>
+      <div class="lex-expandable-item">Pena ilegal: <strong>reclusão 2 a 4 anos + multa</strong></div>
+      <div class="lex-expandable-item">Exige comprovação de risco real</div>
+      <div class="lex-expandable-item">Validade: 5 anos</div>
     </div>
   </div>
 
   <div class="lex-section-container">
-    <div class="lex-section-title">Posse vs. Porte</div>
-    <div class="lex-cols">
-      <div class="lex-section-container">
-        <span class="lex-label">Posse</span>
-        <div class="lex-expandable-item">Ter arma em <strong>casa ou trabalho</strong></div>
-        <div class="lex-expandable-item">Autoriza: <strong>Polícia Federal</strong></div>
-        <div class="lex-expandable-item">Pena irregular: <strong>1 a 3 anos</strong></div>
-      </div>
-      <div class="lex-section-container">
-        <span class="lex-label">Porte</span>
-        <div class="lex-expandable-item">Andar <strong>armado na rua</strong></div>
-        <div class="lex-expandable-item">Autoriza: <strong>Exército</strong></div>
-        <div class="lex-expandable-item">Pena ilegal: <strong>2 a 4 anos</strong></div>
-      </div>
+    <div class="lex-section-title">✅ Requisitos para ter arma (comuns a posse e porte)</div>
+    <div class="lex-expandable-item">1. Idade mínima: <strong>25 anos</strong></div>
+    <div class="lex-expandable-item">2. Idoneidade: certidões negativas (federal, estadual, eleitoral, militar)</div>
+    <div class="lex-expandable-item">3. Ocupação lícita + residência fixa</div>
+    <div class="lex-expandable-item">4. Capacidade técnica: curso e teste de tiro</div>
+    <div class="lex-expandable-item">5. Aptidão psicológica: laudo de psicólogo credenciado (validade ≤ 1 ano)</div>
+    <div class="lex-expandable-item">6. Justificativa de efetiva necessidade (mais rigorosa para porte)</div>
+  </div>
+
+  <div style="
+    display: flex; 
+    align-items: flex-start; 
+    padding: 16px 20px; 
+    margin: 20px 0; 
+    background-color: #09005a49; 
+    border-left: 5px solid #e11d48; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(236, 234, 234, 0.77);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #f1f1f1;
+">
+    <span style="
+        font-size: 20px; 
+        margin-right: 14px; 
+        flex-shrink: 0; 
+        display: flex; 
+        align-items: center;
+    ">
+        ⚠️
+    </span>
+
+    <div style="font-size: 15px;">
+        <strong style="
+            color: #be123c; 
+            display: block; 
+            margin-bottom: 4px; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        ">
+            Direito vs. Fato
+        </strong>
+        A lei permite a posse, mas na prática a PF exige <span style="font-weight: 600; color: #1e293b;">"efetiva necessidade"</span> — não basta apenas o desejo de autodefesa. O porte é ainda mais restrito, geralmente concedido a quem comprova risco profissional real, como agentes de segurança ou residentes em áreas rurais isoladas.
+    </div>
+</div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">📊 Classificação das armas</div>
+    <div class="lex-expandable-item"><strong>Uso Permitido:</strong> Civis que preencham requisitos (defesa pessoal, caça, tiro esportivo)</div>
+    <div class="lex-expandable-item"><strong>Uso Restrito:</strong> Forças de segurança, CACs autorizados (armas automáticas, certos calibres)</div>
+    <div class="lex-expandable-item"><strong>Uso Proibido:</strong> Ninguém (exceto autorizações excepcionais — algumas armas de guerra)</div>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">🏢 SINARM</div>
+      <div class="lex-expandable-item">Sistema Nacional de Armas</div>
+      <div class="lex-expandable-item">Administrado pela <strong>Polícia Federal</strong></div>
+      <div class="lex-expandable-item">Armas de uso permitido (civis)</div>
+      <div class="lex-expandable-item">Emite o <strong>CRAF</strong> (Certificado de Registro)</div>
+    </div>
+    <div class="lex-section-container">
+      <div class="lex-section-title">⚔️ SIGMA</div>
+      <div class="lex-expandable-item">Sistema de Gerenciamento Militar</div>
+      <div class="lex-expandable-item">Administrado pelo <strong>Exército Brasileiro</strong></div>
+      <div class="lex-expandable-item">Armas de uso restrito/militar/CACs</div>
+      <div class="lex-expandable-item">Registro próprio</div>
     </div>
   </div>
 
-  <div class="callout callout-rose">
-    <span class="callout-icon">🚨</span>
-    <strong>Arma de uso proibido = Crime Hediondo</strong>
+  <div class="lex-section-container">
+    <div class="lex-section-title">🚨 CRIMES DA LEI DE ARMAS (decorar!)</div>
+    <div class="lex-expandable-item"><strong>Art. 12</strong> — Posse irregular (uso permitido) → detenção 1 a 3a</div>
+    <div class="lex-expandable-item"><strong>Art. 13</strong> — Omissão de cautela (arma acessada por menor/incapaz) → detenção 1 a 2a</div>
+    <div class="lex-expandable-item"><strong>Art. 14</strong> — Porte ilegal (uso permitido) → reclusão 2 a 4a</div>
+    <div class="lex-expandable-item"><strong>Art. 15</strong> — Disparo de arma de fogo → reclusão 2 a 4a</div>
+    <div class="lex-expandable-item"><strong style="color:#ef4444;">Art. 16</strong> — Posse/porte de arma de uso restrito ou com numeração raspada → <strong>HEDIONDO</strong> (3 a 6a)</div>
+    <div class="lex-expandable-item"><strong style="color:#ef4444;">Art. 17</strong> — Comércio ilegal de arma → <strong>HEDIONDO</strong> (4 a 8a)</div>
+    <div class="lex-expandable-item"><strong style="color:#ef4444;">Art. 18</strong> — Tráfico internacional → <strong>HEDIONDO</strong> (8 a 15a)</div>
   </div>
 
+  <div class="callout callout-purple">
+    <span class="callout-icon">⚖️</span>
+    <strong>Dica de memorização:</strong>
+    <ul style="margin: 8px 0 0 20px; font-size: 13px;">
+      <li>CULPOSO → só Art. 13 (omissão de cautela)</li>
+      <li>HEDIONDOS → Arts. 16, 17 e 18</li>
+      <li>Os demais → dolosos comuns</li>
+    </ul>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">📈 Aumento de pena (até 50%)</div>
+    <div class="lex-expandable-item">Uso de arma de uso restrito ou proibido</div>
+    <div class="lex-expandable-item">Reincidência específica</div>
+    <div class="lex-expandable-item">Associação criminosa ou risco agravado</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">🔍 Posse x Porte — Diferença fundamental</div>
+    <div class="lex-expandable-item"><strong>Posse:</strong> arma FICA em local fechado (residência/comércio). Pena MENOR (detenção).</div>
+    <div class="lex-expandable-item"><strong>Porte:</strong> arma ACOMPANHA a pessoa na rua. Pena MAIOR (reclusão).</div>
+    <div class="lex-expandable-item">Guia de Trânsito (GT): necessária para transporte entre locais (arma desmuniciada, acondicionada, rota definida).</div>
+  </div>
+
+  <div class="callout callout-rose">
+    <span class="callout-icon">🏛️</span>
+    <strong>Jurisprudência importante (STJ/STF):</strong>
+    <ul style="margin: 8px 0 0 20px; font-size: 13px;">
+      <li><strong>Registro vencido + POSSE em casa</strong> → atípico (mera irregularidade administrativa)</li>
+      <li><strong>Registro vencido + PORTE na rua</strong> → crime (Art. 14 ou 16)</li>
+      <li><strong>Arma incapaz de disparo (totalmente quebrada)</strong> → crime impossível (atípico)</li>
+      <li><strong>Princípio da insignificância</strong> → aplicável a pequena quantidade de munição (caso a caso)</li>
+    </ul>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">📝 Reclusão x Detenção — Qual a diferença?</div>
+    <div class="lex-expandable-item"><strong>Reclusão:</strong> pena MAIS GRAVE → pode iniciar em regime fechado</div>
+    <div class="lex-expandable-item"><strong>Detenção:</strong> pena MAIS LEVE → NÃO inicia em regime fechado</div>
+    <div class="lex-expandable-item"><strong>Prisão:</strong> termo genérico (flagrante, preventiva, etc.)</div>
+  </div>
+
+  <div class="lex-cols">
+    <div class="lex-section-container">
+      <div class="lex-section-title">🎯 DOLO</div>
+      <div class="lex-expandable-item">Intenção ou assunção do risco</div>
+      <div class="lex-expandable-item">Ex.: porte consciente sem autorização</div>
+    </div>
+    <div class="lex-section-container">
+      <div class="lex-section-title">⚠️ CULPA</div>
+      <div class="lex-expandable-item">Descuido, negligência, imprudência</div>
+      <div class="lex-expandable-item">Ex.: disparo acidental por falta de cuidado</div>
+    </div>
+  </div>
+
+
+  <div class="notion-header">
+    <div class="notion-icon">👮</div>
+    <h1 class="notion-title">Porte Policial e Porte Rural — Lei 10.826/2003</h1>
+    <div class="notion-meta">
+      <span class="meta-tag tag-b">Porte Institucional</span>
+      <span class="meta-tag tag-gold">Porte Rural</span>
+    </div>
+  </div>
+
+  <div class="callout callout-purple">
+    <span class="callout-icon">💡</span>
+    <div>
+      <strong>Explicação simples:</strong> O porte de armas tem regras diferentes dependendo da profissão e localização. Policiais têm porte nacional com validade indeterminada. Já moradores de área rural podem conseguir porte para subsistência, mas precisam de 25 anos e comprovar dependência da arma para alimentar a família.<br/><br/>
+      <strong>Exemplo prático:</strong> João é policial civil em São Paulo — seu porte vale em qualquer estado do Brasil, por tempo indeterminado. José mora no interior do Amazonas, tem 30 anos, caça para alimentar a família e conseguiu o porte rural pela PF.
+    </div>
+  </div>
+
+  <!-- SEÇÃO 1: PORTE POLICIAL -->
+  <div class="lex-section-container">
+    <div class="lex-section-title">👮‍♂️ PORTE POLICIAL (Institucional)</div>
+    <div class="lex-expandable-item"><strong>Validade:</strong> ⏰ INDETERMINADA</div>
+    <div class="lex-expandable-item"><strong>Abrangência:</strong> 🌎 NACIONAL</div>
+    <div class="lex-expandable-item">Válido para policiais federais, civis, militares, rodoviários ferroviários (em serviço ou autorizados)</div>
+    <div class="lex-expandable-item">Guarda Municipal tem porte INSTITUCIONAL com algumas limitações</div>
+  </div>
+
+  <!-- SEÇÃO 2: PORTE RURAL -->
+  <div class="lex-section-container">
+    <div class="lex-section-title">🌾 PORTE RURAL (Caçador de Subsistência)</div>
+    <div class="lex-expandable-item"><strong>Quem concede:</strong> Polícia Federal</div>
+    <div class="lex-expandable-item"><strong>Idade mínima:</strong> 25 anos (residente em área rural)</div>
+    <div class="lex-expandable-item"><strong>Principal requisito:</strong> DEPENDER da arma para subsistência alimentar da família</div>
+    <div class="lex-expandable-item">Comprovação de residência fixa em área rural</div>
+  </div>
+
+  <!-- SEÇÃO 3: TIPOS DE ARMAS PERMITIDAS (Porte Rural) -->
+  <div class="lex-section-container">
+    <div class="lex-section-title">🔫 TIPOS DE ARMAS PERMITIDAS (Porte Rural)</div>
+    <div class="lex-expandable-item">🔹 Tiro simples</div>
+    <div class="lex-expandable-item">🔹 1 ou 2 canos</div>
+    <div class="lex-expandable-item">🔹 Calibre até 16</div>
+    <div class="lex-expandable-item">🔹 Alma lisa</div>
+  </div>
+
+  <!-- SEÇÃO 4: SINARM -->
+  <div class="lex-section-container">
+    <div class="lex-section-title">🏢 SINARM — Sistema Nacional de Armas</div>
+    <div class="lex-expandable-item"><strong>Quem autoriza:</strong> Polícia Federal</div>
+    <div class="lex-expandable-item"><strong>O que emite:</strong> CRAF (Certificado de Registro de Arma de Fogo)</div>
+    <div class="lex-expandable-item">Destinado a armas de <strong>USO PERMITIDO</strong> (civis em geral)</div>
+    <div class="lex-expandable-item">SINARM → Autoriza → PF → Emite → CRAF</div>
+  </div>
+
+  <!-- SEÇÃO 5: AGENTE PRISIONAL -->
+  <div class="lex-section-container">
+    <div class="lex-section-title">🔐 AGENTE PRISIONAL tem porte?</div>
+    <div class="lex-expandable-item"><strong style="color:#22c55e;">✅ SIM</strong> — se tiver <strong>DEDICAÇÃO EXCLUSIVA</strong></div>
+    <div class="lex-expandable-item"><strong style="color:#ef4444;">❌ NÃO</strong> — se <strong style="color:#ef4444;">NÃO</strong> tiver dedicação exclusiva</div>
+    <div class="lex-expandable-item">Regra geral para agentes prisionais: depende do regime de trabalho</div>
+  </div>
+
+<div class="callout callout-rose" style="border-left: 5px solid #e11d48; padding: 1.2em; border-radius: 8px;">
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <span style="font-size: 1.5em; margin-right: 10px;">🚨</span>
+    <strong style="font-size: 1.1em; color: #9f1239; text-transform: uppercase;">Bizu Jurídico: Art. 16 (Estatuto do Desarmamento)</strong>
+  </div>
+
+  <p style="margin-bottom: 12px;">
+    A posse ou porte de arma com <strong>numeração raspada, suprimida ou adulterada</strong> é conduta equiparada a crime de <strong>USO RESTRITO</strong>.
+  </p>
+
+  <div style="background: rgba(255, 255, 255, 0.09); padding: 10px; border-radius: 6px;">
+    <strong style="display: block; margin-bottom: 5px; color: #be123c;">📌 Pontos Chave:</strong>
+    <ul style="margin: 0; padding-left: 20px; list-style-type: square;">
+      <li><strong>Pena:</strong> Reclusão de 3 a 6 anos + multa.</li>
+      <li><strong>Fiança:</strong> Inadmissível na esfera policial.</li>
+      <li><strong>Natureza:</strong> Crime <strong>Hediondo</strong> (Art. 16, §1º, IV).</li>
+      <li><strong>Alvo:</strong> Qualquer arma (mesmo as que seriam permitidas originalmente).</li>
+    </ul>
+  </div>
+</div>
+
+  <div class="lex-cols">
+  <div class="lex-section-container">
+    <div class="lex-section-title">⚖️ PORTE POLICIAL</div>
+    <div class="lex-expandable-item">✅ <strong>Validade:</strong> Indeterminada</div>
+    <div class="lex-expandable-item">✅ <strong>Abrangência:</strong> Nacional</div>
+    <div class="lex-expandable-item">✅ <strong>Público:</strong> Integrantes do Art. 144 (PF, PRF, PC, PM, CBM)</div>
+  </div>
+
+  <div class="lex-section-container">
+    <div class="lex-section-title">👨‍🌾 PORTE RURAL (Subsistência)</div>
+    <div class="lex-expandable-item">✅ <strong>Requisito:</strong> 25 anos + Residência Rural</div>
+    <div class="lex-expandable-item">✅ <strong>Condição:</strong> Depender da arma para prover alimento</div>
+    <div class="lex-expandable-item">✅ <strong>Arma:</strong> Alma lisa, tiro simples, calibre ≤ 16</div>
+  </div>
+</div>
+
+<div class="callout callout-purple">
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <span style="font-size: 1.5em; margin-right: 10px;">💡</span>
+    <strong>DIRETO PARA A PROVA: GATILHOS MENTAIS</strong>
+  </div>
+  
+  <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.6;">
+    <li><strong>POSSE vs. PORTE:</strong> Posse = Casa/Trabalho (Detenção). Porte = Rua (Reclusão).</li>
+    <li><strong>OMISSÃO (Art. 13):</strong> Único crime <strong>CULPOSO</strong> do Estatuto.</li>
+    <li><strong>HEDIONDOS:</strong> Uso Restrito ou Numeração Raspada (Art. 16).</li>
+    <li><strong>SEM FIANÇA:</strong> No Art. 16, o Delegado não pode conceder fiança.</li>
+    <li><strong>AGENTE PRISIONAL:</strong> Exige regime de dedicação exclusiva para o porte.</li>
+    <li><strong>SINARM:</strong> PF autoriza e emite o CRAF (Armas de uso permitido).</li>
+  </ul>
+</div>
 </div>`
   },
 
